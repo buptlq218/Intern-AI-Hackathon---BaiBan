@@ -1,0 +1,31 @@
+# === 机密：AK 绝不能进仓库（技术编程细则 §1.2 明确要求）===
+.env
+.env.*
+!.env.example
+*.ak
+*secret*
+*credential*
+
+# === 比赛产物 ===
+runs/
+replays/
+*.jsonl
+!docs/**/*.jsonl
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# === 编辑器 / 工具 / 系统 ===
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.claude/                 # 本机工具配置，不属于参赛代码
