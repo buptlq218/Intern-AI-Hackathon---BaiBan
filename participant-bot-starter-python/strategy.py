@@ -28,7 +28,23 @@
 
 策略参数集中在 ``firefly/constants.py`` 的 ``TUNE``。**Loop 每轮只改一个。**
 改完跑 ``python mytests/run_all.py`` 回归。
+
+## ⚠️ 每改一轮策略，必须同时改下面那行 STRATEGY_REVISION
+
+``bot.py`` 的 ``STRATEGY_HASH`` 只对**本文件**做 sha256：
+
+    STRATEGY_HASH = sha256((BASE_DIR / "strategy.py").read_bytes())
+
+也就是说改 ``firefly/`` 里的任何东西都**不会**让 strategyHash 变。现场为此踩过坑：
+连着三批共 23 局的 strategyHash 全是 ``9f9cfc0d``，一度据此误判「新策略没生效」，
+实际上早就生效了 —— 真正的版本要靠 ``commands.jsonl`` 里的指令指纹（转向档位、
+出价取值）反推才认得出来。**会说谎的版本号比没有版本号更危险。**
+
+所以把版本号放进本文件，改一个字符 hash 就变，replay 从此能一眼对回代码。
 """
+
+#: 每轮 Loop 手动 +1。它的唯一作用是让 strategyHash 随策略改动而变化。
+STRATEGY_REVISION = 5
 
 import math
 import os

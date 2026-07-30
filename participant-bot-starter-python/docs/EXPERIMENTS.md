@@ -3,8 +3,13 @@
 技术编程细则里有些地方没写清，或者写了但**必须用真实引擎确认**。这些不确定性直接
 影响策略，所以按「影响大小 × 验证成本」排了序。
 
-验证方法统一是：**跑一局训练赛 → `python tools/analyze.py runs/最新.jsonl` → 看
-`collision` 记录**。每条实验都写清「看什么字段能判定」。
+验证方法统一是：**跑一局训练赛 → `python3 tools/analyze.py runtime/` → 看报表的
+「现场实验证据」一节**。每条实验都写清「看什么字段能判定」。
+
+> ⚠️ 别用 `runs/*.jsonl` 那条路径 —— 那是备用独立 runner 的产物。正式赛跑的官方
+> `bot.py` 落在 `runtime/matches/<matchCode-matchId>/`，格式是原始帧转储，
+> 由 `tools/capture.py` 重建成碰撞事件。**E1 / E2 / E5 / E12 现在是报表里的
+> 自动输出**，不用再人肉数帧。
 
 ---
 

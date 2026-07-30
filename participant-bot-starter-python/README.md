@@ -27,9 +27,18 @@ python3 tools/sim.py --matches 40 --opponents default,steady,aggressive
 现场排查行为偏差：
 
 ```bash
-FIREFLY_DEBUG=1 ./.venv/bin/python bot.py     # 每帧往 stderr 打一行决策解释
-python3 tools/analyze.py runtime/<最新目录>/  # replay 分析（Loop 的 Checker）
+# 起 BOT，同时把每帧的决策解释存下来（意图分布只存在于运行时，回放里没有）
+FIREFLY_DEBUG=1 ./.venv/bin/python bot.py 2> runtime/debug.log
+
+# replay 分析（Loop 的 Checker）—— 直接指 runtime/，它会找出所有采集目录
+python3 tools/analyze.py runtime/ --debug-log runtime/debug.log
+python3 tools/analyze.py runtime/ --compare    # 多局趋势/方差/最差情况
 ```
+
+`analyze.py` 吃两种输入：官方 `bot.py` 的采集目录
+（`runtime/matches/<matchCode-matchId>/`，正式赛走这条）和 `firefly/telemetry.py`
+写的 `runs/*.jsonl`（备用独立 runner）。前者是**原始帧转储**，碰撞事件由
+`tools/capture.py` 离线重建 —— 顺带把 E1/E2/E5/E12 变成报表里的自动结论。
 
 ---
 

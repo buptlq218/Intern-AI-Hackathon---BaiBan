@@ -564,3 +564,50 @@ class TestEnergyCappedThreat(unittest.TestCase):
         intent = strat.choose_intent(world.me)
         self.assertNotEqual(intent.kind, "conserve",
                             "能打平就不该全场避战")
+
+
+class TestR3PerTargetThreat(unittest.TestCase):
+    """R3：出价按「将要撞的那个对手」算，不是全场最大威胁。
+
+    现场证据：出价序列 154→212→285→326 一路被最凶的那个对手抬着走，
+    即使我们冲着一个能量见底的弱敌去，也照样按强敌的价出 —— 能量因此归零。
+    """
+
+    def _world(self, rivals):
+        """rivals: [(id, energy, x, y)]，我方固定在 (100, 100)。"""
+        world = WorldModel(tune=Tune())
+        rabbits = [{"id": "me", "position": {"x": 100, "y": 100}, "energy": 1000,
+                    "score": 10, "active": True}]
+        for rid, energy, x, y in rivals:
+            rabbits.append({"id": rid, "position": {"x": x, "y": y},
+                            "energy": energy, "score": 10, "active": True})
+        world.identify_self(sprite_id="me")
+        world.on_frame(Frame.parse(
+            {"commandType": "refreshData", "timestamp": 0,
+             "data": {"rabbits": rabbits}}), elapsed=1.0)
+        return world
+
+    def test_bids_against_the_drained_target_not_the_strong_bystander(self):
+        """⭐ 强敌在远处、弱敌在眼前 → 按弱敌出价。"""
+        # weak 能量 0 且贴身；strong 满能量但很远
+        world = self._world([("weak", 0, 140, 100), ("strong", 1000, 1300, 700)])
+        me = world.me
+        per_target = world.threat_for_contact("weak", me)
+        globally = world.threat_level()
+        self.assertLess(per_target, globally,
+                        "按目标出价必须低于全场最大威胁，否则这条修正没生效")
+        self.assertLessEqual(per_target, 1.0, "对手能量 0 → 威胁应≈0")
+
+    def test_closer_stronger_rival_is_still_counted(self):
+        """但不能被偷袭：比目标更近的强敌要算进威胁。"""
+        # strong 贴身，weak 在远处
+        world = self._world([("weak", 0, 1300, 700), ("strong", 900, 130, 100)])
+        me = world.me
+        threat = world.threat_for_contact("weak", me)
+        self.assertGreater(threat, 100.0,
+                           "贴身强敌必须被计入，否则会被以为在打弱敌时偷袭")
+
+    def test_energy_caps_the_threat(self):
+        """actualAttack = min(设定, 能量) → 对手能量是硬上限。"""
+        world = self._world([("a", 30, 200, 100)])
+        self.assertLessEqual(world.threat_for_contact("a", world.me), 30.0)

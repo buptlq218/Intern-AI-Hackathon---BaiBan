@@ -16,6 +16,7 @@
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
 
@@ -24,6 +25,8 @@ from .constants import (
     RULE_ENERGY_RESET_PERIOD,
     RULE_ENERGY_RESET_VALUE,
     RULE_FRAME_INTERVAL,
+    RULE_HEART_SPAWN_BOX,
+    RULE_HEART_SPAWN_HINTS,
     RULE_IDLE_PENALTY_PERIOD,
     RULE_ADVANCE_PER_TABLE,
     RULE_MAP_HEIGHT,
@@ -40,6 +43,9 @@ _RESET_JUMP_EPSILON = 1.0
 _COLLISION_DROP_EPSILON = 1.0
 #: 巡航速度下限（px/frame），防止开局速度为 0 时 ETA 变成无穷大。
 _MIN_NOMINAL_SPEED = 3.0
+#: 计算「下一次接触的威胁」时，这个半径内的其它对手也要算进去 —— 防止瞄着弱的
+#: 打却被旁边的强敌先撞上。不是调参旋钮，所以不放进 Tune。
+_CONTACT_THREAT_RADIUS = 260.0
 
 
 @dataclass
@@ -112,6 +118,8 @@ class WorldModel:
     #: 我方持有森林之心的观测起点（仅用于日志；判定一律以 invincible 字段为准）。
     heart_since: Optional[float] = None
     heart_pickups: int = 0
+    #: 场上那个森林之心是什么时候出现的（没有则 None）。见 seconds_carrot_unclaimed。
+    carrot_since: Optional[float] = None
 
     #: 每个精灵本局观测到的最大速度（px/frame），用于稳定的 ETA 估计。
     _max_speed: Dict[str, float] = field(default_factory=dict)
@@ -134,6 +142,7 @@ class WorldModel:
         self.collisions = []
         self.heart_since = None
         self.heart_pickups = 0
+        self.carrot_since = None
         self._max_speed = {}
 
     def on_start_game(self, frame: Frame) -> None:
@@ -206,6 +215,14 @@ class WorldModel:
                 self.heart_pickups += 1
             elif not me.invincible:
                 self.heart_since = None
+
+        # R8：森林之心在场上待了多久。用来判断「对手到底是不是真的要来抢」——
+        # ETA 竞速只在**刚刷新的那一瞬间**有意义，之后它就只是个静态道具了。
+        if frame.gold_carrot is not None:
+            if self.carrot_since is None:
+                self.carrot_since = self.elapsed
+        else:
+            self.carrot_since = None
 
     def _resolve_self_id(self, frame: Frame) -> None:
         if self.self_id and any(s.id == self.self_id for s in frame.sprites):
@@ -313,6 +330,39 @@ class WorldModel:
         return max(0.0, RULE_ENERGY_RESET_PERIOD - phase)
 
     @property
+    def seconds_carrot_unclaimed(self) -> float:
+        """场上那个森林之心已经**没人捡**多久了（秒）。没有心时返回 0。
+
+        R8 ⭐ 这个量存在的理由：ETA 竞速只在刚刷新的那一瞬间有意义。实测森林之心
+        通常在生成后 **1.3~2.7s** 内就被抢走（是一场瞬间的抢地皮）。所以如果它已经
+        在那儿放了远超对手 ETA 的时间还没人动，说明**对手根本没在抢** —— 这时它
+        就是个免费道具，再拿「我跑不过他」当理由躲开是纯亏。
+
+        真机 b068 就是这么亏掉一整局的：90s 刷出的心一直放到 174s 结束都没人捡，
+        而我们每一帧都重新算一遍「我 6.8s / 对手 2.9s，抢不到」→ 连续 84s 执行
+        yield_heart，自己的果实从 7 掉到 2，1v1 局面里白送一个必胜道具。
+        """
+        if self.carrot_since is None:
+            return 0.0
+        return max(0.0, self.elapsed - self.carrot_since)
+
+    @property
+    def seconds_to_heart_spawn(self) -> float:
+        """距下一次森林之心刷新还有多少秒；没有下一次则返回 ``inf``。
+
+        ✅ E6 已验证：现场 15 局 replay 中 ``goldCarrot`` 首次出现全部在
+        **30.0s**（误差 ≤0.1s），第二次在 90.0s，与
+        ``RULE_HEART_SPAWN_HINTS`` 完全一致。所以这个本地推算是可用的。
+
+        ⚠️ 但细则要求「以实时字段为准」，因此它**只用于刷新前的预定位**；
+        森林之心一旦真的出现，策略走的是实时 ``gold_carrot`` 坐标，不看这里。
+        """
+        for hint in RULE_HEART_SPAWN_HINTS:
+            if self.elapsed < hint:
+                return hint - self.elapsed
+        return float("inf")
+
+    @property
     def seconds_since_self_collision(self) -> float:
         """距上次我方有效碰撞过了多久；这是 -3 果实惩罚的倒计时输入。"""
         return max(0.0, self.elapsed - self.last_self_collision_at)
@@ -408,6 +458,29 @@ class WorldModel:
             est = min(est, max(0.0, sprite.energy))
         return est
 
+    def threat_for_contact(self, target_id: str, me: Sprite) -> float:
+        """我方**下一次接触**真正需要压过的攻击强度。
+
+        ⭐ 与 :meth:`threat_level` 的区别很重要：后者取全场最大值，但一次碰撞只会
+        和**一个**对手结算。如果 A 还有 800 能量而 B 已经见底，我们冲着 B 去却按
+        A 的 800 出价，就白扔了几百点能量 —— 现场 8 局实测的能量归零（22% 的帧）
+        主要就是这样烧掉的。
+
+        仍然要防一种情况：瞄着弱的打，结果被旁边的强敌先撞上。所以把「贴得比目标
+        还近的对手」也算进来取最大值。
+        """
+        threat = self.threat_of(target_id)
+        target = self.sprite_by_id(target_id)
+        target_dist = (g.distance(me.position, target.position)
+                       if target is not None else float("inf"))
+        for rival in self.rivals:
+            if rival.id == target_id or rival.invincible:
+                continue
+            dist = g.distance(me.position, rival.position)
+            if dist <= min(target_dist, _CONTACT_THREAT_RADIUS):
+                threat = max(threat, self.threat_of(rival.id))
+        return threat
+
     def can_collide_with(self, sprite_id: str) -> bool:
         """碰撞冷却检查。
 
@@ -455,6 +528,154 @@ class WorldModel:
         w = self.game_map.width if self.game_map else RULE_MAP_WIDTH
         h = self.game_map.height if self.game_map else RULE_MAP_HEIGHT
         return (w / 2.0, h / 2.0)
+
+    def safe_point_near(self, point: g.Point, clearance: float) -> g.Point:
+        """把一个目标点推到障碍物外面，至少留出 ``clearance`` 的间隙。
+
+        R4 ⭐ 为什么必须有这个函数：现场实测 ``map_center()`` = (720, 410) 到最近
+        石头只有 **51.8px**，而避障的触发半径是 49.5(精灵) + 26(余量) = **75.5px**。
+        也就是说**巡航的目标点本身就永久落在危险区里** —— 我们一路开过去，进入
+        警戒圈、切向绕开、又被目标点拉回来，反复磨。这解释了 15 局里 83 次撞障碍
+        有 **71% 发生在 patrol** 意图下。
+
+        把目标点沿「远离石头」的方向推出去就打断了这个循环。推不动（四周都是
+        障碍）时原样返回，让避障层去处理，绝不返回地图外的点。
+        """
+        w = self.game_map.width if self.game_map else RULE_MAP_WIDTH
+        h = self.game_map.height if self.game_map else RULE_MAP_HEIGHT
+        margin = 80.0
+        current = point
+        for _ in range(6):
+            gap, hull = self.obstacle_clearance(current)
+            if hull is None or gap >= clearance:
+                return current
+            near = min(hull, key=lambda p: g.distance(current, p))
+            away = g.normalize(g.sub(current, near))
+            if away == (0.0, 0.0):
+                away = (1.0, 0.0)
+            moved = g.add(current, g.scale(away, clearance - gap + 24.0))
+            # 夹回场内，否则会把巡航目标推到边界外，换成一直贴边
+            current = (min(max(moved[0], margin), w - margin),
+                       min(max(moved[1], margin), h - margin))
+        return current
+
+    def rally_point(self) -> g.Point:
+        """巡航/集结用的中场点：地图中心，但保证不在石头的警戒圈里。"""
+        return self.safe_point_near(self.map_center(), 90.0)
+
+    def path_blocked(
+        self, start: g.Point, end: g.Point, radius: float, samples: int = 14
+    ) -> bool:
+        """从 ``start`` 直线走到 ``end``，这条走廊上有没有石头。
+
+        R10 ⭐ 为什么需要「走廊」而不是「外推点」：``_imminent_obstacle`` 沿
+        **当前速度**外推 1.2s，那只回答「照现在这个方向开会不会撞」。但我们大部分
+        撞击发生在 ``ram`` 里 —— 车头正在**转向目标**，石头是被我们自己拐进来的，
+        所以外推点直到最后一刻才进入警戒圈。实测 v5 四局 34 次撞击，**连续预警
+        中位只有 0.32s、66% 不足 0.5s**，而切向脱离需要约 1.6s：预警时间根本不是
+        「不够早」，是**物理上来不及**。
+
+        走廊检查换了个问法：「我要去的**那个地方**，路上有没有石头」。这个答案在
+        目标出现的那一刻就成立，与车头当前朝哪无关，所以预警时间由距离决定而不是
+        由转向速度决定。实测回溯：34 次撞击里有 13 次（38%）在撞击前 1.5s 时直线
+        已经被石头挡住了 —— 这些本来就该早早绕开。
+        """
+        if self.game_map is None or not self.game_map.block_hulls:
+            return False
+        for i in range(1, max(2, samples) + 1):
+            k = i / float(samples)
+            probe = (start[0] + (end[0] - start[0]) * k,
+                     start[1] + (end[1] - start[1]) * k)
+            gap, hull = self.obstacle_clearance(probe)
+            if hull is not None and gap < radius:
+                return True
+        return False
+
+    def clear_direction(
+        self, start: g.Point, desired: g.Point, reach: float, radius: float
+    ) -> g.Point:
+        """把方向 ``desired`` 掰到一条**走廊干净**的方向上，返回单位向量。
+
+        从直连方向开始，左右对称地逐档加大偏角（20°…120°），取**第一个**走廊干净
+        的方向 —— 也就是偏离最小的那条。这样绕行是渐进的：石头刚进入走廊时只偏
+        20°，通常连方向盘都不用打满就擦过去了，不会像反应式避障那样临门急转。
+
+        全都堵死时返回原方向，交给运动层的避障滤波兜底（那一层还有刹车）。
+        """
+        unit = g.normalize(desired)
+        if unit == (0.0, 0.0):
+            return (1.0, 0.0)
+        if not self.path_blocked(start, g.add(start, g.scale(unit, reach)), radius):
+            return unit
+        base = math.atan2(unit[1], unit[0])
+        for deg in (20.0, 40.0, 60.0, 80.0, 100.0, 120.0):
+            for sign in (1.0, -1.0):
+                a = base + sign * math.radians(deg)
+                cand = (math.cos(a), math.sin(a))
+                end = g.add(start, g.scale(cand, reach))
+                if self.path_blocked(start, end, radius):
+                    continue
+                # 绕出来的方向也不能直接指向场外，否则等于换成一路贴边
+                if self.border_clearance(end) < 40.0:
+                    continue
+                return cand
+        return unit
+
+    def heart_preposition_point(self, me: Sprite, grid: float = 100.0) -> g.Point:
+        """森林之心刷新前的最优「卡位」点。
+
+        R5 ⭐ 思路：森林之心的位置我们事先不知道，但它的**分布**是已知的
+        （``RULE_HEART_SPAWN_BOX``，实测只落在中央区域）。所以要选的不是「离某个
+        点最近」，而是**让「我比所有对手先到」的那块区域尽可能大** —— 也就是把
+        自己 Voronoi 单元在生成区里的面积做到最大。
+
+        做法是直接的最大覆盖搜索：在场上撒一批候选站位，对每个候选点，用生成区里
+        的采样点数一数「我方 ETA < 所有对手 ETA」的比例，取最高者。这样它会自动
+        产生「对手都挤在左上角缠斗 → 我站到他们外侧」的行为，而不需要把那个特例
+        写死成规则。
+
+        为什么用**最大覆盖**而不是固定站在质心：固定点在 15 次实测样本上评分更低
+        （质心 47% vs 自适应最优 67%），而且固定点无法利用对手的扎堆。反过来，
+        直接把网格最优的 (880,540) 写死则是对 n=15 的过拟合 —— 自适应版本对每一
+        局当下的对手站位重新求解，不依赖那 15 个样本的具体位置。
+
+        ETA 用 :meth:`nominal_speed`（本局观测最大速度），不用瞬时速度 —— 否则
+        反弹和转向会让排序每隔几帧翻转。
+        """
+        x0, y0, x1, y1 = RULE_HEART_SPAWN_BOX
+        # 生成区采样点：用来近似「生成位置」的概率分布（实测近似均匀）
+        samples = [(x0 + (x1 - x0) * (i + 0.5) / 6.0,
+                    y0 + (y1 - y0) * (j + 0.5) / 5.0)
+                   for i in range(6) for j in range(5)]
+        rivals = [r for r in self.rivals if r.alive]
+        my_speed = self.nominal_speed(me.id)
+
+        best_point = self.rally_point()
+        best_score = -1.0
+        step = max(40.0, grid)
+        x = x0
+        while x <= x1:
+            y = y0
+            while y <= y1:
+                cand = (x, y)
+                y += step
+                # 站在石头里等于站在扣分区，直接跳过
+                gap, hull = self.obstacle_clearance(cand)
+                if hull is not None and gap < 90.0:
+                    continue
+                # 先要来得及走过去，否则算出来的优势是假的
+                won = 0
+                for s in samples:
+                    mine = self.eta(cand, s, my_speed)
+                    if all(mine < self.eta_for(r, s) for r in rivals):
+                        won += 1
+                score = won / float(len(samples))
+                # 同分时偏向离当前位置近的，避免每帧在等价点之间来回跑
+                score -= 1e-4 * g.distance(me.position, cand) / 1000.0
+                if score > best_score:
+                    best_score, best_point = score, cand
+            x += step
+        return best_point
 
     def nominal_speed(self, sprite_id: str) -> float:
         """精灵的「巡航速度」估计，单位 px/frame。

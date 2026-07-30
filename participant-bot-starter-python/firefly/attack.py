@@ -97,26 +97,45 @@ def decide_attack(
     bid = threat * (1.0 + tune.bid_margin_pct) + tune.bid_margin_abs
     bid = max(bid, tune.min_attack)
 
-    # 出不起「压过对手」的价。但要分清「能打平」和「一定输」：
+    # 出不起「加了余量的价」。分三种，**都不再全押** —— 见 R3：
+    # 全押是我方能量归零的主因，而归零之后每一次碰撞都是白送 -1。
     if energy < bid:
-        if energy >= threat:
-            # 打平不丢果实，还免费重置无碰撞计时 → 照打，全押
+        if energy > threat:
+            # 能量够压过对手，只是不够加满余量 → 压过就行，剩下的留着。
+            # 「赢多少不影响收益」，所以这里出 threat + 最小可分辨量即最优。
+            lean = min(energy, max(threat + tune.min_attack, tune.min_attack))
+            return AttackDecision(
+                value=lean,
+                can_win=True,
+                mode="lean",
+                reason="余量不够但仍能压过 {:.0f} → 出 {:.0f}，留下 {:.0f}".format(
+                    threat, lean, energy - lean
+                ),
+            )
+        if energy == threat:
+            # 严格相等才是平局：不丢果实，且免费重置无碰撞计时 → 照打。
             return AttackDecision(
                 value=energy,
                 can_win=False,
                 can_tie=True,
                 mode="tie",
-                reason="压不过 {:.0f}，但 {:.0f} 能打平（不丢果实）→ 照打".format(
-                    threat, energy
-                ),
+                reason="{:.0f} 与对手相等 → 平局，不丢果实".format(energy),
             )
+        # 连平都做不到。**押上大部分，但留住底线。**
+        #
+        # 为什么还押：``threat`` 是刻意偏高的估计（0.9 分位数并与最近一次取 max），
+        # 所以高估很常见。真实出价可能低于我们剩下的能量 —— 押上去是唯一的翻盘机会。
+        # 为什么留底线：真的归零后，我方 actualAttack 恒为 0，**接下来每次碰撞都是
+        # 确定的 -1**；留住一点就还能压过任何同样见底的对手。现场实测归零占 22% 的
+        # 帧、白送 12 次 -1，所以底线的期望价值高于最后这一点点翻盘概率。
+        stake = max(0.0, energy - tune.energy_floor)
         return AttackDecision(
-            value=energy,
+            value=stake,
             can_win=False,
             can_tie=False,
             mode="starved",
-            reason="能量 {:.0f} < 对手 {:.0f}，连平都做不到 → 应避战".format(
-                energy, threat
+            reason="能量 {:.0f} < 对手 {:.0f}，押 {:.0f} 赌估计偏高，留 {:.0f} 底线".format(
+                energy, threat, stake, min(energy, tune.energy_floor)
             ),
         )
 
@@ -128,19 +147,32 @@ def decide_attack(
     # 26.9/28.4/29.9s 连输三次，净 -2。这就是下面这个保留额的由来。
     if committing_to_contact and seconds_to_reset <= tune.spenddown_seconds:
         reserve = _reserve_for_remaining(tune, bid, seconds_to_reset)
-        spendable = energy - reserve
+        # R3：梭哈也要留下 energy_floor。「把 10 当成 0」——
+        # 保住一点点能量，就保住了「对手归零时用最小出价白拿 +1」的能力；
+        # 真的归零则相反：接下来每一次碰撞都是确定的 -1。
+        spendable = energy - reserve - tune.energy_floor
         if spendable >= bid:
             return AttackDecision(
-                value=min(energy, spendable),
+                value=spendable,
                 can_win=True,
                 mode="spenddown",
-                reason="距重置 {:.1f}s，保留 {:.0f} 后把 {:.0f} 花掉".format(
-                    seconds_to_reset, reserve, min(energy, spendable)
+                reason="距重置 {:.1f}s，保留 {:.0f}+底线 {:.0f} 后花掉 {:.0f}".format(
+                    seconds_to_reset, reserve, tune.energy_floor, spendable
                 ),
             )
 
     # 常规：压过对手一点点即可，多出来的全是浪费。
-    # 上限防止单次把整窗预算打空（留给后续碰撞机会）。
+    #
+    # ⚠️ 下面这两行是**恒等式**：``min(bid, max(bid, x)) === bid``，所以
+    # ``max_attack_fraction_of_energy`` 在这条路径上**完全不起作用**。
+    # 沙盒扫过 0.55/0.45/0.35/0.25 四个值，四组结果一模一样（果实 12.22、
+    # 垫底 12%，一位都不差）—— 这就是它是死代码的证据。
+    #
+    # 保留而不删，是因为「按比例封顶」这个想法本身就是**错的**，留个反面记录：
+    # 出价低于对手 → 必输 -1。所以把出价压到 threat 以下，等于把一次可能的 +1
+    # 主动换成一次确定的 -1；而「留给后续碰撞」并不能弥补，因为后续那几次同样
+    # 会因为出价不足而全输（见模块开头的 2m-k 推导）。真正该做的是控制**交战
+    # 频率**和**选择对手**，不是压低单次出价。
     ceiling = max(bid, energy * tune.max_attack_fraction_of_energy)
     value = min(bid, ceiling)
     return AttackDecision(

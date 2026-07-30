@@ -48,10 +48,22 @@ class TestAttackEconomics(unittest.TestCase):
         self.assertFalse(d.can_win)
         self.assertEqual(d.mode, "starved")
 
-    def test_starved_still_bids_everything(self):
-        """赢不了也要全押：万一威胁估计偏高，全押是唯一的翻盘可能。"""
-        d = decide_attack(self.tune, energy=30, threat=500, seconds_to_reset=20)
-        self.assertAlmostEqual(d.value, 30)
+    def test_starved_bids_almost_everything_but_keeps_the_floor(self):
+        """赢不了仍要押大部分（威胁估计刻意偏高，可能高估）——但留住底线。
+
+        R3：真的归零后 actualAttack 恒为 0，接下来每次碰撞都是确定的 -1。
+        现场 8 局实测归零占 22% 的帧、白送 12 次 -1，所以底线的期望价值高于
+        最后那一点点翻盘概率。
+        """
+        d = decide_attack(self.tune, energy=300, threat=500, seconds_to_reset=20)
+        self.assertEqual(d.mode, "starved")
+        self.assertAlmostEqual(d.value, 300 - self.tune.energy_floor)
+        self.assertGreater(d.value, 0, "仍然押大部分，保留翻盘可能")
+
+    def test_starved_never_bids_below_zero(self):
+        """能量本来就低于底线时不能出负数。"""
+        d = decide_attack(self.tune, energy=5, threat=500, seconds_to_reset=20)
+        self.assertGreaterEqual(d.value, 0.0)
 
     def test_never_bids_above_energy(self):
         """actualAttack = min(set, energy)，出价超过能量没有意义。"""
@@ -91,15 +103,19 @@ class TestAttackEconomics(unittest.TestCase):
         self.assertGreaterEqual(leftover, 100,
                                 "保留额至少要够压过对手一次")
 
-    def test_spenddown_goes_all_in_at_the_very_end(self):
-        """真的来不及再打一次了，才该全花光。"""
+    def test_spenddown_spends_everything_except_the_floor(self):
+        """真的来不及再打一次了，就该花光 —— 但仍然留下底线。
+
+        R3：底线不是「留给本窗口」，而是留给**重置前的最后几次碰撞**。
+        梭哈到 0 之后若还发生接触，就是确定的 -1（沙盒里出现过连输三次）。
+        """
         d = decide_attack(
             self.tune, energy=800, threat=100, seconds_to_reset=0.4,
             committing_to_contact=True,
         )
         self.assertEqual(d.mode, "spenddown")
-        self.assertAlmostEqual(d.value, 800,
-                               msg="剩 0.4s 放不下另一次结算，留钱就是浪费")
+        self.assertAlmostEqual(d.value, 800 - self.tune.energy_floor,
+                               msg="剩 0.4s 放不下另一次结算，除底线外都该花掉")
 
     def test_no_spenddown_when_not_committing(self):
         """没打算撞就梭哈，会被一次意外接触白白清空整窗预算。"""
@@ -161,3 +177,85 @@ class TestAttackEconomics(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestR3EnergyDiscipline(unittest.TestCase):
+    """R3：不再全押、按目标出价、底线保命。
+
+    动机来自现场 8 局 replay：我方 22% 的帧能量为 0，因此白送 12 次 -1；
+    而对手多数只出 10~50，我们却在出 154~326。
+    """
+
+    def setUp(self):
+        self.tune = Tune()
+
+    def test_drained_opponent_is_beaten_with_a_tiny_bid(self):
+        """⭐ 对手能量见底 → 威胁≈0 → 出个最小值就该赢，不能还出几十上百。
+
+        旧的 min_attack=60 / bid_margin_abs=20 正好挡死了这条最便宜的收益路径。
+        """
+        d = decide_attack(self.tune, energy=1000, threat=0.0, seconds_to_reset=20)
+        self.assertTrue(d.can_win)
+        self.assertLessEqual(d.value, 10.0,
+                             "威胁为 0 时出价该是个位数，多出来的全是浪费")
+
+    def test_lean_beats_threat_without_going_all_in(self):
+        """能压过对手但凑不满余量时，压过就行，剩下的要留着。"""
+        # threat=100 → bid = 100*1.12+3 = 115；能量 110 不够 bid 但 > threat
+        d = decide_attack(self.tune, energy=110, threat=100, seconds_to_reset=20)
+        self.assertEqual(d.mode, "lean")
+        self.assertTrue(d.can_win)
+        self.assertGreater(d.value, 100, "必须真的压过对手")
+        self.assertLess(d.value, 110, "不能全押 —— 全押是归零的主因")
+
+    def test_exact_tie_still_engages(self):
+        """严格相等是平局：不丢果实，还免费重置无碰撞计时 → 照打。"""
+        d = decide_attack(self.tune, energy=100, threat=100, seconds_to_reset=20)
+        self.assertEqual(d.mode, "tie")
+        self.assertTrue(d.can_tie)
+        self.assertTrue(d.worth_engaging)
+
+    def test_floor_holds_in_spenddown_and_starved(self):
+        """底线约束「倾倒盈余」和「注定输的赌注」这两条路径。
+
+        它**不**约束能赢的出价 —— 底线的目的是保住赢的能力，不是囤能量。
+        见 test_winning_bid_may_dip_below_floor。
+        """
+        for energy in (25, 100, 500, 1000):
+            for threat in (0, 10, 50, 300, 900):
+                for reset in (0.3, 5, 20):
+                    for commit in (False, True):
+                        d = decide_attack(self.tune, energy=energy, threat=threat,
+                                          seconds_to_reset=reset,
+                                          committing_to_contact=commit)
+                        if d.mode not in ("spenddown", "starved"):
+                            continue
+                        self.assertLessEqual(
+                            d.value, energy - self.tune.energy_floor + 1e-6,
+                            "energy={} threat={} reset={} commit={} mode={} "
+                            "出价 {:.1f} 突破了底线".format(
+                                energy, threat, reset, commit, d.mode, d.value))
+
+    def test_winning_bid_may_dip_below_floor(self):
+        """能赢就该花 —— 底线不能挡住一个确定的 +1。
+
+        反例（曾经写错过的断言）：能量 25、威胁 10。出 14 拿下 +1 并剩 11，
+        比守着 20 却输掉 -1 好 2 个果实。能量就是用来换果实的。
+        """
+        d = decide_attack(self.tune, energy=25, threat=10, seconds_to_reset=20)
+        self.assertTrue(d.can_win)
+        self.assertGreater(d.value, 10, "必须压过对手")
+        self.assertLess(d.value, 25)
+
+    def test_never_bids_more_than_energy_in_any_mode(self):
+        """真正的硬上限只有一个：actualAttack = min(设定, 能量)。"""
+        for energy in (0, 5, 25, 100, 1000):
+            for threat in (0, 10, 300, 900):
+                for reset in (0.3, 5, 20):
+                    for commit in (False, True):
+                        d = decide_attack(self.tune, energy=energy, threat=threat,
+                                          seconds_to_reset=reset,
+                                          committing_to_contact=commit)
+                        self.assertGreaterEqual(d.value, 0.0)
+                        self.assertLessEqual(
+                            d.value, max(energy, self.tune.min_attack) + 1e-6)
