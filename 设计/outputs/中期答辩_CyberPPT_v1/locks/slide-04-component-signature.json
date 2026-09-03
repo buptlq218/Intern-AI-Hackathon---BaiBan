@@ -1,0 +1,97 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 4,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-04.png",
+  "blueprint_sha256": "7014d494c88cf92ff5b37f95a225ba808c26f444d9a8e6e5c0636db101bbe53c",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-04-components.json",
+  "component_annotation_sha256": "9100f2f702f2a57c4ae953554353b83ac17f395d7bb4ee076bacbe711294f5a8",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "mechanism_panel",
+      "type": "native_dechirp_lpf_mechanism",
+      "priority": "P0",
+      "required_subcomponents": [
+        "process_labels",
+        "chirp_plot",
+        "received_plot",
+        "mix_formula",
+        "beat_spectrum",
+        "lpf_band",
+        "principle_band"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "action_matrix",
+      "type": "native_3x3_action_matrix",
+      "priority": "P0",
+      "required_subcomponents": [
+        "carrier_headers",
+        "delay_headers",
+        "nine_cells",
+        "mapping_note",
+        "caveat"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "parameter_panel",
+      "type": "native_key_parameter_table",
+      "priority": "P1",
+      "required_subcomponents": [
+        "panel_header",
+        "five_parameter_rows"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "mdp_panel",
+      "type": "native_mdp_definition_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "state",
+        "action_mapping",
+        "reward_and_depth"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "so_what_anchor",
+        "conclusion_text",
+        "three_implications",
+        "source"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

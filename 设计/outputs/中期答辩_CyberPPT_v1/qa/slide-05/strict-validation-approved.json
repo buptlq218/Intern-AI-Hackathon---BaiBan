@@ -1,0 +1,43 @@
+{
+  "file": "outputs/中期答辩_CyberPPT_v1/pages/slide-05.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 61,
+    "native_graphic_shapes": 146,
+    "pictures": 17,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 61,
+      "native_graphic_shapes": 146,
+      "pictures": 17,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 163,
+      "coverage_ratio": 0.9777,
+      "picture_area_ratio": 0.0702,
+      "max_picture_area_ratio": 0.0075,
+      "min_font_size_pt": 6.5,
+      "max_font_size_pt": 24.5,
+      "text_characters": 728
+    }
+  ],
+  "manifest": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/slide-05-manifest-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/visual_qa_gate-slide-05-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

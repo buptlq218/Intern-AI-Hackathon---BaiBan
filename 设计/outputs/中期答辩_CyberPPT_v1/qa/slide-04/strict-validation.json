@@ -1,0 +1,56 @@
+{
+  "file": "outputs/中期答辩_CyberPPT_v1/pages/slide-04.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 89,
+    "native_graphic_shapes": 406,
+    "pictures": 6,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1,
+      "strict_failure": true
+    }
+  ],
+  "warnings": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 89,
+      "native_graphic_shapes": 406,
+      "pictures": 6,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 412,
+      "coverage_ratio": 0.9122,
+      "picture_area_ratio": 0.0119,
+      "max_picture_area_ratio": 0.0028,
+      "min_font_size_pt": 6.5,
+      "max_font_size_pt": 23.0,
+      "text_characters": 1282
+    }
+  ],
+  "manifest": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/slide-04-manifest-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/visual_qa_gate-slide-04-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

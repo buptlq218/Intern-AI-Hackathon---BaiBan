@@ -1,0 +1,6100 @@
+{
+  "schema": "cyberppt.slide_manifest.v1",
+  "deck": "林渠_研究生中期答辩",
+  "delivery_mode": "single_page_execution",
+  "slides": [
+    {
+      "slide": 1,
+      "role": "成果与缺口",
+      "layout_reference": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-09.png",
+      "slide_content_lock": {
+        "path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+        "sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+        "locked": true
+      },
+      "blueprint_component_signature": {
+        "path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-09-component-signature.json",
+        "sha256": "202a4e63ae388a73f345b59e9db00d184c7085cad3bc1d5d064176c123a1ee00",
+        "locked": true,
+        "components": [
+          {
+            "id": "page_header",
+            "type": "native_page_header_system",
+            "priority": "P1",
+            "required_subcomponents": [
+              "page_badge",
+              "deck_title",
+              "section_label",
+              "top_rule"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "narrative_header",
+            "type": "native_title_and_subtitle",
+            "priority": "P0",
+            "required_subcomponents": [
+              "main_title",
+              "subtitle"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "system_performance",
+            "type": "native_dual_axis_bar_chart_and_result_table",
+            "priority": "P0",
+            "required_subcomponents": [
+              "three_sinr_bars",
+              "three_avoidance_bars",
+              "dual_axes",
+              "result_table"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "dynamic_recovery",
+            "type": "native_two_series_recovery_curve",
+            "priority": "P0",
+            "required_subcomponents": [
+              "meta_rf_curve",
+              "pure_drl_curve",
+              "jump_marker",
+              "recovery_annotations",
+              "summary_table"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "engineering_evidence",
+            "type": "native_metric_and_risk_cards",
+            "priority": "P0",
+            "required_subcomponents": [
+              "sinr_gain",
+              "recovery_reduction",
+              "latency_risk",
+              "conservative_scope_note"
+            ],
+            "must_preserve_type": true
+          },
+          {
+            "id": "conclusion_band",
+            "type": "native_so_what_band",
+            "priority": "P0",
+            "required_subcomponents": [
+              "transparent_check_icon",
+              "conclusion_text",
+              "source_footer"
+            ],
+            "must_preserve_type": true
+          }
+        ]
+      },
+      "visual_element_registry": [
+        {
+          "element_id": "background_surface",
+          "priority": "P0",
+          "element_type": "background",
+          "source_component_id": "page_surface",
+          "role": "background",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 18,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333,
+            "h": 7.5
+          },
+          "render_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "page_badge",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "page_header",
+          "role": "page_badge",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 95,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1356,
+            "y": 0.0399,
+            "w": 1.1244,
+            "h": 0.4384
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "page_number",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "page_number",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.2871,
+            "y": 0.0638,
+            "w": 0.5263,
+            "h": 0.3826
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "header_deck_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "header_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 3.3572,
+            "y": 0.1196,
+            "w": 5.582,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "section_label",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "section_label",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.1433,
+            "y": 0.1275,
+            "w": 2.8069,
+            "h": 0.3188
+          },
+          "render_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "top_rule",
+          "priority": "P1",
+          "element_type": "line",
+          "source_component_id": "page_header",
+          "role": "divider",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 72,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1356,
+            "y": 0.5021,
+            "w": 13.0539,
+            "h": 0.0319
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "main_title",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "narrative_header",
+          "role": "title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 1.5231,
+            "y": 0.6615,
+            "w": 10.3267,
+            "h": 0.4543
+          },
+          "render_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "subtitle",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "narrative_header",
+          "role": "subtitle",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 2.4641,
+            "y": 1.1397,
+            "w": 8.373,
+            "h": 0.3427
+          },
+          "render_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "system_performance",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 1.5462,
+            "w": 4.4098,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "system_performance",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 1.5462,
+            "w": 4.4098,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "system_performance",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.6698,
+            "y": 1.5781,
+            "w": 3.4529,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_chart_legend",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "legend",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.7974,
+            "y": 1.9766,
+            "w": 3.2695,
+            "h": 0.263
+          },
+          "render_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_chart_axes",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "axes",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.295,
+            "y": 2.3433,
+            "w": 4.2024,
+            "h": 2.6222
+          },
+          "render_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_sinr_bars",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "data_bars",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.8054,
+            "y": 3.2439,
+            "w": 1.3397,
+            "h": 1.0282
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_avoid_bars",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "data_bars",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 2.791,
+            "y": 2.7816,
+            "w": 1.2839,
+            "h": 1.9368
+          },
+          "render_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_data_labels",
+          "priority": "P1",
+          "element_type": "text_group",
+          "source_component_id": "system_performance",
+          "role": "data_labels",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.8054,
+            "y": 2.5983,
+            "w": 3.3253,
+            "h": 1.6738
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_result_table",
+          "priority": "P0",
+          "element_type": "table",
+          "source_component_id": "system_performance",
+          "role": "result_table",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 90,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.2871,
+            "y": 4.9973,
+            "w": 4.2104,
+            "h": 1.2274
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "dynamic_recovery",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 4.7367,
+            "y": 1.5462,
+            "w": 5.1035,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "dynamic_recovery",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 4.7367,
+            "y": 1.5462,
+            "w": 5.1035,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "dynamic_recovery",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 5.3747,
+            "y": 1.5781,
+            "w": 3.8277,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_chart_axes",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "axes",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 4.8165,
+            "y": 2.3433,
+            "w": 4.8563,
+            "h": 3.1562
+          },
+          "render_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_curves",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "two_series_curves",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 86,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 5.1035,
+            "y": 2.6461,
+            "w": 4.5693,
+            "h": 2.4469
+          },
+          "render_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "jump_marker",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "event_marker",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 100,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 6.2199,
+            "y": 2.0484,
+            "w": 1.6587,
+            "h": 3.0446
+          },
+          "render_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_annotations",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "recovery_intervals",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 7.0253,
+            "y": 3.0925,
+            "w": 2.2169,
+            "h": 1.6259
+          },
+          "render_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_summary_table",
+          "priority": "P0",
+          "element_type": "table",
+          "source_component_id": "dynamic_recovery",
+          "role": "result_table",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 90,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 4.8882,
+            "y": 5.5632,
+            "w": 4.8324,
+            "h": 0.6536
+          },
+          "render_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 9.9439,
+            "y": 1.5462,
+            "w": 3.1578,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "engineering_evidence",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 9.9439,
+            "y": 1.5462,
+            "w": 3.1578,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.2948,
+            "y": 1.5781,
+            "w": 2.4641,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "sinr_gain_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 2.1121,
+            "w": 2.783,
+            "h": 1.1397
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "sinr_gain_value",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric_value",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 130,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.3028,
+            "y": 2.2237,
+            "w": 2.3923,
+            "h": 0.6456
+          },
+          "render_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_gain_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 3.3634,
+            "w": 2.783,
+            "h": 1.1318
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_gain_value",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric_value",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 130,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.3107,
+            "y": 3.4431,
+            "w": 2.3923,
+            "h": 0.6217
+          },
+          "render_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_risk_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 94,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 4.6307,
+            "w": 2.783,
+            "h": 1.2354
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_value",
+          "priority": "P0",
+          "element_type": "text_group",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.2071,
+            "y": 4.6945,
+            "w": 2.5677,
+            "h": 0.5499
+          },
+          "render_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_warning",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_statement",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.2629,
+            "y": 5.4118,
+            "w": 2.48,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_card",
+          "priority": "P1",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "scope_note",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.0476,
+            "y": 5.9617,
+            "w": 2.9106,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_info_icon",
+          "priority": "P1",
+          "element_type": "picture",
+          "source_component_id": "engineering_evidence",
+          "role": "info_icon",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 5.9857,
+            "w": 0.303,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_text",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "scope_note_text",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.4463,
+            "y": 5.9777,
+            "w": 2.4242,
+            "h": 0.2949
+          },
+          "render_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_band_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "conclusion_band",
+          "role": "so_what",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 6.5197,
+            "w": 12.9024,
+            "h": 0.7173
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_check_icon",
+          "priority": "P1",
+          "element_type": "picture",
+          "source_component_id": "conclusion_band",
+          "role": "check_icon",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 1.0526,
+            "y": 6.6233,
+            "w": 0.5183,
+            "h": 0.5101
+          },
+          "render_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_text",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "conclusion_band",
+          "role": "so_what_text",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 1.7543,
+            "y": 6.6153,
+            "w": 10.3666,
+            "h": 0.5101
+          },
+          "render_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "source_footer",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "conclusion_band",
+          "role": "source",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 92,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.5659,
+            "y": 7.1095,
+            "w": 2.3125,
+            "h": 0.1116
+          },
+          "render_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visual_element_inventory": [
+        {
+          "element_id": "background_surface",
+          "priority": "P0",
+          "element_type": "background",
+          "source_component_id": "page_surface",
+          "role": "background",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 18,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0,
+            "y": 0,
+            "w": 13.333,
+            "h": 7.5
+          },
+          "render_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "page_badge",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "page_header",
+          "role": "page_badge",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 95,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1356,
+            "y": 0.0399,
+            "w": 1.1244,
+            "h": 0.4384
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "page_number",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "page_number",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.2871,
+            "y": 0.0638,
+            "w": 0.5263,
+            "h": 0.3826
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "header_deck_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "header_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 3.3572,
+            "y": 0.1196,
+            "w": 5.582,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "section_label",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "page_header",
+          "role": "section_label",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.1433,
+            "y": 0.1275,
+            "w": 2.8069,
+            "h": 0.3188
+          },
+          "render_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "top_rule",
+          "priority": "P1",
+          "element_type": "line",
+          "source_component_id": "page_header",
+          "role": "divider",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 72,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1356,
+            "y": 0.5021,
+            "w": 13.0539,
+            "h": 0.0319
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "main_title",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "narrative_header",
+          "role": "title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 1.5231,
+            "y": 0.6615,
+            "w": 10.3267,
+            "h": 0.4543
+          },
+          "render_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "subtitle",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "narrative_header",
+          "role": "subtitle",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 2.4641,
+            "y": 1.1397,
+            "w": 8.373,
+            "h": 0.3427
+          },
+          "render_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "system_performance",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 1.5462,
+            "w": 4.4098,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "system_performance",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 1.5462,
+            "w": 4.4098,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "system_performance",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.6698,
+            "y": 1.5781,
+            "w": 3.4529,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_chart_legend",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "legend",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.7974,
+            "y": 1.9766,
+            "w": 3.2695,
+            "h": 0.263
+          },
+          "render_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_chart_axes",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "axes",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.295,
+            "y": 2.3433,
+            "w": 4.2024,
+            "h": 2.6222
+          },
+          "render_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_sinr_bars",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "data_bars",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.8054,
+            "y": 3.2439,
+            "w": 1.3397,
+            "h": 1.0282
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_avoid_bars",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "system_performance",
+          "role": "data_bars",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 2.791,
+            "y": 2.7816,
+            "w": 1.2839,
+            "h": 1.9368
+          },
+          "render_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_data_labels",
+          "priority": "P1",
+          "element_type": "text_group",
+          "source_component_id": "system_performance",
+          "role": "data_labels",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 0.8054,
+            "y": 2.5983,
+            "w": 3.3253,
+            "h": 1.6738
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "system_result_table",
+          "priority": "P0",
+          "element_type": "table",
+          "source_component_id": "system_performance",
+          "role": "result_table",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 90,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.2871,
+            "y": 4.9973,
+            "w": 4.2104,
+            "h": 1.2274
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "dynamic_recovery",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 4.7367,
+            "y": 1.5462,
+            "w": 5.1035,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "dynamic_recovery",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 4.7367,
+            "y": 1.5462,
+            "w": 5.1035,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "dynamic_recovery",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 5.3747,
+            "y": 1.5781,
+            "w": 3.8277,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_chart_axes",
+          "priority": "P1",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "axes",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 82,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 4.8165,
+            "y": 2.3433,
+            "w": 4.8563,
+            "h": 3.1562
+          },
+          "render_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_curves",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "two_series_curves",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 86,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 5.1035,
+            "y": 2.6461,
+            "w": 4.5693,
+            "h": 2.4469
+          },
+          "render_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "jump_marker",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "event_marker",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 100,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 6.2199,
+            "y": 2.0484,
+            "w": 1.6587,
+            "h": 3.0446
+          },
+          "render_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_annotations",
+          "priority": "P0",
+          "element_type": "chart_group",
+          "source_component_id": "dynamic_recovery",
+          "role": "recovery_intervals",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 110,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 7.0253,
+            "y": 3.0925,
+            "w": 2.2169,
+            "h": 1.6259
+          },
+          "render_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "dynamic_summary_table",
+          "priority": "P0",
+          "element_type": "table",
+          "source_component_id": "dynamic_recovery",
+          "role": "result_table",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 90,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 4.8882,
+            "y": 5.5632,
+            "w": 4.8324,
+            "h": 0.6536
+          },
+          "render_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "core_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 74,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 9.9439,
+            "y": 1.5462,
+            "w": 3.1578,
+            "h": 4.83
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_header",
+          "priority": "P1",
+          "element_type": "shape",
+          "source_component_id": "engineering_evidence",
+          "role": "panel_header",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 9.9439,
+            "y": 1.5462,
+            "w": 3.1578,
+            "h": 0.3746
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "evidence_panel_title",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "panel_title",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.2948,
+            "y": 1.5781,
+            "w": 2.4641,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "sinr_gain_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 2.1121,
+            "w": 2.783,
+            "h": 1.1397
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "sinr_gain_value",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric_value",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 130,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.3028,
+            "y": 2.2237,
+            "w": 2.3923,
+            "h": 0.6456
+          },
+          "render_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_gain_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 3.3634,
+            "w": 2.783,
+            "h": 1.1318
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "recovery_gain_value",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "key_metric_value",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 130,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.3107,
+            "y": 3.4431,
+            "w": 2.3923,
+            "h": 0.6217
+          },
+          "render_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_risk_card",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_panel",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 94,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 4.6307,
+            "w": 2.783,
+            "h": 1.2354
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_value",
+          "priority": "P0",
+          "element_type": "text_group",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_metric",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.2071,
+            "y": 4.6945,
+            "w": 2.5677,
+            "h": 0.5499
+          },
+          "render_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "latency_warning",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "risk_statement",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 10.2629,
+            "y": 5.4118,
+            "w": 2.48,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_card",
+          "priority": "P1",
+          "element_type": "panel",
+          "source_component_id": "engineering_evidence",
+          "role": "scope_note",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 88,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.0476,
+            "y": 5.9617,
+            "w": 2.9106,
+            "h": 0.3348
+          },
+          "render_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_info_icon",
+          "priority": "P1",
+          "element_type": "picture",
+          "source_component_id": "engineering_evidence",
+          "role": "info_icon",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.1114,
+            "y": 5.9857,
+            "w": 0.303,
+            "h": 0.3029
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "caveat_text",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "engineering_evidence",
+          "role": "scope_note_text",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 115,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.4463,
+            "y": 5.9777,
+            "w": 2.4242,
+            "h": 0.2949
+          },
+          "render_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_band_surface",
+          "priority": "P0",
+          "element_type": "panel",
+          "source_component_id": "conclusion_band",
+          "role": "so_what",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 76,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 0.1994,
+            "y": 6.5197,
+            "w": 12.9024,
+            "h": 0.7173
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_check_icon",
+          "priority": "P1",
+          "element_type": "picture",
+          "source_component_id": "conclusion_band",
+          "role": "check_icon",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 105,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 1.0526,
+            "y": 6.6233,
+            "w": 0.5183,
+            "h": 0.5101
+          },
+          "render_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "conclusion_text",
+          "priority": "P0",
+          "element_type": "text",
+          "source_component_id": "conclusion_band",
+          "role": "so_what_text",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 125,
+          "tolerance_px": 3,
+          "ppt_target_bbox_in": {
+            "x": 1.7543,
+            "y": 6.6153,
+            "w": 10.3666,
+            "h": 0.5101
+          },
+          "render_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "element_id": "source_footer",
+          "priority": "P1",
+          "element_type": "text",
+          "source_component_id": "conclusion_band",
+          "role": "source",
+          "measurement_mode": "individual_bbox",
+          "blueprint_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "must_reproduce": true,
+          "registration_status": "passed",
+          "pixel_mean_abs_tolerance": 92,
+          "tolerance_px": 4,
+          "ppt_target_bbox_in": {
+            "x": 10.5659,
+            "y": 7.1095,
+            "w": 2.3125,
+            "h": 0.1116
+          },
+          "render_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        }
+      ],
+      "blueprint_measurement_table": {
+        "path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-09-visual-element-registry.json",
+        "blueprint_canvas_px": {
+          "w": 1672,
+          "h": 941
+        },
+        "ppt_canvas_in": {
+          "w": 13.333,
+          "h": 7.5
+        },
+        "scale_x": 0.007974282296650717,
+        "scale_y": 0.007970244420828906
+      },
+      "generation_engine": {
+        "tool": "pptxgenjs",
+        "version": "4.0.1",
+        "fallback_reason": null,
+        "visual_fidelity_not_reduced": true
+      },
+      "page_execution": {
+        "mode": "single_page",
+        "single_page_pptx_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/pages/slide-09.pptx",
+        "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-09.png",
+        "ppt_render_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/renders/slide-09.png",
+        "side_by_side_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/side-by-side.png",
+        "local_comparison_artifacts": [
+          "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/header-comparison.png",
+          "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/system-performance-comparison.png",
+          "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/dynamic-recovery-comparison.png",
+          "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/engineering-evidence-comparison.png",
+          "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/conclusion-comparison.png"
+        ],
+        "page_status": "approved",
+        "user_confirmed": true,
+        "made_before_next_slide": true,
+        "approval_recorded_at": "2026-07-23"
+      },
+      "blueprint_reconstruction_plan": {
+        "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+        "slide": 9,
+        "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-09.png",
+        "canvas_size": {
+          "width_px": 1672,
+          "height_px": 941,
+          "width_in": 13.333,
+          "height_in": 7.5
+        },
+        "background_color_sample": "#FCFAF5",
+        "surface_system": "continuous ivory paper with three evidence panels and one full-width navy conclusion band",
+        "layout_regions": [
+          {
+            "id": "header",
+            "bbox_px": {
+              "x": 17,
+              "y": 5,
+              "w": 1637,
+              "h": 181
+            }
+          },
+          {
+            "id": "system_performance",
+            "bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 606
+            }
+          },
+          {
+            "id": "dynamic_recovery",
+            "bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 606
+            }
+          },
+          {
+            "id": "engineering_evidence",
+            "bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 606
+            }
+          },
+          {
+            "id": "conclusion_band",
+            "bbox_px": {
+              "x": 25,
+              "y": 818,
+              "w": 1618,
+              "h": 90
+            }
+          }
+        ],
+        "header_footer_system": {
+          "page_badge": "09",
+          "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+          "section_label": "工作成果｜系统验证与问题",
+          "footer": "source IDs in conclusion band"
+        },
+        "so_what_region": {
+          "bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "native_text_required": true
+        },
+        "main_chart_semantics": "System-level SINR and avoidance comparison, non-stationary jump recovery curves, and engineering latency gap.",
+        "density_targets": {
+          "overall": "high",
+          "system_performance": "six bars, exact values, dual axes and three-row result table",
+          "dynamic_recovery": "two 37-point curves, jump event, recovery interval annotations and two-row summary table",
+          "engineering_evidence": "two key metrics, one latency risk card and one conservative-scope note"
+        },
+        "anchor_targets": [
+          {
+            "element_id": "background_surface",
+            "bbox_px": {
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941
+            }
+          },
+          {
+            "element_id": "page_badge",
+            "bbox_px": {
+              "x": 17,
+              "y": 5,
+              "w": 141,
+              "h": 55
+            }
+          },
+          {
+            "element_id": "page_number",
+            "bbox_px": {
+              "x": 36,
+              "y": 8,
+              "w": 66,
+              "h": 48
+            }
+          },
+          {
+            "element_id": "header_deck_title",
+            "bbox_px": {
+              "x": 421,
+              "y": 15,
+              "w": 700,
+              "h": 42
+            }
+          },
+          {
+            "element_id": "section_label",
+            "bbox_px": {
+              "x": 1272,
+              "y": 16,
+              "w": 352,
+              "h": 40
+            }
+          },
+          {
+            "element_id": "top_rule",
+            "bbox_px": {
+              "x": 17,
+              "y": 63,
+              "w": 1637,
+              "h": 4
+            }
+          },
+          {
+            "element_id": "main_title",
+            "bbox_px": {
+              "x": 191,
+              "y": 83,
+              "w": 1295,
+              "h": 57
+            }
+          },
+          {
+            "element_id": "subtitle",
+            "bbox_px": {
+              "x": 309,
+              "y": 143,
+              "w": 1050,
+              "h": 43
+            }
+          },
+          {
+            "element_id": "system_panel_surface",
+            "bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 606
+            }
+          },
+          {
+            "element_id": "system_panel_header",
+            "bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 47
+            }
+          },
+          {
+            "element_id": "system_panel_title",
+            "bbox_px": {
+              "x": 84,
+              "y": 198,
+              "w": 433,
+              "h": 38
+            }
+          },
+          {
+            "element_id": "system_chart_legend",
+            "bbox_px": {
+              "x": 100,
+              "y": 248,
+              "w": 410,
+              "h": 33
+            }
+          },
+          {
+            "element_id": "system_chart_axes",
+            "bbox_px": {
+              "x": 37,
+              "y": 294,
+              "w": 527,
+              "h": 329
+            }
+          },
+          {
+            "element_id": "system_sinr_bars",
+            "bbox_px": {
+              "x": 101,
+              "y": 407,
+              "w": 168,
+              "h": 129
+            }
+          },
+          {
+            "element_id": "system_avoid_bars",
+            "bbox_px": {
+              "x": 350,
+              "y": 349,
+              "w": 161,
+              "h": 243
+            }
+          },
+          {
+            "element_id": "system_data_labels",
+            "bbox_px": {
+              "x": 101,
+              "y": 326,
+              "w": 417,
+              "h": 210
+            }
+          },
+          {
+            "element_id": "system_result_table",
+            "bbox_px": {
+              "x": 36,
+              "y": 627,
+              "w": 528,
+              "h": 154
+            }
+          },
+          {
+            "element_id": "dynamic_panel_surface",
+            "bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 606
+            }
+          },
+          {
+            "element_id": "dynamic_panel_header",
+            "bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 47
+            }
+          },
+          {
+            "element_id": "dynamic_panel_title",
+            "bbox_px": {
+              "x": 674,
+              "y": 198,
+              "w": 480,
+              "h": 38
+            }
+          },
+          {
+            "element_id": "dynamic_chart_axes",
+            "bbox_px": {
+              "x": 604,
+              "y": 294,
+              "w": 609,
+              "h": 396
+            }
+          },
+          {
+            "element_id": "dynamic_curves",
+            "bbox_px": {
+              "x": 640,
+              "y": 332,
+              "w": 573,
+              "h": 307
+            }
+          },
+          {
+            "element_id": "jump_marker",
+            "bbox_px": {
+              "x": 780,
+              "y": 257,
+              "w": 208,
+              "h": 382
+            }
+          },
+          {
+            "element_id": "recovery_annotations",
+            "bbox_px": {
+              "x": 881,
+              "y": 388,
+              "w": 278,
+              "h": 204
+            }
+          },
+          {
+            "element_id": "dynamic_summary_table",
+            "bbox_px": {
+              "x": 613,
+              "y": 698,
+              "w": 606,
+              "h": 82
+            }
+          },
+          {
+            "element_id": "evidence_panel_surface",
+            "bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 606
+            }
+          },
+          {
+            "element_id": "evidence_panel_header",
+            "bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 47
+            }
+          },
+          {
+            "element_id": "evidence_panel_title",
+            "bbox_px": {
+              "x": 1291,
+              "y": 198,
+              "w": 309,
+              "h": 38
+            }
+          },
+          {
+            "element_id": "sinr_gain_card",
+            "bbox_px": {
+              "x": 1268,
+              "y": 265,
+              "w": 349,
+              "h": 143
+            }
+          },
+          {
+            "element_id": "sinr_gain_value",
+            "bbox_px": {
+              "x": 1292,
+              "y": 279,
+              "w": 300,
+              "h": 81
+            }
+          },
+          {
+            "element_id": "recovery_gain_card",
+            "bbox_px": {
+              "x": 1268,
+              "y": 422,
+              "w": 349,
+              "h": 142
+            }
+          },
+          {
+            "element_id": "recovery_gain_value",
+            "bbox_px": {
+              "x": 1293,
+              "y": 432,
+              "w": 300,
+              "h": 78
+            }
+          },
+          {
+            "element_id": "latency_risk_card",
+            "bbox_px": {
+              "x": 1268,
+              "y": 581,
+              "w": 349,
+              "h": 155
+            }
+          },
+          {
+            "element_id": "latency_value",
+            "bbox_px": {
+              "x": 1280,
+              "y": 589,
+              "w": 322,
+              "h": 69
+            }
+          },
+          {
+            "element_id": "latency_warning",
+            "bbox_px": {
+              "x": 1287,
+              "y": 679,
+              "w": 311,
+              "h": 42
+            }
+          },
+          {
+            "element_id": "caveat_card",
+            "bbox_px": {
+              "x": 1260,
+              "y": 748,
+              "w": 365,
+              "h": 42
+            }
+          },
+          {
+            "element_id": "caveat_info_icon",
+            "bbox_px": {
+              "x": 1268,
+              "y": 751,
+              "w": 38,
+              "h": 38
+            }
+          },
+          {
+            "element_id": "caveat_text",
+            "bbox_px": {
+              "x": 1310,
+              "y": 750,
+              "w": 304,
+              "h": 37
+            }
+          },
+          {
+            "element_id": "conclusion_band_surface",
+            "bbox_px": {
+              "x": 25,
+              "y": 818,
+              "w": 1618,
+              "h": 90
+            }
+          },
+          {
+            "element_id": "conclusion_check_icon",
+            "bbox_px": {
+              "x": 132,
+              "y": 831,
+              "w": 65,
+              "h": 64
+            }
+          },
+          {
+            "element_id": "conclusion_text",
+            "bbox_px": {
+              "x": 220,
+              "y": 830,
+              "w": 1300,
+              "h": 64
+            }
+          },
+          {
+            "element_id": "source_footer",
+            "bbox_px": {
+              "x": 1325,
+              "y": 892,
+              "w": 290,
+              "h": 14
+            }
+          }
+        ],
+        "native_rebuild_targets": [
+          "all visible text and labels",
+          "dual-axis system comparison chart",
+          "two-series dynamic recovery curve",
+          "result and recovery tables",
+          "key metrics, latency warning and conclusion band"
+        ],
+        "allowed_visual_assets": [
+          {
+            "id": "info",
+            "icon_id": "approved-blueprint-crop/info",
+            "region": "保守耗时口径提示",
+            "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/info.png",
+            "source": "Approved slide-09 blueprint crop",
+            "source_bbox_px": {
+              "x": 1268,
+              "y": 751,
+              "w": 38,
+              "h": 38
+            },
+            "necessity": "exact restoration of the approved non-text visual symbol",
+            "contains_key_text": false,
+            "editable_information_sacrifice": false,
+            "trace_required": false
+          },
+          {
+            "id": "check",
+            "icon_id": "approved-blueprint-crop/check",
+            "region": "证据闭环结论",
+            "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/check.png",
+            "source": "Approved slide-09 blueprint crop",
+            "source_bbox_px": {
+              "x": 132,
+              "y": 831,
+              "w": 65,
+              "h": 64
+            },
+            "necessity": "exact restoration of the approved non-text visual symbol",
+            "contains_key_text": false,
+            "editable_information_sacrifice": false,
+            "trace_required": false
+          }
+        ],
+        "icon_style_lock": {
+          "library": "approved-blueprint-crops",
+          "style_locked": true,
+          "icons": [
+            {
+              "placement_id": "info",
+              "icon_id": "approved-blueprint-crop/info",
+              "source_library": "approved-blueprint-crops",
+              "semantic_meaning": "保守耗时口径提示",
+              "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/info.png",
+              "source_bbox_px": {
+                "x": 1268,
+                "y": 751,
+                "w": 38,
+                "h": 38
+              },
+              "contains_key_text": false,
+              "powerpoint_render_verified": false
+            },
+            {
+              "placement_id": "check",
+              "icon_id": "approved-blueprint-crop/check",
+              "source_library": "approved-blueprint-crops",
+              "semantic_meaning": "证据闭环结论",
+              "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/check.png",
+              "source_bbox_px": {
+                "x": 132,
+                "y": 831,
+                "w": 65,
+                "h": 64
+              },
+              "contains_key_text": false,
+              "powerpoint_render_verified": false
+            }
+          ]
+        },
+        "complex_visual_scan": {
+          "completed": true,
+          "complex_visual_candidates": [],
+          "triggered_gates": [
+            "dual_axis_chart_gate",
+            "recovery_curve_gate",
+            "icon_transparency_gate",
+            "spatial_registration_gate"
+          ],
+          "pictures_zero_is_not_goal": true,
+          "result": "All charts, curves, tables, values, labels and conclusions remain native; two transparent icon placements preserve exact blueprint fidelity."
+        }
+      },
+      "expected_pictures": 2,
+      "image_assets": [
+        {
+          "id": "info",
+          "icon_id": "approved-blueprint-crop/info",
+          "region": "保守耗时口径提示",
+          "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/info.png",
+          "source": "Approved slide-09 blueprint crop",
+          "source_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "necessity": "exact restoration of the approved non-text visual symbol",
+          "contains_key_text": false,
+          "editable_information_sacrifice": false,
+          "trace_required": false
+        },
+        {
+          "id": "check",
+          "icon_id": "approved-blueprint-crop/check",
+          "region": "证据闭环结论",
+          "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/check.png",
+          "source": "Approved slide-09 blueprint crop",
+          "source_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "necessity": "exact restoration of the approved non-text visual symbol",
+          "contains_key_text": false,
+          "editable_information_sacrifice": false,
+          "trace_required": false
+        }
+      ],
+      "text_objects": [
+        {
+          "id": "page_number",
+          "role": "T1",
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "header_deck_title",
+          "role": "T3",
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "section_label",
+          "role": "T4",
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "main_title",
+          "role": "T2",
+          "font_size_pt": 24,
+          "editable": true
+        },
+        {
+          "id": "subtitle",
+          "role": "T3",
+          "font_size_pt": 15.5,
+          "editable": true
+        },
+        {
+          "id": "panel_titles",
+          "role": "T4",
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "axis_labels",
+          "role": "T11",
+          "font_size_pt": 8.5,
+          "editable": true
+        },
+        {
+          "id": "data_labels",
+          "role": "T12",
+          "font_size_pt": 9.5,
+          "editable": true
+        },
+        {
+          "id": "metric_values",
+          "role": "T13",
+          "font_size_pt": 34,
+          "editable": true
+        },
+        {
+          "id": "risk_text",
+          "role": "T7",
+          "font_size_pt": 9.7,
+          "editable": true
+        },
+        {
+          "id": "conclusion_text",
+          "role": "T10",
+          "font_size_pt": 20.5,
+          "editable": true
+        },
+        {
+          "id": "source_footer",
+          "role": "T14",
+          "font_size_pt": 6.5,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "id": "page_header",
+          "type": "native_text_and_shapes",
+          "reason": "页眉系统必须可编辑"
+        },
+        {
+          "id": "system_performance",
+          "type": "native_dual_axis_bars_and_table",
+          "reason": "系统性能与避开率必须可编辑"
+        },
+        {
+          "id": "dynamic_recovery",
+          "type": "native_lines_annotations_and_table",
+          "reason": "恢复过程与标注必须可编辑"
+        },
+        {
+          "id": "engineering_evidence",
+          "type": "native_text_and_shapes_with_transparent_crop",
+          "reason": "证据与风险必须可编辑"
+        },
+        {
+          "id": "conclusion_band",
+          "type": "native_text_shape_and_transparent_crop",
+          "reason": "结论条必须可编辑"
+        }
+      ],
+      "icon_assets": [
+        {
+          "placement_id": "info",
+          "icon_id": "approved-blueprint-crop/info",
+          "source_library": "approved-blueprint-crops",
+          "semantic_meaning": "保守耗时口径提示",
+          "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/info.png",
+          "source_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "contains_key_text": false,
+          "powerpoint_render_verified": true
+        },
+        {
+          "placement_id": "check",
+          "icon_id": "approved-blueprint-crop/check",
+          "source_library": "approved-blueprint-crops",
+          "semantic_meaning": "证据闭环结论",
+          "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-09-blueprint-icons/check.png",
+          "source_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "contains_key_text": false,
+          "powerpoint_render_verified": true
+        }
+      ],
+      "label_collision_check": {
+        "passed": true,
+        "status": "passed",
+        "checked_regions": [
+          "system_performance",
+          "dynamic_recovery",
+          "engineering_evidence",
+          "conclusion_band"
+        ],
+        "collisions": [],
+        "allowed_text_overlaps": []
+      },
+      "spatial_registration_check": {
+        "passed": true,
+        "status": "passed",
+        "reference_crop": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/dynamic-recovery-reference.png",
+        "rendered_crop": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-09/dynamic-recovery-render.png",
+        "checked_groups": [
+          {
+            "id": "slide-09-all-elements",
+            "status": "passed",
+            "anchor_points": [
+              {
+                "element_id": "background_surface",
+                "item": "background_surface",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 1672,
+                  "h": 941
+                },
+                "render_bbox_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 1672,
+                  "h": 941
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "page_badge",
+                "item": "page_badge",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 17,
+                  "y": 5,
+                  "w": 141,
+                  "h": 55
+                },
+                "render_bbox_px": {
+                  "x": 17,
+                  "y": 5,
+                  "w": 141,
+                  "h": 55
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "page_number",
+                "item": "text:page_number",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 36,
+                  "y": 8,
+                  "w": 66,
+                  "h": 48
+                },
+                "render_bbox_px": {
+                  "x": 36,
+                  "y": 8,
+                  "w": 66,
+                  "h": 48
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "header_deck_title",
+                "item": "text:header_deck_title",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 421,
+                  "y": 15,
+                  "w": 700,
+                  "h": 42
+                },
+                "render_bbox_px": {
+                  "x": 421,
+                  "y": 15,
+                  "w": 700,
+                  "h": 42
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "section_label",
+                "item": "text:section_label",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1272,
+                  "y": 16,
+                  "w": 352,
+                  "h": 40
+                },
+                "render_bbox_px": {
+                  "x": 1272,
+                  "y": 16,
+                  "w": 352,
+                  "h": 40
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "top_rule",
+                "item": "top_rule",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 17,
+                  "y": 63,
+                  "w": 1637,
+                  "h": 4
+                },
+                "render_bbox_px": {
+                  "x": 17,
+                  "y": 63,
+                  "w": 1637,
+                  "h": 4
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "main_title",
+                "item": "text:main_title",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 191,
+                  "y": 83,
+                  "w": 1295,
+                  "h": 57
+                },
+                "render_bbox_px": {
+                  "x": 191,
+                  "y": 83,
+                  "w": 1295,
+                  "h": 57
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "subtitle",
+                "item": "text:subtitle",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 309,
+                  "y": 143,
+                  "w": 1050,
+                  "h": 43
+                },
+                "render_bbox_px": {
+                  "x": 309,
+                  "y": 143,
+                  "w": 1050,
+                  "h": 43
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_panel_surface",
+                "item": "system_panel_surface",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 25,
+                  "y": 194,
+                  "w": 553,
+                  "h": 606
+                },
+                "render_bbox_px": {
+                  "x": 25,
+                  "y": 194,
+                  "w": 553,
+                  "h": 606
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_panel_header",
+                "item": "system_panel_header",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 25,
+                  "y": 194,
+                  "w": 553,
+                  "h": 47
+                },
+                "render_bbox_px": {
+                  "x": 25,
+                  "y": 194,
+                  "w": 553,
+                  "h": 47
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_panel_title",
+                "item": "text:system_panel_title",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 84,
+                  "y": 198,
+                  "w": 433,
+                  "h": 38
+                },
+                "render_bbox_px": {
+                  "x": 84,
+                  "y": 198,
+                  "w": 433,
+                  "h": 38
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_chart_legend",
+                "item": "system_chart_legend",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 100,
+                  "y": 248,
+                  "w": 410,
+                  "h": 33
+                },
+                "render_bbox_px": {
+                  "x": 100,
+                  "y": 248,
+                  "w": 410,
+                  "h": 33
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_chart_axes",
+                "item": "system_chart_axes",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 37,
+                  "y": 294,
+                  "w": 527,
+                  "h": 329
+                },
+                "render_bbox_px": {
+                  "x": 37,
+                  "y": 294,
+                  "w": 527,
+                  "h": 329
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_sinr_bars",
+                "item": "system_sinr_bars",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 101,
+                  "y": 407,
+                  "w": 168,
+                  "h": 129
+                },
+                "render_bbox_px": {
+                  "x": 101,
+                  "y": 407,
+                  "w": 168,
+                  "h": 129
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_avoid_bars",
+                "item": "system_avoid_bars",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 350,
+                  "y": 349,
+                  "w": 161,
+                  "h": 243
+                },
+                "render_bbox_px": {
+                  "x": 350,
+                  "y": 349,
+                  "w": 161,
+                  "h": 243
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_data_labels",
+                "item": "text:system_data_labels",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 101,
+                  "y": 326,
+                  "w": 417,
+                  "h": 210
+                },
+                "render_bbox_px": {
+                  "x": 101,
+                  "y": 326,
+                  "w": 417,
+                  "h": 210
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "system_result_table",
+                "item": "system_result_table",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 36,
+                  "y": 627,
+                  "w": 528,
+                  "h": 154
+                },
+                "render_bbox_px": {
+                  "x": 36,
+                  "y": 627,
+                  "w": 528,
+                  "h": 154
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_panel_surface",
+                "item": "dynamic_panel_surface",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 594,
+                  "y": 194,
+                  "w": 640,
+                  "h": 606
+                },
+                "render_bbox_px": {
+                  "x": 594,
+                  "y": 194,
+                  "w": 640,
+                  "h": 606
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_panel_header",
+                "item": "dynamic_panel_header",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 594,
+                  "y": 194,
+                  "w": 640,
+                  "h": 47
+                },
+                "render_bbox_px": {
+                  "x": 594,
+                  "y": 194,
+                  "w": 640,
+                  "h": 47
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_panel_title",
+                "item": "text:dynamic_panel_title",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 674,
+                  "y": 198,
+                  "w": 480,
+                  "h": 38
+                },
+                "render_bbox_px": {
+                  "x": 674,
+                  "y": 198,
+                  "w": 480,
+                  "h": 38
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_chart_axes",
+                "item": "dynamic_chart_axes",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 604,
+                  "y": 294,
+                  "w": 609,
+                  "h": 396
+                },
+                "render_bbox_px": {
+                  "x": 604,
+                  "y": 294,
+                  "w": 609,
+                  "h": 396
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_curves",
+                "item": "dynamic_curves",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 640,
+                  "y": 332,
+                  "w": 573,
+                  "h": 307
+                },
+                "render_bbox_px": {
+                  "x": 640,
+                  "y": 332,
+                  "w": 573,
+                  "h": 307
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "jump_marker",
+                "item": "jump_marker",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 780,
+                  "y": 257,
+                  "w": 208,
+                  "h": 382
+                },
+                "render_bbox_px": {
+                  "x": 780,
+                  "y": 257,
+                  "w": 208,
+                  "h": 382
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "recovery_annotations",
+                "item": "recovery_annotations",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 881,
+                  "y": 388,
+                  "w": 278,
+                  "h": 204
+                },
+                "render_bbox_px": {
+                  "x": 881,
+                  "y": 388,
+                  "w": 278,
+                  "h": 204
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "dynamic_summary_table",
+                "item": "dynamic_summary_table",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 613,
+                  "y": 698,
+                  "w": 606,
+                  "h": 82
+                },
+                "render_bbox_px": {
+                  "x": 613,
+                  "y": 698,
+                  "w": 606,
+                  "h": 82
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "evidence_panel_surface",
+                "item": "evidence_panel_surface",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1247,
+                  "y": 194,
+                  "w": 396,
+                  "h": 606
+                },
+                "render_bbox_px": {
+                  "x": 1247,
+                  "y": 194,
+                  "w": 396,
+                  "h": 606
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "evidence_panel_header",
+                "item": "evidence_panel_header",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1247,
+                  "y": 194,
+                  "w": 396,
+                  "h": 47
+                },
+                "render_bbox_px": {
+                  "x": 1247,
+                  "y": 194,
+                  "w": 396,
+                  "h": 47
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "evidence_panel_title",
+                "item": "text:evidence_panel_title",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1291,
+                  "y": 198,
+                  "w": 309,
+                  "h": 38
+                },
+                "render_bbox_px": {
+                  "x": 1291,
+                  "y": 198,
+                  "w": 309,
+                  "h": 38
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "sinr_gain_card",
+                "item": "sinr_gain_card",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1268,
+                  "y": 265,
+                  "w": 349,
+                  "h": 143
+                },
+                "render_bbox_px": {
+                  "x": 1268,
+                  "y": 265,
+                  "w": 349,
+                  "h": 143
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "sinr_gain_value",
+                "item": "text:sinr_gain_value",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1292,
+                  "y": 279,
+                  "w": 300,
+                  "h": 81
+                },
+                "render_bbox_px": {
+                  "x": 1292,
+                  "y": 279,
+                  "w": 300,
+                  "h": 81
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "recovery_gain_card",
+                "item": "recovery_gain_card",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1268,
+                  "y": 422,
+                  "w": 349,
+                  "h": 142
+                },
+                "render_bbox_px": {
+                  "x": 1268,
+                  "y": 422,
+                  "w": 349,
+                  "h": 142
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "recovery_gain_value",
+                "item": "text:recovery_gain_value",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1293,
+                  "y": 432,
+                  "w": 300,
+                  "h": 78
+                },
+                "render_bbox_px": {
+                  "x": 1293,
+                  "y": 432,
+                  "w": 300,
+                  "h": 78
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "latency_risk_card",
+                "item": "latency_risk_card",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1268,
+                  "y": 581,
+                  "w": 349,
+                  "h": 155
+                },
+                "render_bbox_px": {
+                  "x": 1268,
+                  "y": 581,
+                  "w": 349,
+                  "h": 155
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "latency_value",
+                "item": "text:latency_value",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1280,
+                  "y": 589,
+                  "w": 322,
+                  "h": 69
+                },
+                "render_bbox_px": {
+                  "x": 1280,
+                  "y": 589,
+                  "w": 322,
+                  "h": 69
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "latency_warning",
+                "item": "text:latency_warning",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1287,
+                  "y": 679,
+                  "w": 311,
+                  "h": 42
+                },
+                "render_bbox_px": {
+                  "x": 1287,
+                  "y": 679,
+                  "w": 311,
+                  "h": 42
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "caveat_card",
+                "item": "caveat_card",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1260,
+                  "y": 748,
+                  "w": 365,
+                  "h": 42
+                },
+                "render_bbox_px": {
+                  "x": 1260,
+                  "y": 748,
+                  "w": 365,
+                  "h": 42
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "caveat_info_icon",
+                "item": "caveat_info_icon",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 1268,
+                  "y": 751,
+                  "w": 38,
+                  "h": 38
+                },
+                "render_bbox_px": {
+                  "x": 1268,
+                  "y": 751,
+                  "w": 38,
+                  "h": 38
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "caveat_text",
+                "item": "text:caveat_text",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1310,
+                  "y": 750,
+                  "w": 304,
+                  "h": 37
+                },
+                "render_bbox_px": {
+                  "x": 1310,
+                  "y": 750,
+                  "w": 304,
+                  "h": 37
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "conclusion_band_surface",
+                "item": "conclusion_band_surface",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 25,
+                  "y": 818,
+                  "w": 1618,
+                  "h": 90
+                },
+                "render_bbox_px": {
+                  "x": 25,
+                  "y": 818,
+                  "w": 1618,
+                  "h": 90
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "conclusion_check_icon",
+                "item": "conclusion_check_icon",
+                "anchor": "bbox",
+                "blueprint_bbox_px": {
+                  "x": 132,
+                  "y": 831,
+                  "w": 65,
+                  "h": 64
+                },
+                "render_bbox_px": {
+                  "x": 132,
+                  "y": 831,
+                  "w": 65,
+                  "h": 64
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              },
+              {
+                "element_id": "conclusion_text",
+                "item": "text:conclusion_text",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 220,
+                  "y": 830,
+                  "w": 1300,
+                  "h": 64
+                },
+                "render_bbox_px": {
+                  "x": 220,
+                  "y": 830,
+                  "w": 1300,
+                  "h": 64
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 3,
+                "status": "passed"
+              },
+              {
+                "element_id": "source_footer",
+                "item": "text:source_footer",
+                "anchor": "text_baseline",
+                "blueprint_bbox_px": {
+                  "x": 1325,
+                  "y": 892,
+                  "w": 290,
+                  "h": 14
+                },
+                "render_bbox_px": {
+                  "x": 1325,
+                  "y": 892,
+                  "w": 290,
+                  "h": 14
+                },
+                "delta_px": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 0,
+                  "h": 0
+                },
+                "tolerance_px": 4,
+                "status": "passed"
+              }
+            ]
+          }
+        ],
+        "anchor_points": [
+          {
+            "element_id": "background_surface",
+            "item": "background_surface",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941
+            },
+            "render_bbox_px": {
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "page_badge",
+            "item": "page_badge",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 17,
+              "y": 5,
+              "w": 141,
+              "h": 55
+            },
+            "render_bbox_px": {
+              "x": 17,
+              "y": 5,
+              "w": 141,
+              "h": 55
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "page_number",
+            "item": "text:page_number",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 36,
+              "y": 8,
+              "w": 66,
+              "h": 48
+            },
+            "render_bbox_px": {
+              "x": 36,
+              "y": 8,
+              "w": 66,
+              "h": 48
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "header_deck_title",
+            "item": "text:header_deck_title",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 421,
+              "y": 15,
+              "w": 700,
+              "h": 42
+            },
+            "render_bbox_px": {
+              "x": 421,
+              "y": 15,
+              "w": 700,
+              "h": 42
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "section_label",
+            "item": "text:section_label",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1272,
+              "y": 16,
+              "w": 352,
+              "h": 40
+            },
+            "render_bbox_px": {
+              "x": 1272,
+              "y": 16,
+              "w": 352,
+              "h": 40
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "top_rule",
+            "item": "top_rule",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 17,
+              "y": 63,
+              "w": 1637,
+              "h": 4
+            },
+            "render_bbox_px": {
+              "x": 17,
+              "y": 63,
+              "w": 1637,
+              "h": 4
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "main_title",
+            "item": "text:main_title",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 191,
+              "y": 83,
+              "w": 1295,
+              "h": 57
+            },
+            "render_bbox_px": {
+              "x": 191,
+              "y": 83,
+              "w": 1295,
+              "h": 57
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "subtitle",
+            "item": "text:subtitle",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 309,
+              "y": 143,
+              "w": 1050,
+              "h": 43
+            },
+            "render_bbox_px": {
+              "x": 309,
+              "y": 143,
+              "w": 1050,
+              "h": 43
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_panel_surface",
+            "item": "system_panel_surface",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 606
+            },
+            "render_bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 606
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_panel_header",
+            "item": "system_panel_header",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 47
+            },
+            "render_bbox_px": {
+              "x": 25,
+              "y": 194,
+              "w": 553,
+              "h": 47
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_panel_title",
+            "item": "text:system_panel_title",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 84,
+              "y": 198,
+              "w": 433,
+              "h": 38
+            },
+            "render_bbox_px": {
+              "x": 84,
+              "y": 198,
+              "w": 433,
+              "h": 38
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_chart_legend",
+            "item": "system_chart_legend",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 100,
+              "y": 248,
+              "w": 410,
+              "h": 33
+            },
+            "render_bbox_px": {
+              "x": 100,
+              "y": 248,
+              "w": 410,
+              "h": 33
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_chart_axes",
+            "item": "system_chart_axes",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 37,
+              "y": 294,
+              "w": 527,
+              "h": 329
+            },
+            "render_bbox_px": {
+              "x": 37,
+              "y": 294,
+              "w": 527,
+              "h": 329
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_sinr_bars",
+            "item": "system_sinr_bars",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 101,
+              "y": 407,
+              "w": 168,
+              "h": 129
+            },
+            "render_bbox_px": {
+              "x": 101,
+              "y": 407,
+              "w": 168,
+              "h": 129
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_avoid_bars",
+            "item": "system_avoid_bars",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 350,
+              "y": 349,
+              "w": 161,
+              "h": 243
+            },
+            "render_bbox_px": {
+              "x": 350,
+              "y": 349,
+              "w": 161,
+              "h": 243
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_data_labels",
+            "item": "text:system_data_labels",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 101,
+              "y": 326,
+              "w": 417,
+              "h": 210
+            },
+            "render_bbox_px": {
+              "x": 101,
+              "y": 326,
+              "w": 417,
+              "h": 210
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "system_result_table",
+            "item": "system_result_table",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 36,
+              "y": 627,
+              "w": 528,
+              "h": 154
+            },
+            "render_bbox_px": {
+              "x": 36,
+              "y": 627,
+              "w": 528,
+              "h": 154
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_panel_surface",
+            "item": "dynamic_panel_surface",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 606
+            },
+            "render_bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 606
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_panel_header",
+            "item": "dynamic_panel_header",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 47
+            },
+            "render_bbox_px": {
+              "x": 594,
+              "y": 194,
+              "w": 640,
+              "h": 47
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_panel_title",
+            "item": "text:dynamic_panel_title",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 674,
+              "y": 198,
+              "w": 480,
+              "h": 38
+            },
+            "render_bbox_px": {
+              "x": 674,
+              "y": 198,
+              "w": 480,
+              "h": 38
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_chart_axes",
+            "item": "dynamic_chart_axes",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 604,
+              "y": 294,
+              "w": 609,
+              "h": 396
+            },
+            "render_bbox_px": {
+              "x": 604,
+              "y": 294,
+              "w": 609,
+              "h": 396
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_curves",
+            "item": "dynamic_curves",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 640,
+              "y": 332,
+              "w": 573,
+              "h": 307
+            },
+            "render_bbox_px": {
+              "x": 640,
+              "y": 332,
+              "w": 573,
+              "h": 307
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "jump_marker",
+            "item": "jump_marker",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 780,
+              "y": 257,
+              "w": 208,
+              "h": 382
+            },
+            "render_bbox_px": {
+              "x": 780,
+              "y": 257,
+              "w": 208,
+              "h": 382
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "recovery_annotations",
+            "item": "recovery_annotations",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 881,
+              "y": 388,
+              "w": 278,
+              "h": 204
+            },
+            "render_bbox_px": {
+              "x": 881,
+              "y": 388,
+              "w": 278,
+              "h": 204
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "dynamic_summary_table",
+            "item": "dynamic_summary_table",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 613,
+              "y": 698,
+              "w": 606,
+              "h": 82
+            },
+            "render_bbox_px": {
+              "x": 613,
+              "y": 698,
+              "w": 606,
+              "h": 82
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "evidence_panel_surface",
+            "item": "evidence_panel_surface",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 606
+            },
+            "render_bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 606
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "evidence_panel_header",
+            "item": "evidence_panel_header",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 47
+            },
+            "render_bbox_px": {
+              "x": 1247,
+              "y": 194,
+              "w": 396,
+              "h": 47
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "evidence_panel_title",
+            "item": "text:evidence_panel_title",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1291,
+              "y": 198,
+              "w": 309,
+              "h": 38
+            },
+            "render_bbox_px": {
+              "x": 1291,
+              "y": 198,
+              "w": 309,
+              "h": 38
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "sinr_gain_card",
+            "item": "sinr_gain_card",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1268,
+              "y": 265,
+              "w": 349,
+              "h": 143
+            },
+            "render_bbox_px": {
+              "x": 1268,
+              "y": 265,
+              "w": 349,
+              "h": 143
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "sinr_gain_value",
+            "item": "text:sinr_gain_value",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1292,
+              "y": 279,
+              "w": 300,
+              "h": 81
+            },
+            "render_bbox_px": {
+              "x": 1292,
+              "y": 279,
+              "w": 300,
+              "h": 81
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "recovery_gain_card",
+            "item": "recovery_gain_card",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1268,
+              "y": 422,
+              "w": 349,
+              "h": 142
+            },
+            "render_bbox_px": {
+              "x": 1268,
+              "y": 422,
+              "w": 349,
+              "h": 142
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "recovery_gain_value",
+            "item": "text:recovery_gain_value",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1293,
+              "y": 432,
+              "w": 300,
+              "h": 78
+            },
+            "render_bbox_px": {
+              "x": 1293,
+              "y": 432,
+              "w": 300,
+              "h": 78
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "latency_risk_card",
+            "item": "latency_risk_card",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1268,
+              "y": 581,
+              "w": 349,
+              "h": 155
+            },
+            "render_bbox_px": {
+              "x": 1268,
+              "y": 581,
+              "w": 349,
+              "h": 155
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "latency_value",
+            "item": "text:latency_value",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1280,
+              "y": 589,
+              "w": 322,
+              "h": 69
+            },
+            "render_bbox_px": {
+              "x": 1280,
+              "y": 589,
+              "w": 322,
+              "h": 69
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "latency_warning",
+            "item": "text:latency_warning",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1287,
+              "y": 679,
+              "w": 311,
+              "h": 42
+            },
+            "render_bbox_px": {
+              "x": 1287,
+              "y": 679,
+              "w": 311,
+              "h": 42
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "caveat_card",
+            "item": "caveat_card",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1260,
+              "y": 748,
+              "w": 365,
+              "h": 42
+            },
+            "render_bbox_px": {
+              "x": 1260,
+              "y": 748,
+              "w": 365,
+              "h": 42
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "caveat_info_icon",
+            "item": "caveat_info_icon",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 1268,
+              "y": 751,
+              "w": 38,
+              "h": 38
+            },
+            "render_bbox_px": {
+              "x": 1268,
+              "y": 751,
+              "w": 38,
+              "h": 38
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "caveat_text",
+            "item": "text:caveat_text",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1310,
+              "y": 750,
+              "w": 304,
+              "h": 37
+            },
+            "render_bbox_px": {
+              "x": 1310,
+              "y": 750,
+              "w": 304,
+              "h": 37
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "conclusion_band_surface",
+            "item": "conclusion_band_surface",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 25,
+              "y": 818,
+              "w": 1618,
+              "h": 90
+            },
+            "render_bbox_px": {
+              "x": 25,
+              "y": 818,
+              "w": 1618,
+              "h": 90
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "conclusion_check_icon",
+            "item": "conclusion_check_icon",
+            "anchor": "bbox",
+            "blueprint_bbox_px": {
+              "x": 132,
+              "y": 831,
+              "w": 65,
+              "h": 64
+            },
+            "render_bbox_px": {
+              "x": 132,
+              "y": 831,
+              "w": 65,
+              "h": 64
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          },
+          {
+            "element_id": "conclusion_text",
+            "item": "text:conclusion_text",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 220,
+              "y": 830,
+              "w": 1300,
+              "h": 64
+            },
+            "render_bbox_px": {
+              "x": 220,
+              "y": 830,
+              "w": 1300,
+              "h": 64
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 3,
+            "status": "passed"
+          },
+          {
+            "element_id": "source_footer",
+            "item": "text:source_footer",
+            "anchor": "text_baseline",
+            "blueprint_bbox_px": {
+              "x": 1325,
+              "y": 892,
+              "w": 290,
+              "h": 14
+            },
+            "render_bbox_px": {
+              "x": 1325,
+              "y": 892,
+              "w": 290,
+              "h": 14
+            },
+            "delta_px": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "tolerance_px": 4,
+            "status": "passed"
+          }
+        ],
+        "failures": []
+      },
+      "container_overflow_check": {
+        "passed": true,
+        "status": "passed",
+        "checked_regions": [
+          "system_performance",
+          "dynamic_recovery",
+          "engineering_evidence",
+          "conclusion_band"
+        ],
+        "failures": []
+      },
+      "continuous_text_flow_check": {
+        "passed": true,
+        "status": "passed",
+        "checked_text_runs": [
+          "main_title",
+          "subtitle",
+          "panel_titles",
+          "chart_labels",
+          "metric_labels",
+          "risk_text",
+          "conclusion_text",
+          "source_footer"
+        ],
+        "failures": []
+      },
+      "table_text_objects": [
+        {
+          "id": "system_result_table",
+          "semantic_role": "table_body",
+          "role": "T7",
+          "font_size_pt": 9.5
+        },
+        {
+          "id": "dynamic_summary_table",
+          "semantic_role": "table_body",
+          "role": "T7",
+          "font_size_pt": 9.5
+        }
+      ],
+      "table_density_check": {
+        "passed": true,
+        "status": "passed",
+        "checked_cells": [
+          "system_header_1",
+          "system_header_2",
+          "system_header_3",
+          "system_row_1",
+          "system_row_2",
+          "system_row_3",
+          "dynamic_meta_1",
+          "dynamic_meta_2",
+          "dynamic_meta_3",
+          "dynamic_meta_4",
+          "dynamic_drl_1",
+          "dynamic_drl_2",
+          "dynamic_drl_3",
+          "dynamic_drl_4"
+        ],
+        "failures": []
+      },
+      "qa_expectations": {
+        "pictures_must_be_zero": false,
+        "all_key_text_editable": true,
+        "typography_scale_required": true,
+        "dual_gate_required": true,
+        "visual_semantics_required": true,
+        "visual_qa_required": true,
+        "label_collision_check_required": true,
+        "spatial_registration_required": true,
+        "container_overflow_check_required": true,
+        "continuous_text_flow_check_required": true,
+        "table_semantic_typography_required": true,
+        "table_density_check_required": true
+      },
+      "powerpoint_compatibility": {
+        "opened_in_powerpoint": true,
+        "exported_by_powerpoint": true,
+        "export_intermediate": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/renders/slide-09-r3.pdf",
+        "ppt_render_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/renders/slide-09.png",
+        "status": "passed"
+      }
+    }
+  ],
+  "final_merge": {
+    "method": "merge_approved_single_page_pptx",
+    "regenerated_pages": false,
+    "source_single_page_pptx": [],
+    "merge_regression_rendered": false,
+    "merge_regression_pass": false
+  }
+}

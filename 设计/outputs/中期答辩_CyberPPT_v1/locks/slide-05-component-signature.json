@@ -1,0 +1,121 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 5,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-05.png",
+  "blueprint_sha256": "0852fc879f4843d065a4720fbead3d4834129543d8f525db91c55c9f6ac54104",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-05-components.json",
+  "component_annotation_sha256": "38c739eadb341293a8f59dac08a73237a788507e0b75f546a845102ea31b1007",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "meta_layer",
+      "type": "native_meta_policy_architecture",
+      "priority": "P0",
+      "required_subcomponents": [
+        "layer_label",
+        "history",
+        "features",
+        "meta_rf",
+        "confidence",
+        "strategy_outputs"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "dam_band",
+      "type": "native_soft_guidance_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "dam_label",
+        "bonus_formula",
+        "hold_rule",
+        "vertical_connectors"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "execution_layer",
+      "type": "native_double_dqn_gru_architecture",
+      "priority": "P0",
+      "required_subcomponents": [
+        "layer_label",
+        "state_sequence",
+        "double_dqn_gru",
+        "q_bonus",
+        "epsilon_greedy",
+        "action_output"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "environment_feedback",
+      "type": "native_closed_loop_environment",
+      "priority": "P0",
+      "required_subcomponents": [
+        "environment_panel",
+        "feedback_sinr",
+        "feedback_action",
+        "closed_loop_arrows"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "time_scale_rail",
+      "type": "native_dual_time_scale_comparison",
+      "priority": "P1",
+      "required_subcomponents": [
+        "panel_header",
+        "meta_scale",
+        "execution_scale"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "warning_panel",
+      "type": "native_engineering_caveat",
+      "priority": "P0",
+      "required_subcomponents": [
+        "warning_icon",
+        "caveat_text",
+        "latency_emphasis"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "school_icon",
+        "conclusion_text",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

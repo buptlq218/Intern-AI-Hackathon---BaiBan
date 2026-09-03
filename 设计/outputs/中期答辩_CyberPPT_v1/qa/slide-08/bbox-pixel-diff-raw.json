@@ -1,0 +1,1239 @@
+{
+  "schema": "cyberppt.render_compare.v1",
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-08.png",
+  "render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-08.png",
+  "registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-08-visual-element-registry.json",
+  "elements_checked": 47,
+  "passed": false,
+  "results": [
+    {
+      "element_id": "background_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "render_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 25.32,
+      "pixel_mean_abs_tolerance": 18.0,
+      "status": "failed"
+    },
+    {
+      "element_id": "page_badge",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 13,
+        "y": 0,
+        "w": 110,
+        "h": 82
+      },
+      "render_bbox_px": {
+        "x": 13,
+        "y": 0,
+        "w": 110,
+        "h": 82
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 34.098,
+      "pixel_mean_abs_tolerance": 95.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "page_number",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 36,
+        "y": 13,
+        "w": 58,
+        "h": 43
+      },
+      "render_bbox_px": {
+        "x": 36,
+        "y": 13,
+        "w": 58,
+        "h": 43
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 84.807,
+      "pixel_mean_abs_tolerance": 105.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "header_deck_title",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 424,
+        "y": 14,
+        "w": 787,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 424,
+        "y": 14,
+        "w": 787,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 91.052,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "section_label",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1358,
+        "y": 20,
+        "w": 292,
+        "h": 35
+      },
+      "render_bbox_px": {
+        "x": 1358,
+        "y": 20,
+        "w": 292,
+        "h": 35
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 72.764,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "top_rule",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 130,
+        "y": 61,
+        "w": 1538,
+        "h": 4
+      },
+      "render_bbox_px": {
+        "x": 130,
+        "y": 61,
+        "w": 1538,
+        "h": 4
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 29.961,
+      "pixel_mean_abs_tolerance": 70.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "main_title",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 291,
+        "y": 94,
+        "w": 1095,
+        "h": 55
+      },
+      "render_bbox_px": {
+        "x": 291,
+        "y": 94,
+        "w": 1095,
+        "h": 55
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 102.736,
+      "pixel_mean_abs_tolerance": 120.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "subtitle",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 400,
+        "y": 164,
+        "w": 887,
+        "h": 37
+      },
+      "render_bbox_px": {
+        "x": 400,
+        "y": 164,
+        "w": 887,
+        "h": 37
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 55.224,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_chart_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 15,
+        "y": 209,
+        "w": 883,
+        "h": 438
+      },
+      "render_bbox_px": {
+        "x": 15,
+        "y": 209,
+        "w": 883,
+        "h": 438
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 14.291,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_chart_title",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 340,
+        "y": 219,
+        "w": 355,
+        "h": 34
+      },
+      "render_bbox_px": {
+        "x": 340,
+        "y": 219,
+        "w": 355,
+        "h": 34
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 60.655,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_chart_axes",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 118,
+        "y": 266,
+        "w": 753,
+        "h": 327
+      },
+      "render_bbox_px": {
+        "x": 118,
+        "y": 266,
+        "w": 753,
+        "h": 327
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 13.276,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_bar_baseline",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 155,
+        "y": 492,
+        "w": 106,
+        "h": 101
+      },
+      "render_bbox_px": {
+        "x": 155,
+        "y": 492,
+        "w": 106,
+        "h": 101
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 33.091,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_bar_freq",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 351,
+        "y": 419,
+        "w": 107,
+        "h": 174
+      },
+      "render_bbox_px": {
+        "x": 351,
+        "y": 419,
+        "w": 107,
+        "h": 174
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 6.089,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_bar_time",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 547,
+        "y": 424,
+        "w": 108,
+        "h": 169
+      },
+      "render_bbox_px": {
+        "x": 547,
+        "y": 424,
+        "w": 108,
+        "h": 169
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 10.443,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_bar_joint",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 743,
+        "y": 400,
+        "w": 107,
+        "h": 193
+      },
+      "render_bbox_px": {
+        "x": 743,
+        "y": 400,
+        "w": 107,
+        "h": 193
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 17.167,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_error_bars",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 202,
+        "y": 365,
+        "w": 597,
+        "h": 228
+      },
+      "render_bbox_px": {
+        "x": 202,
+        "y": 365,
+        "w": 597,
+        "h": 228
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 14.137,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_data_labels",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 152,
+        "y": 367,
+        "w": 700,
+        "h": 107
+      },
+      "render_bbox_px": {
+        "x": 152,
+        "y": 367,
+        "w": 700,
+        "h": 107
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 20.832,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "strategy_axis_labels",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 33,
+        "y": 253,
+        "w": 838,
+        "h": 383
+      },
+      "render_bbox_px": {
+        "x": 33,
+        "y": 253,
+        "w": 838,
+        "h": 383
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 13.934,
+      "pixel_mean_abs_tolerance": 105.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_chart_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 912,
+        "y": 209,
+        "w": 738,
+        "h": 287
+      },
+      "render_bbox_px": {
+        "x": 912,
+        "y": 209,
+        "w": 738,
+        "h": 287
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 17.123,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_chart_title",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1102,
+        "y": 220,
+        "w": 390,
+        "h": 34
+      },
+      "render_bbox_px": {
+        "x": 1102,
+        "y": 220,
+        "w": 390,
+        "h": 34
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 58.655,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_ratio_bar",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1052,
+        "y": 266,
+        "w": 505,
+        "h": 30
+      },
+      "render_bbox_px": {
+        "x": 1052,
+        "y": 266,
+        "w": 505,
+        "h": 30
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 9.963,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_td_bar",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1052,
+        "y": 311,
+        "w": 341,
+        "h": 30
+      },
+      "render_bbox_px": {
+        "x": 1052,
+        "y": 311,
+        "w": 341,
+        "h": 30
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 33.663,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_fc_bar",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1052,
+        "y": 356,
+        "w": 331,
+        "h": 30
+      },
+      "render_bbox_px": {
+        "x": 1052,
+        "y": 356,
+        "w": 331,
+        "h": 30
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 27.368,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_avoid_bar",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1052,
+        "y": 402,
+        "w": 123,
+        "h": 30
+      },
+      "render_bbox_px": {
+        "x": 1052,
+        "y": 402,
+        "w": 123,
+        "h": 30
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 24.138,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_entropy_bar",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1052,
+        "y": 447,
+        "w": 93,
+        "h": 30
+      },
+      "render_bbox_px": {
+        "x": 1052,
+        "y": 447,
+        "w": 93,
+        "h": 30
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 10.252,
+      "pixel_mean_abs_tolerance": 75.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "importance_labels",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 938,
+        "y": 261,
+        "w": 686,
+        "h": 222
+      },
+      "render_bbox_px": {
+        "x": 938,
+        "y": 261,
+        "w": 686,
+        "h": 222
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 16.448,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_panel_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 912,
+        "y": 505,
+        "w": 738,
+        "h": 142
+      },
+      "render_bbox_px": {
+        "x": 912,
+        "y": 505,
+        "w": 738,
+        "h": 142
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 37.188,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_divider",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1273,
+        "y": 523,
+        "w": 2,
+        "h": 106
+      },
+      "render_bbox_px": {
+        "x": 1273,
+        "y": 523,
+        "w": 2,
+        "h": 106
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 19.572,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_baseline_value",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 959,
+        "y": 528,
+        "w": 285,
+        "h": 60
+      },
+      "render_bbox_px": {
+        "x": 959,
+        "y": 528,
+        "w": 285,
+        "h": 60
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 73.574,
+      "pixel_mean_abs_tolerance": 125.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_baseline_label",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 973,
+        "y": 600,
+        "w": 263,
+        "h": 31
+      },
+      "render_bbox_px": {
+        "x": 973,
+        "y": 600,
+        "w": 263,
+        "h": 31
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 60.24,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_gru_value",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1330,
+        "y": 528,
+        "w": 274,
+        "h": 60
+      },
+      "render_bbox_px": {
+        "x": 1330,
+        "y": 528,
+        "w": 274,
+        "h": 60
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 69.984,
+      "pixel_mean_abs_tolerance": 125.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "metric_gru_label",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1360,
+        "y": 600,
+        "w": 228,
+        "h": 31
+      },
+      "render_bbox_px": {
+        "x": 1360,
+        "y": 600,
+        "w": 228,
+        "h": 31
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 58.866,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 15,
+        "y": 657,
+        "w": 1636,
+        "h": 91
+      },
+      "render_bbox_px": {
+        "x": 15,
+        "y": 657,
+        "w": 1636,
+        "h": 91
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 29.994,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_icon_1",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 84,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "render_bbox_px": {
+        "x": 84,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 8.778,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_icon_2",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 607,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "render_bbox_px": {
+        "x": 607,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 20.827,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_icon_3",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1093,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "render_bbox_px": {
+        "x": 1093,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 36.727,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_finding_1",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 187,
+        "y": 669,
+        "w": 322,
+        "h": 67
+      },
+      "render_bbox_px": {
+        "x": 187,
+        "y": 669,
+        "w": 322,
+        "h": 67
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 48.221,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_finding_2",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 699,
+        "y": 669,
+        "w": 307,
+        "h": 67
+      },
+      "render_bbox_px": {
+        "x": 699,
+        "y": 669,
+        "w": 307,
+        "h": 67
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 45.743,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_finding_3",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 1190,
+        "y": 669,
+        "w": 417,
+        "h": 67
+      },
+      "render_bbox_px": {
+        "x": 1190,
+        "y": 669,
+        "w": 417,
+        "h": 67
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 62.823,
+      "pixel_mean_abs_tolerance": 110.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "interpretation_dividers",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 531,
+        "y": 681,
+        "w": 482,
+        "h": 48
+      },
+      "render_bbox_px": {
+        "x": 531,
+        "y": 681,
+        "w": 482,
+        "h": 48
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 35.617,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 15,
+        "y": 760,
+        "w": 1636,
+        "h": 67
+      },
+      "render_bbox_px": {
+        "x": 15,
+        "y": 760,
+        "w": 1636,
+        "h": 67
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 29.366,
+      "pixel_mean_abs_tolerance": 78.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_icon",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 394,
+        "y": 767,
+        "w": 60,
+        "h": 55
+      },
+      "render_bbox_px": {
+        "x": 394,
+        "y": 767,
+        "w": 60,
+        "h": 55
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 9.747,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_text",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 476,
+        "y": 773,
+        "w": 831,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 476,
+        "y": 773,
+        "w": 831,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 61.289,
+      "pixel_mean_abs_tolerance": 115.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 15,
+        "y": 837,
+        "w": 1636,
+        "h": 88
+      },
+      "render_bbox_px": {
+        "x": 15,
+        "y": 837,
+        "w": 1636,
+        "h": 88
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 31.744,
+      "pixel_mean_abs_tolerance": 72.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "trophy_icon",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 172,
+        "y": 840,
+        "w": 84,
+        "h": 82
+      },
+      "render_bbox_px": {
+        "x": 172,
+        "y": 840,
+        "w": 84,
+        "h": 82
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 14.943,
+      "pixel_mean_abs_tolerance": 100.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "conclusion_text",
+      "priority": "P0",
+      "blueprint_bbox_px": {
+        "x": 290,
+        "y": 852,
+        "w": 1116,
+        "h": 54
+      },
+      "render_bbox_px": {
+        "x": 290,
+        "y": 852,
+        "w": 1116,
+        "h": 54
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "pixel_mean_abs_diff": 62.804,
+      "pixel_mean_abs_tolerance": 120.0,
+      "status": "passed"
+    },
+    {
+      "element_id": "source_footer",
+      "priority": "P1",
+      "blueprint_bbox_px": {
+        "x": 1320,
+        "y": 906,
+        "w": 285,
+        "h": 13
+      },
+      "render_bbox_px": {
+        "x": 1320,
+        "y": 906,
+        "w": 285,
+        "h": 13
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "pixel_mean_abs_diff": 23.035,
+      "pixel_mean_abs_tolerance": 90.0,
+      "status": "passed"
+    }
+  ],
+  "failures": [
+    {
+      "element_id": "background_surface",
+      "code": "PIXEL_DIFF_EXCEEDED",
+      "severity": "High"
+    }
+  ]
+}

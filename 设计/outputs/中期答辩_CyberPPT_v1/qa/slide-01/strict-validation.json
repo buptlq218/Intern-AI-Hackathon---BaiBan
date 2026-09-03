@@ -1,0 +1,66 @@
+{
+  "file": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/pages/slide-01.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 4,
+    "native_graphic_shapes": 10,
+    "pictures": 1,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1,
+      "strict_failure": true
+    }
+  ],
+  "warnings": [
+    {
+      "code": "LARGE_IMAGE_ASSET",
+      "message": "A single image covers at least 40% of the slide and must be justified in slide_manifest.json.",
+      "slide": 1
+    },
+    {
+      "code": "HIGH_TOTAL_IMAGE_AREA",
+      "message": "Images cover at least 40% of the slide in total and must be justified in slide_manifest.json.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 4,
+      "native_graphic_shapes": 10,
+      "pictures": 1,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 11,
+      "coverage_ratio": 0.8828,
+      "picture_area_ratio": 0.7094,
+      "max_picture_area_ratio": 0.7094,
+      "min_font_size_pt": 16.5,
+      "max_font_size_pt": 50.0,
+      "text_characters": 38
+    }
+  ],
+  "manifest": {
+    "file": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/slide_manifest.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/visual_qa_gate.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

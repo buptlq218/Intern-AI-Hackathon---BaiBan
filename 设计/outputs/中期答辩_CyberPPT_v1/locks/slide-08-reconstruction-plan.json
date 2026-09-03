@@ -1,0 +1,703 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 8,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-08.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with a large strategy chart, right evidence rail, finding strip, caveat strip and navy conclusion band",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 13,
+        "y": 0,
+        "w": 1637,
+        "h": 201
+      }
+    },
+    {
+      "id": "strategy_chart",
+      "bbox_px": {
+        "x": 15,
+        "y": 209,
+        "w": 883,
+        "h": 438
+      }
+    },
+    {
+      "id": "importance_and_metrics",
+      "bbox_px": {
+        "x": 912,
+        "y": 209,
+        "w": 738,
+        "h": 438
+      }
+    },
+    {
+      "id": "interpretation_strip",
+      "bbox_px": {
+        "x": 15,
+        "y": 657,
+        "w": 1636,
+        "h": 91
+      }
+    },
+    {
+      "id": "caveat_strip",
+      "bbox_px": {
+        "x": 15,
+        "y": 760,
+        "w": 1636,
+        "h": 67
+      }
+    },
+    {
+      "id": "conclusion_band",
+      "bbox_px": {
+        "x": 15,
+        "y": 837,
+        "w": 1636,
+        "h": 88
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "08",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "工作成果｜阶段性验证",
+    "footer": "source IDs in conclusion band"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 15,
+      "y": 837,
+      "w": 1636,
+      "h": 88
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "Four-policy mean SINR with standard-deviation error bars, feature importance ranking, two key metrics, and three evidence interpretations.",
+  "density_targets": {
+    "overall": "high",
+    "strategy_chart": "four bars, four uncertainty ranges, four exact data labels",
+    "importance_chart": "five horizontal ranked features with exact values",
+    "evidence_strips": "two key metrics, three findings, one experiment-level caveat"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 13,
+        "y": 0,
+        "w": 110,
+        "h": 82
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 36,
+        "y": 13,
+        "w": 58,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 424,
+        "y": 14,
+        "w": 787,
+        "h": 42
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1358,
+        "y": 20,
+        "w": 292,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 130,
+        "y": 61,
+        "w": 1538,
+        "h": 4
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 291,
+        "y": 94,
+        "w": 1095,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 400,
+        "y": 164,
+        "w": 887,
+        "h": 37
+      }
+    },
+    {
+      "element_id": "strategy_chart_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 209,
+        "w": 883,
+        "h": 438
+      }
+    },
+    {
+      "element_id": "strategy_chart_title",
+      "bbox_px": {
+        "x": 340,
+        "y": 219,
+        "w": 355,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "strategy_chart_axes",
+      "bbox_px": {
+        "x": 118,
+        "y": 266,
+        "w": 753,
+        "h": 327
+      }
+    },
+    {
+      "element_id": "strategy_bar_baseline",
+      "bbox_px": {
+        "x": 155,
+        "y": 492,
+        "w": 106,
+        "h": 101
+      }
+    },
+    {
+      "element_id": "strategy_bar_freq",
+      "bbox_px": {
+        "x": 351,
+        "y": 419,
+        "w": 107,
+        "h": 174
+      }
+    },
+    {
+      "element_id": "strategy_bar_time",
+      "bbox_px": {
+        "x": 547,
+        "y": 424,
+        "w": 108,
+        "h": 169
+      }
+    },
+    {
+      "element_id": "strategy_bar_joint",
+      "bbox_px": {
+        "x": 743,
+        "y": 400,
+        "w": 107,
+        "h": 193
+      }
+    },
+    {
+      "element_id": "strategy_error_bars",
+      "bbox_px": {
+        "x": 202,
+        "y": 365,
+        "w": 597,
+        "h": 228
+      }
+    },
+    {
+      "element_id": "strategy_data_labels",
+      "bbox_px": {
+        "x": 152,
+        "y": 367,
+        "w": 700,
+        "h": 107
+      }
+    },
+    {
+      "element_id": "strategy_axis_labels",
+      "bbox_px": {
+        "x": 33,
+        "y": 253,
+        "w": 838,
+        "h": 383
+      }
+    },
+    {
+      "element_id": "importance_chart_surface",
+      "bbox_px": {
+        "x": 912,
+        "y": 209,
+        "w": 738,
+        "h": 287
+      }
+    },
+    {
+      "element_id": "importance_chart_title",
+      "bbox_px": {
+        "x": 1102,
+        "y": 220,
+        "w": 390,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "importance_ratio_bar",
+      "bbox_px": {
+        "x": 1052,
+        "y": 266,
+        "w": 505,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "importance_td_bar",
+      "bbox_px": {
+        "x": 1052,
+        "y": 311,
+        "w": 341,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "importance_fc_bar",
+      "bbox_px": {
+        "x": 1052,
+        "y": 356,
+        "w": 331,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "importance_avoid_bar",
+      "bbox_px": {
+        "x": 1052,
+        "y": 402,
+        "w": 123,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "importance_entropy_bar",
+      "bbox_px": {
+        "x": 1052,
+        "y": 447,
+        "w": 93,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "importance_labels",
+      "bbox_px": {
+        "x": 938,
+        "y": 261,
+        "w": 686,
+        "h": 222
+      }
+    },
+    {
+      "element_id": "metric_panel_surface",
+      "bbox_px": {
+        "x": 912,
+        "y": 505,
+        "w": 738,
+        "h": 142
+      }
+    },
+    {
+      "element_id": "metric_divider",
+      "bbox_px": {
+        "x": 1273,
+        "y": 523,
+        "w": 2,
+        "h": 106
+      }
+    },
+    {
+      "element_id": "metric_baseline_value",
+      "bbox_px": {
+        "x": 959,
+        "y": 528,
+        "w": 285,
+        "h": 60
+      }
+    },
+    {
+      "element_id": "metric_baseline_label",
+      "bbox_px": {
+        "x": 973,
+        "y": 600,
+        "w": 263,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "metric_gru_value",
+      "bbox_px": {
+        "x": 1330,
+        "y": 528,
+        "w": 274,
+        "h": 60
+      }
+    },
+    {
+      "element_id": "metric_gru_label",
+      "bbox_px": {
+        "x": 1360,
+        "y": 600,
+        "w": 228,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "interpretation_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 657,
+        "w": 1636,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "interpretation_icon_1",
+      "bbox_px": {
+        "x": 84,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      }
+    },
+    {
+      "element_id": "interpretation_icon_2",
+      "bbox_px": {
+        "x": 607,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      }
+    },
+    {
+      "element_id": "interpretation_icon_3",
+      "bbox_px": {
+        "x": 1093,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      }
+    },
+    {
+      "element_id": "interpretation_finding_1",
+      "bbox_px": {
+        "x": 187,
+        "y": 669,
+        "w": 322,
+        "h": 67
+      }
+    },
+    {
+      "element_id": "interpretation_finding_2",
+      "bbox_px": {
+        "x": 699,
+        "y": 669,
+        "w": 307,
+        "h": 67
+      }
+    },
+    {
+      "element_id": "interpretation_finding_3",
+      "bbox_px": {
+        "x": 1190,
+        "y": 669,
+        "w": 417,
+        "h": 67
+      }
+    },
+    {
+      "element_id": "interpretation_dividers",
+      "bbox_px": {
+        "x": 531,
+        "y": 681,
+        "w": 482,
+        "h": 48
+      }
+    },
+    {
+      "element_id": "caveat_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 760,
+        "w": 1636,
+        "h": 67
+      }
+    },
+    {
+      "element_id": "caveat_icon",
+      "bbox_px": {
+        "x": 394,
+        "y": 767,
+        "w": 60,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "caveat_text",
+      "bbox_px": {
+        "x": 476,
+        "y": 773,
+        "w": 831,
+        "h": 42
+      }
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 837,
+        "w": 1636,
+        "h": 88
+      }
+    },
+    {
+      "element_id": "trophy_icon",
+      "bbox_px": {
+        "x": 172,
+        "y": 840,
+        "w": 84,
+        "h": 82
+      }
+    },
+    {
+      "element_id": "conclusion_text",
+      "bbox_px": {
+        "x": 290,
+        "y": 852,
+        "w": 1116,
+        "h": 54
+      }
+    },
+    {
+      "element_id": "source_footer",
+      "bbox_px": {
+        "x": 1320,
+        "y": 906,
+        "w": 285,
+        "h": 13
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text and formulas",
+    "four-strategy bar chart and uncertainty",
+    "feature importance chart",
+    "two metric numbers",
+    "three findings, caveat and conclusion band"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "check-1",
+      "icon_id": "approved-blueprint-crop/check",
+      "region": "结论一",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+      "source": "Approved slide-08 blueprint crop",
+      "source_bbox_px": {
+        "x": 84,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "check-2",
+      "icon_id": "approved-blueprint-crop/check",
+      "region": "结论二",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+      "source": "Approved slide-08 blueprint crop",
+      "source_bbox_px": {
+        "x": 607,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "check-3",
+      "icon_id": "approved-blueprint-crop/check",
+      "region": "结论三",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+      "source": "Approved slide-08 blueprint crop",
+      "source_bbox_px": {
+        "x": 1093,
+        "y": 668,
+        "w": 77,
+        "h": 72
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "warning",
+      "icon_id": "approved-blueprint-crop/warning",
+      "region": "实验层次限定",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/warning.png",
+      "source": "Approved slide-08 blueprint crop",
+      "source_bbox_px": {
+        "x": 394,
+        "y": 767,
+        "w": 60,
+        "h": 55
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "trophy",
+      "icon_id": "approved-blueprint-crop/trophy",
+      "region": "阶段成果",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/trophy.png",
+      "source": "Approved slide-08 blueprint crop",
+      "source_bbox_px": {
+        "x": 172,
+        "y": 840,
+        "w": 84,
+        "h": 82
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "icon_style_lock": {
+    "library": "approved-blueprint-crops",
+    "style_locked": true,
+    "icons": [
+      {
+        "placement_id": "check-1",
+        "icon_id": "approved-blueprint-crop/check",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "结论一",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+        "source_bbox_px": {
+          "x": 84,
+          "y": 668,
+          "w": 77,
+          "h": 72
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "check-2",
+        "icon_id": "approved-blueprint-crop/check",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "结论二",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+        "source_bbox_px": {
+          "x": 607,
+          "y": 668,
+          "w": 77,
+          "h": 72
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "check-3",
+        "icon_id": "approved-blueprint-crop/check",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "结论三",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/check.png",
+        "source_bbox_px": {
+          "x": 1093,
+          "y": 668,
+          "w": 77,
+          "h": 72
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "warning",
+        "icon_id": "approved-blueprint-crop/warning",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "实验层次限定",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/warning.png",
+        "source_bbox_px": {
+          "x": 394,
+          "y": 767,
+          "w": 60,
+          "h": 55
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "trophy",
+        "icon_id": "approved-blueprint-crop/trophy",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "阶段成果",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-08-blueprint-icons/trophy.png",
+        "source_bbox_px": {
+          "x": 172,
+          "y": 840,
+          "w": 84,
+          "h": 82
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      }
+    ]
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "error_bar_gate",
+      "chart_semantics_gate",
+      "icon_transparency_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "All charts, values, labels and conclusions remain native; five transparent icon placements preserve exact blueprint fidelity."
+  }
+}

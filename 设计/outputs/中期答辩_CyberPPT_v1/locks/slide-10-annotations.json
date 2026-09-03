@@ -1,0 +1,497 @@
+{
+  "elements": [
+    {
+      "element_id": "background_surface",
+      "priority": "P0",
+      "element_type": "background",
+      "source_component_id": "page_surface",
+      "role": "background",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 18
+    },
+    {
+      "element_id": "page_badge",
+      "priority": "P1",
+      "element_type": "shape",
+      "source_component_id": "page_header",
+      "role": "page_badge",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 9,
+        "y": 8,
+        "w": 83,
+        "h": 51
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 95
+    },
+    {
+      "element_id": "page_number",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "page_number",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 20,
+        "y": 10,
+        "w": 48,
+        "h": 46
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "header_deck_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "header_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 448,
+        "y": 14,
+        "w": 775,
+        "h": 46
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "section_label",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "section_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1390,
+        "y": 14,
+        "w": 247,
+        "h": 44
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "top_rule",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "page_header",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 9,
+        "y": 64,
+        "w": 1653,
+        "h": 4
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "main_title",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 282,
+        "y": 101,
+        "w": 1107,
+        "h": 61
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 125
+    },
+    {
+      "element_id": "subtitle",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "subtitle",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 442,
+        "y": 174,
+        "w": 790,
+        "h": 47
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "timeline_background",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "three_stage_timeline",
+      "role": "timeline_surface",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 301,
+        "w": 1545,
+        "h": 464
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "timeline_flow",
+      "priority": "P1",
+      "element_type": "line_group",
+      "source_component_id": "three_stage_timeline",
+      "role": "flow_arrows",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 371,
+        "y": 290,
+        "w": 870,
+        "h": 31
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "stage_complete_icon",
+      "priority": "P0",
+      "element_type": "picture",
+      "source_component_id": "three_stage_timeline",
+      "role": "stage_icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 208,
+        "y": 222,
+        "w": 168,
+        "h": 168
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "stage_writing_icon",
+      "priority": "P0",
+      "element_type": "picture",
+      "source_component_id": "three_stage_timeline",
+      "role": "stage_icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 222,
+        "w": 166,
+        "h": 168
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "stage_defense_icon",
+      "priority": "P0",
+      "element_type": "picture",
+      "source_component_id": "three_stage_timeline",
+      "role": "stage_icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1263,
+        "y": 222,
+        "w": 166,
+        "h": 169
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "stage_titles",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "three_stage_timeline",
+      "role": "stage_titles",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 209,
+        "y": 394,
+        "w": 1235,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "stage_dividers",
+      "priority": "P1",
+      "element_type": "line_group",
+      "source_component_id": "three_stage_timeline",
+      "role": "status_dividers",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 125,
+        "y": 449,
+        "w": 1402,
+        "h": 10
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "stage_statuses",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "three_stage_timeline",
+      "role": "stage_statuses",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 190,
+        "y": 463,
+        "w": 1274,
+        "h": 39
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "completed_task_icons",
+      "priority": "P1",
+      "element_type": "picture_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_icons",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 128,
+        "y": 506,
+        "w": 46,
+        "h": 245
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "completed_task_text",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_list",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 190,
+        "y": 504,
+        "w": 292,
+        "h": 247
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "writing_task_icons",
+      "priority": "P1",
+      "element_type": "picture_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_icons",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 650,
+        "y": 520,
+        "w": 53,
+        "h": 199
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "writing_task_text",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_list",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 728,
+        "y": 518,
+        "w": 280,
+        "h": 201
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "defense_task_icons",
+      "priority": "P1",
+      "element_type": "picture_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_icons",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1173,
+        "y": 509,
+        "w": 55,
+        "h": 234
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "defense_task_text",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "progress_task_lists",
+      "role": "task_list",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1252,
+        "y": 507,
+        "w": 286,
+        "h": 236
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "task_separators",
+      "priority": "P1",
+      "element_type": "line_group",
+      "source_component_id": "progress_task_lists",
+      "role": "row_separators",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 115,
+        "y": 553,
+        "w": 1429,
+        "h": 198
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 74
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "conclusion_band",
+      "role": "so_what",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 772,
+        "w": 1545,
+        "h": 101
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 76
+    },
+    {
+      "element_id": "conclusion_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "conclusion_band",
+      "role": "clipboard_icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 151,
+        "y": 781,
+        "w": 95,
+        "h": 82
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "conclusion_text",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "conclusion_band",
+      "role": "so_what_text",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 322,
+        "y": 790,
+        "w": 1185,
+        "h": 64
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 125
+    },
+    {
+      "element_id": "footer_info_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "conclusion_band",
+      "role": "info_icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 608,
+        "y": 890,
+        "w": 36,
+        "h": 36
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "footer_caveat",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "conclusion_band",
+      "role": "caveat",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 650,
+        "y": 886,
+        "w": 453,
+        "h": 42
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "source_footer",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "conclusion_band",
+      "role": "source",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1340,
+        "y": 915,
+        "w": 275,
+        "h": 12
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 92
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 1,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-01.png",
+  "blueprint_sha256": "c0dbf31bcf61e49850779e248c8a824a058ad85b8bcbf7b84020517aeeb01cd3",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-01-components.json",
+  "component_annotation_sha256": "04795ce15e5f9d6e58c8a02776e75965e4bd8c990ebb44332643b1394f415730",
+  "components": [
+    {
+      "id": "cover_typography",
+      "type": "native_cover_typography",
+      "priority": "P0",
+      "required_subcomponents": [
+        "title_line_1",
+        "title_line_2",
+        "subtitle",
+        "presenter_bullet",
+        "presenter_name"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "technical_atmosphere_visual",
+      "type": "single_transparent_non_text_complex_visual_asset",
+      "priority": "P0",
+      "required_subcomponents": [
+        "radar_arcs",
+        "chirp_waveform",
+        "received_signal_waveform",
+        "radar_device_line_art"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "cover_rule_system",
+      "type": "native_line_and_endpoint_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "title_accent_rule",
+        "title_hairline",
+        "bottom_rule",
+        "bottom_left_endpoint",
+        "bottom_right_endpoint"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

@@ -1,0 +1,1177 @@
+{
+  "elements": [
+    {
+      "element_id": "background_surface",
+      "priority": "P0",
+      "element_type": "background",
+      "source_component_id": "page_surface",
+      "role": "background",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 18
+    },
+    {
+      "element_id": "page_badge",
+      "priority": "P1",
+      "element_type": "shape",
+      "source_component_id": "page_header",
+      "role": "page_badge",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 73
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 95
+    },
+    {
+      "element_id": "page_number",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "page_number",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 23,
+        "y": 11,
+        "w": 58,
+        "h": 45
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "header_deck_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "header_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 437,
+        "y": 18,
+        "w": 781,
+        "h": 38
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "section_label",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "section_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1338,
+        "y": 21,
+        "w": 305,
+        "h": 35
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "top_rule",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "page_header",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 72,
+        "w": 1672,
+        "h": 4
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 70
+    },
+    {
+      "element_id": "main_title",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 182,
+        "y": 99,
+        "w": 1327,
+        "h": 51
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "subtitle",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "subtitle",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 391,
+        "y": 163,
+        "w": 923,
+        "h": 38
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_signal_row",
+      "priority": "P0",
+      "element_type": "group",
+      "source_component_id": "feature_matrix",
+      "role": "feature_group",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 31,
+        "y": 233,
+        "w": 469,
+        "h": 126
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "feature_signal_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "feature_matrix",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 47,
+        "y": 251,
+        "w": 90,
+        "h": 94
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "feature_signal_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "feature_matrix",
+      "role": "group_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 258,
+        "w": 280,
+        "h": 32
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_signal_formula",
+      "priority": "P1",
+      "element_type": "formula",
+      "source_component_id": "feature_matrix",
+      "role": "formula",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 299,
+        "w": 285,
+        "h": 54
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_action_row",
+      "priority": "P0",
+      "element_type": "group",
+      "source_component_id": "feature_matrix",
+      "role": "feature_group",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 31,
+        "y": 360,
+        "w": 469,
+        "h": 145
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "feature_action_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "feature_matrix",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 47,
+        "y": 378,
+        "w": 90,
+        "h": 94
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "feature_action_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "feature_matrix",
+      "role": "group_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 385,
+        "w": 280,
+        "h": 32
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_action_formula",
+      "priority": "P1",
+      "element_type": "formula",
+      "source_component_id": "feature_matrix",
+      "role": "formula",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 426,
+        "w": 285,
+        "h": 73
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_avoid_row",
+      "priority": "P0",
+      "element_type": "group",
+      "source_component_id": "feature_matrix",
+      "role": "feature_group",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 31,
+        "y": 506,
+        "w": 469,
+        "h": 108
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "feature_avoid_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "feature_matrix",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 47,
+        "y": 524,
+        "w": 90,
+        "h": 83
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "feature_avoid_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "feature_matrix",
+      "role": "group_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 531,
+        "w": 280,
+        "h": 32
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_avoid_formula",
+      "priority": "P1",
+      "element_type": "formula",
+      "source_component_id": "feature_matrix",
+      "role": "formula",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 572,
+        "w": 285,
+        "h": 36
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_sensitivity_row",
+      "priority": "P0",
+      "element_type": "group",
+      "source_component_id": "feature_matrix",
+      "role": "feature_group",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 31,
+        "y": 615,
+        "w": 469,
+        "h": 107
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "feature_sensitivity_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "feature_matrix",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 47,
+        "y": 633,
+        "w": 90,
+        "h": 82
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "feature_sensitivity_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "feature_matrix",
+      "role": "group_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 640,
+        "w": 280,
+        "h": 32
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_sensitivity_formula",
+      "priority": "P1",
+      "element_type": "formula",
+      "source_component_id": "feature_matrix",
+      "role": "formula",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 176,
+        "y": 681,
+        "w": 285,
+        "h": 35
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "feature_dimension_counts",
+      "priority": "P1",
+      "element_type": "text_group",
+      "source_component_id": "feature_matrix",
+      "role": "dimension_count",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 455,
+        "y": 260,
+        "w": 44,
+        "h": 429
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "feature_bracket",
+      "priority": "P1",
+      "element_type": "connector_group",
+      "source_component_id": "feature_matrix",
+      "role": "bracket",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 500,
+        "y": 233,
+        "w": 130,
+        "h": 490
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "feature_total_label",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "feature_matrix",
+      "role": "total_features",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 540,
+        "y": 448,
+        "w": 80,
+        "h": 72
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_panel_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "core_panel",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 631,
+        "y": 223,
+        "w": 347,
+        "h": 510
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "rf_panel_header",
+      "priority": "P1",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "module_header",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 631,
+        "y": 223,
+        "w": 347,
+        "h": 55
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "rf_panel_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 671,
+        "y": 238,
+        "w": 270,
+        "h": 31
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_scenes_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 292,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_scenes_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 289,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_scenes_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 300,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_split_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 367,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_split_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 364,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_split_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 375,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_cv_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 442,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_cv_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 439,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_cv_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 450,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_trees_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 518,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_trees_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 515,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_trees_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 526,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_depth_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 590,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_depth_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 587,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_depth_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 598,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_accuracy_stage",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "rf_pipeline",
+      "role": "pipeline_stage",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 656,
+        "y": 665,
+        "w": 296,
+        "h": 57
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "rf_accuracy_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "rf_pipeline",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 666,
+        "y": 662,
+        "w": 68,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "rf_accuracy_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "rf_pipeline",
+      "role": "stage_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 748,
+        "y": 673,
+        "w": 185,
+        "h": 41
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_connectors",
+      "priority": "P1",
+      "element_type": "connector_group",
+      "source_component_id": "rf_pipeline",
+      "role": "connector",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 690,
+        "y": 349,
+        "w": 126,
+        "h": 316
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "strategy_table_header",
+      "priority": "P1",
+      "element_type": "panel",
+      "source_component_id": "strategy_panel",
+      "role": "module_header",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 223,
+        "w": 570,
+        "h": 55
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "strategy_table_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "strategy_panel",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1120,
+        "y": 238,
+        "w": 437,
+        "h": 31
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "strategy_table",
+      "priority": "P0",
+      "element_type": "table",
+      "source_component_id": "strategy_panel",
+      "role": "strategy_table",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 292,
+        "w": 570,
+        "h": 217
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "strategy_row_1",
+      "priority": "P1",
+      "element_type": "table_row",
+      "source_component_id": "strategy_panel",
+      "role": "strategy_row",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 341,
+        "w": 570,
+        "h": 56
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "strategy_row_2",
+      "priority": "P1",
+      "element_type": "table_row",
+      "source_component_id": "strategy_panel",
+      "role": "strategy_row",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 397,
+        "w": 570,
+        "h": 56
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "strategy_row_3",
+      "priority": "P1",
+      "element_type": "table_row",
+      "source_component_id": "strategy_panel",
+      "role": "strategy_row",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 453,
+        "w": 570,
+        "h": 56
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "soft_guidance_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "strategy_panel",
+      "role": "guidance",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1053,
+        "y": 530,
+        "w": 570,
+        "h": 145
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "soft_guidance_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "strategy_panel",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1063,
+        "y": 546,
+        "w": 98,
+        "h": 98
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "soft_guidance_text",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "strategy_panel",
+      "role": "guidance_text",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1175,
+        "y": 545,
+        "w": 420,
+        "h": 117
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "accuracy_caveat_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "strategy_panel",
+      "role": "caveat",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1044,
+        "y": 684,
+        "w": 587,
+        "h": 64
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "accuracy_caveat_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "strategy_panel",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1051,
+        "y": 691,
+        "w": 56,
+        "h": 52
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "accuracy_caveat_text",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "strategy_panel",
+      "role": "caveat_text",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1114,
+        "y": 694,
+        "w": 500,
+        "h": 43
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "rf_to_strategy_arrow",
+      "priority": "P1",
+      "element_type": "connector_group",
+      "source_component_id": "strategy_panel",
+      "role": "connector",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 978,
+        "y": 449,
+        "w": 74,
+        "h": 44
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "strategy_vertical_separator",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "strategy_panel",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1014,
+        "y": 219,
+        "w": 2,
+        "h": 535
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "conclusion_panel_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "conclusion_panel",
+      "role": "so_what",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 35,
+        "y": 775,
+        "w": 1596,
+        "h": 113
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "conclusion_icon",
+      "priority": "P1",
+      "element_type": "picture",
+      "source_component_id": "conclusion_panel",
+      "role": "icon",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 792,
+        "w": 76,
+        "h": 76
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "conclusion_statement",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "conclusion_panel",
+      "role": "core_statement",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 169,
+        "y": 805,
+        "w": 742,
+        "h": 53
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "conclusion_divider",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "conclusion_panel",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 931,
+        "y": 790,
+        "w": 2,
+        "h": 84
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "conclusion_explanation",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "conclusion_panel",
+      "role": "body",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 965,
+        "y": 799,
+        "w": 607,
+        "h": 65
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "source_footer",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "conclusion_panel",
+      "role": "source",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1325,
+        "y": 869,
+        "w": 280,
+        "h": 12
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    }
+  ]
+}

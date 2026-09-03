@@ -1,0 +1,631 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-01.png",
+      "ppt_render_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/renders/slide-01.png",
+      "side_by_side_comparison_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/side-by-side.png",
+      "component_signature_check_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/component-signature-check.json",
+      "visual_element_registry_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-01-visual-element-registry.json",
+      "bbox_delta_report_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/bbox-pixel-diff.json",
+      "overlay_comparison_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/overlay.png",
+      "pixel_diff_report_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/title-comparison.png"
+        },
+        {
+          "path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/technical-visual-comparison.png"
+        },
+        {
+          "path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/footer-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/overlay.png"
+      ],
+      "measurement_evidence_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-01-visual-element-registry.json",
+      "spatial_numeric_check_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/bbox-pixel-diff.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "main_chart_semantics_match": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "visual_semantics_preserved": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "editable_information_layer_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "spatial_registration_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "curve_fidelity_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "label_collision_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "text_overflow_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "container_overflow_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "continuous_text_flow_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "table_semantic_typography_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "table_density_pass": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json",
+        "blueprint_background_not_used": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/qa/slide-01/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 2,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-02.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-02.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-02-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/scene-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/rail-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-02/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-02-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-02/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 3,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-03.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-03.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-03-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/issue-tree-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/objective-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/route-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-03/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-03-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-03/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 4,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-04.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-04.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-04-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/mechanism-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/matrix-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/right-rail-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-04/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-04-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-04/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 5,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-05.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-05.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-05-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/meta-layer-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/dam-execution-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/environment-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/right-rail-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-05/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-05-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 6,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-06.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-06.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-06-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/network-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/training-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/reward-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-06/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-06-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-06/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 7,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-07.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-07.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-07-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/features-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/rf-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/strategy-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-07/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-07-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-07/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 8,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-08.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-08.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-08-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/strategy-chart-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/evidence-rail-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/findings-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-08/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-08-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-08/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 9,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-09.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-09.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-09-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/system-performance-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/dynamic-recovery-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/engineering-evidence-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-09/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-09-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-09/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    },
+    {
+      "slide": 10,
+      "blueprint_render_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-10.png",
+      "ppt_render_path": "outputs/中期答辩_CyberPPT_v1/renders/slide-10.png",
+      "side_by_side_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/side-by-side.png",
+      "component_signature_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/component-signature-check.json",
+      "visual_element_registry_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-10-visual-element-registry.json",
+      "bbox_delta_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/spatial-numeric-check.json",
+      "overlay_comparison_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/overlay.png",
+      "pixel_diff_report_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+      "local_crop_comparisons": [
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/header-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/timeline-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/completed-stage-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/writing-stage-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/defense-stage-comparison.png"
+        },
+        {
+          "path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/conclusion-comparison.png"
+        }
+      ],
+      "local_overlay_artifacts": [
+        "outputs/中期答辩_CyberPPT_v1/qa/slide-10/overlay.png"
+      ],
+      "measurement_evidence_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-10-visual-element-registry.json",
+      "spatial_numeric_check_path": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/spatial-numeric-check.json",
+      "visual_differences": [],
+      "evidence": {
+        "surface_system_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "main_chart_semantics_match": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "visual_semantics_preserved": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "editable_information_layer_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "spatial_registration_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "curve_fidelity_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "label_collision_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "text_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "container_overflow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "continuous_text_flow_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "table_semantic_typography_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "table_density_pass": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json",
+        "blueprint_background_not_used": "outputs/中期答辩_CyberPPT_v1/qa/slide-10/pixel-diff-report.json"
+      },
+      "deliverable_allowed": true,
+      "surface_system_match": true,
+      "main_chart_semantics_match": true,
+      "visual_semantics_preserved": true,
+      "editable_information_layer_pass": true,
+      "spatial_registration_pass": true,
+      "curve_fidelity_pass": true,
+      "label_collision_pass": true,
+      "text_overflow_pass": true,
+      "container_overflow_pass": true,
+      "continuous_text_flow_pass": true,
+      "table_semantic_typography_pass": true,
+      "table_density_pass": true,
+      "blueprint_background_not_used": true
+    }
+  ]
+}

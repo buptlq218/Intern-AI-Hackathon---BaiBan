@@ -1,0 +1,1075 @@
+{
+  "elements": [
+    {
+      "element_id": "background_surface",
+      "priority": "P0",
+      "element_type": "background",
+      "source_component_id": "page_surface",
+      "role": "background",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 18
+    },
+    {
+      "element_id": "page_badge",
+      "priority": "P1",
+      "element_type": "shape",
+      "source_component_id": "page_header",
+      "role": "page_badge",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 14,
+        "y": 7,
+        "w": 107,
+        "h": 63
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 95
+    },
+    {
+      "element_id": "page_number",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "page_number",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 32,
+        "y": 16,
+        "w": 61,
+        "h": 44
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "header_deck_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "header_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 449,
+        "y": 16,
+        "w": 782,
+        "h": 40
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "section_label",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "page_header",
+      "role": "section_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1368,
+        "y": 20,
+        "w": 281,
+        "h": 36
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 100
+    },
+    {
+      "element_id": "top_rule",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "page_header",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 107,
+        "y": 67,
+        "w": 1547,
+        "h": 3
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 70
+    },
+    {
+      "element_id": "main_title",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 231,
+        "y": 107,
+        "w": 1203,
+        "h": 48
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "subtitle",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "narrative_header",
+      "role": "subtitle",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 383,
+        "y": 176,
+        "w": 907,
+        "h": 34
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "network_panel_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "core_panel",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 20,
+        "y": 231,
+        "w": 540,
+        "h": 588
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "network_panel_header",
+      "priority": "P1",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "module_header",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 20,
+        "y": 231,
+        "w": 540,
+        "h": 49
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "network_panel_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 150,
+        "y": 242,
+        "w": 280,
+        "h": 30
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "network_input",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "network_block",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 299,
+        "w": 398,
+        "h": 51
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "network_input_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "network_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 69,
+        "y": 307,
+        "w": 382,
+        "h": 35
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_dense16",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "network_block",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 381,
+        "w": 345,
+        "h": 52
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "network_dense16_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "network_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 69,
+        "y": 389,
+        "w": 329,
+        "h": 36
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_gru",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "network_block",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 464,
+        "w": 345,
+        "h": 52
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "network_gru_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "network_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 69,
+        "y": 472,
+        "w": 329,
+        "h": 36
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_dense64",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "network_block",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 570,
+        "w": 345,
+        "h": 54
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "network_dense64_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "network_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 69,
+        "y": 578,
+        "w": 329,
+        "h": 38
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_output",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "network_panel",
+      "role": "network_block",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 61,
+        "y": 662,
+        "w": 345,
+        "h": 54
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "network_output_text",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "network_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 69,
+        "y": 670,
+        "w": 329,
+        "h": 38
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_vertical_connectors",
+      "priority": "P1",
+      "element_type": "connector_group",
+      "source_component_id": "network_panel",
+      "role": "connector",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 247,
+        "y": 350,
+        "w": 13,
+        "h": 312
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 78
+    },
+    {
+      "element_id": "hidden_state_loop",
+      "priority": "P1",
+      "element_type": "connector_group",
+      "source_component_id": "network_panel",
+      "role": "feedback_loop",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 405,
+        "y": 488,
+        "w": 84,
+        "h": 203
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "hidden_state_text",
+      "priority": "P1",
+      "element_type": "text_group",
+      "source_component_id": "network_panel",
+      "role": "body",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 428,
+        "y": 554,
+        "w": 117,
+        "h": 55
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "network_note",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "network_panel",
+      "role": "note",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 46,
+        "y": 760,
+        "w": 489,
+        "h": 30
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "training_panel_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "training_panel",
+      "role": "core_panel",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 580,
+        "y": 231,
+        "w": 424,
+        "h": 588
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "training_panel_header",
+      "priority": "P1",
+      "element_type": "panel",
+      "source_component_id": "training_panel",
+      "role": "module_header",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 580,
+        "y": 231,
+        "w": 424,
+        "h": 49
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "training_panel_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "training_panel",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 664,
+        "y": 242,
+        "w": 256,
+        "h": 30
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "training_table",
+      "priority": "P0",
+      "element_type": "table",
+      "source_component_id": "training_panel",
+      "role": "training_table",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 299,
+        "w": 391,
+        "h": 429
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 82
+    },
+    {
+      "element_id": "training_scale_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 299,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_scale_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 299,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_length_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 352.6,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_length_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 352.6,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_replay_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 406.2,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_replay_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 406.2,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_batch_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 459.8,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_batch_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 459.8,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_gamma_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 513.4,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_gamma_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 513.4,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_tau_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 567,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_tau_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 567,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_epsilon_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 620.6,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_epsilon_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 620.6,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_lr_label",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 596,
+        "y": 674.2,
+        "w": 157,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_lr_value",
+      "priority": "P1",
+      "element_type": "table_cell",
+      "source_component_id": "training_panel",
+      "role": "table_value",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 753,
+        "y": 674.2,
+        "w": 234,
+        "h": 53.6
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    },
+    {
+      "element_id": "training_note",
+      "priority": "P0",
+      "element_type": "text_group",
+      "source_component_id": "training_panel",
+      "role": "caveat",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 598,
+        "y": 750,
+        "w": 379,
+        "h": 53
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "reward_panel_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "reward_panel",
+      "role": "core_panel",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1029,
+        "y": 231,
+        "w": 622,
+        "h": 588
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "reward_panel_header",
+      "priority": "P1",
+      "element_type": "panel",
+      "source_component_id": "reward_panel",
+      "role": "module_header",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1029,
+        "y": 231,
+        "w": 622,
+        "h": 49
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "reward_panel_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1190,
+        "y": 242,
+        "w": 300,
+        "h": 30
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "positive_reward_heading",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "chart_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1066,
+        "y": 301,
+        "w": 267,
+        "h": 29
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "negative_reward_heading",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "chart_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1370,
+        "y": 301,
+        "w": 259,
+        "h": 29
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "positive_reward_chart",
+      "priority": "P0",
+      "element_type": "chart_group",
+      "source_component_id": "reward_panel",
+      "role": "main_chart",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1050,
+        "y": 333,
+        "w": 290,
+        "h": 253
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 65
+    },
+    {
+      "element_id": "negative_reward_chart",
+      "priority": "P0",
+      "element_type": "chart_group",
+      "source_component_id": "reward_panel",
+      "role": "main_chart",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1353,
+        "y": 333,
+        "w": 290,
+        "h": 253
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 65
+    },
+    {
+      "element_id": "switch_penalty_panel",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "reward_panel",
+      "role": "reward_constraint",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1049,
+        "y": 603,
+        "w": 580,
+        "h": 99
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 80
+    },
+    {
+      "element_id": "switch_penalty_title",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "module_title",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1130,
+        "y": 611,
+        "w": 416,
+        "h": 33
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "switch_penalty_formula",
+      "priority": "P1",
+      "element_type": "formula",
+      "source_component_id": "reward_panel",
+      "role": "formula",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1133,
+        "y": 653,
+        "w": 383,
+        "h": 42
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 110
+    },
+    {
+      "element_id": "metric_separator",
+      "priority": "P1",
+      "element_type": "line",
+      "source_component_id": "reward_panel",
+      "role": "divider",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1040,
+        "y": 719,
+        "w": 598,
+        "h": 2
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 70
+    },
+    {
+      "element_id": "metric_label",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "metric_label",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1050,
+        "y": 746,
+        "w": 257,
+        "h": 46
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 115
+    },
+    {
+      "element_id": "metric_value",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "key_metric",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1309,
+        "y": 735,
+        "w": 277,
+        "h": 66
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 125
+    },
+    {
+      "element_id": "metric_unit",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "reward_panel",
+      "role": "unit",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1584,
+        "y": 762,
+        "w": 45,
+        "h": 32
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 105
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "priority": "P0",
+      "element_type": "panel",
+      "source_component_id": "conclusion_band",
+      "role": "so_what",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 20,
+        "y": 843,
+        "w": 1633,
+        "h": 84
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 72
+    },
+    {
+      "element_id": "conclusion_text",
+      "priority": "P0",
+      "element_type": "text",
+      "source_component_id": "conclusion_band",
+      "role": "so_what_text",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 390,
+        "y": 859,
+        "w": 900,
+        "h": 51
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 120
+    },
+    {
+      "element_id": "source_footer",
+      "priority": "P1",
+      "element_type": "text",
+      "source_component_id": "conclusion_band",
+      "role": "source",
+      "measurement_mode": "individual_bbox",
+      "blueprint_bbox_px": {
+        "x": 1330,
+        "y": 910,
+        "w": 278,
+        "h": 12
+      },
+      "must_reproduce": true,
+      "registration_status": "target_locked",
+      "pixel_mean_abs_tolerance": 90
+    }
+  ]
+}

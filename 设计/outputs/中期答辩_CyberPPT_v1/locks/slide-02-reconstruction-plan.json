@@ -1,0 +1,111 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 2,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-02.png",
+  "canvas_size": {
+    "blueprint_px": {"w": 1672, "h": 941},
+    "ppt_in": {"w": 13.333, "h": 7.5},
+    "aspect_ratio": "16:9"
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "连续象牙白纸面；左侧道路主视觉、右侧三段证据栏、底部浅蓝结论带；不使用白卡片堆叠",
+  "layout_regions": [
+    {"id":"page_header","bbox_px":{"x":17,"y":15,"w":1639,"h":47}},
+    {"id":"narrative_header","bbox_px":{"x":152,"y":94,"w":1367,"h":103}},
+    {"id":"road_scene","bbox_px":{"x":19,"y":208,"w":923,"h":582}},
+    {"id":"challenge_rail","bbox_px":{"x":962,"y":228,"w":678,"h":564}},
+    {"id":"conclusion_band","bbox_px":{"x":19,"y":817,"w":1634,"h":103}}
+  ],
+  "header_footer_system": "左上深蓝页码徽章、居中课题名、右上章节名及细横线；无独立来源脚注，底部结论带承担收束",
+  "so_what_region": "底部浅蓝虚线边框结论带，含双箭头与一行核心结论",
+  "main_chart_semantics": "道路多车相干干扰场景 + 原生距离多普勒谱插图 + 三项挑战证据栏",
+  "density_targets": "中高密度；左侧情境解释、右侧三类挑战、50μs关键数字与底部结论同时可读",
+  "anchor_targets": [
+    "页码徽章左上角",
+    "主标题水平居中",
+    "道路场景四边",
+    "三个圆形图标中心线",
+    "两条右栏分隔线",
+    "50μs数字基线",
+    "底部结论带边界"
+  ],
+  "native_rebuild_targets": [
+    "全部页眉文字与规则线",
+    "主标题与副标题",
+    "道路场景内全部标签与图例",
+    "距离谱插图的标题、坐标轴、曲线、标记、图例和注释",
+    "右侧三组挑战文字、图标圆环、分隔线和50μs关键数字",
+    "底部结论带"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "road_scene_clean",
+      "region": "左侧道路多雷达场景",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-02-road-scene-clean.png",
+      "source": "已批准蓝图道路场景的无文字清理版本",
+      "necessity": "车辆、道路透视和多束雷达波构成复杂场景关系，原生重绘会明显降质",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "page_coverage_bbox_ratio": 0.342,
+      "trace_required": false
+    },
+    {
+      "id": "icon_recognition",
+      "region": "难识别图标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/zoom-scan.svg",
+      "source": "CyberPPT tabler-outline图标库",
+      "necessity": "统一通用图标风格",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "icon_adaptation",
+      "region": "难适应图标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/chart-bar.svg",
+      "source": "CyberPPT tabler-outline图标库",
+      "necessity": "统一通用图标风格",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "icon_realtime",
+      "region": "难实时图标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/clock-bolt.svg",
+      "source": "CyberPPT tabler-outline图标库",
+      "necessity": "统一通用图标风格",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": ["道路车辆与雷达波束场景", "三个通用语义图标"],
+    "triggered_gates": ["complex_visual_asset_admission", "icon_library", "spatial_registration", "label_collision", "container_overflow", "continuous_text_flow"],
+    "native_only_rationale": null,
+    "pictures_zero_is_not_goal": true
+  },
+  "dual_gate_execution": {
+    "editable_information_layer": "全部标题、标签、图例、图表、KPI和结论使用原生文本/形状",
+    "visual_semantics": "道路场景保留为无文字复杂资产，三图标来自锁定的tabler-outline库",
+    "conflict_resolution": "先清除蓝图道路场景中的烘焙文字，再以原生对象恢复所有信息"
+  },
+  "icon_style_lock": {
+    "library": "tabler-outline",
+    "style_locked": true,
+    "icons": [
+      {"icon_id":"tabler-outline/zoom-scan","semantic_meaning":"难识别/波形检索","viewBox":"0 0 24 24"},
+      {"icon_id":"tabler-outline/chart-bar","semantic_meaning":"难适应/结构差异","viewBox":"0 0 24 24"},
+      {"icon_id":"tabler-outline/clock-bolt","semantic_meaning":"难实时/快速响应","viewBox":"0 0 24 24"}
+    ]
+  },
+  "language_metadata": {
+    "target_language": "Chinese",
+    "language_source": "source_material",
+    "effective_language": "Chinese",
+    "language_overrides": [],
+    "allowed_foreign_terms": ["FMCW", "PRI", "SINR", "chirp", "μs"]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 10,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-10.png",
+  "blueprint_sha256": "38bac36b3347a3575d8fe9f1614154d770cae8c347e71e767b88f43deaf9b709",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-10-components.json",
+  "component_annotation_sha256": "af2359ac910d56139e06cb97982609d100437d8d1c772297f0139301284bb83a",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "three_stage_timeline",
+      "type": "native_timeline_with_transparent_stage_icons",
+      "priority": "P0",
+      "required_subcomponents": [
+        "stage_icons",
+        "flow_arrows",
+        "stage_titles",
+        "status_dividers"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "progress_task_lists",
+      "type": "native_task_lists_with_transparent_icons",
+      "priority": "P0",
+      "required_subcomponents": [
+        "completed_tasks",
+        "writing_tasks",
+        "defense_tasks"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "transparent_clipboard_icon",
+        "conclusion_text",
+        "caveat_footer",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

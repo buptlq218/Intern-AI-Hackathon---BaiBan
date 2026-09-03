@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "system_performance",
+      "type": "native_dual_axis_bar_chart_and_result_table",
+      "priority": "P0",
+      "required_subcomponents": [
+        "three_sinr_bars",
+        "three_avoidance_bars",
+        "dual_axes",
+        "result_table"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "dynamic_recovery",
+      "type": "native_two_series_recovery_curve",
+      "priority": "P0",
+      "required_subcomponents": [
+        "meta_rf_curve",
+        "pure_drl_curve",
+        "jump_marker",
+        "recovery_annotations",
+        "summary_table"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "engineering_evidence",
+      "type": "native_metric_and_risk_cards",
+      "priority": "P0",
+      "required_subcomponents": [
+        "sinr_gain",
+        "recovery_reduction",
+        "latency_risk",
+        "conservative_scope_note"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "transparent_check_icon",
+        "conclusion_text",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

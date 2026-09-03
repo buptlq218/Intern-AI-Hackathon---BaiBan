@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_conclusion_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "issue_tree",
+      "type": "three_branch_native_issue_tree",
+      "priority": "P0",
+      "required_subcomponents": [
+        "time_scale_branch",
+        "structure_branch",
+        "exploration_branch",
+        "evidence_and_response_labels",
+        "convergence_connectors"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "central_framework",
+      "type": "native_framework_convergence_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "framework_title",
+        "framework_icon",
+        "framework_rationale"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "objective_rail",
+      "type": "three_group_native_objective_rail",
+      "priority": "P0",
+      "required_subcomponents": [
+        "performance",
+        "recovery",
+        "interpretability"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "technical_route",
+      "type": "four_stage_native_route",
+      "priority": "P0",
+      "required_subcomponents": [
+        "modeling",
+        "execution",
+        "cognition",
+        "validation"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "trophy_icon",
+        "conclusion_text",
+        "supporting_checks"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

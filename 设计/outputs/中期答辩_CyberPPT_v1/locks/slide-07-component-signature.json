@@ -1,0 +1,82 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 7,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-07.png",
+  "blueprint_sha256": "6a3a2c176cdaca9dd182d10a62bdbf91a140f0fa36d4638795b08b7b157b7db8",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-07-components.json",
+  "component_annotation_sha256": "dd7a268fba5752bf1d6059589d192b2c6a485e07dc60f46a067e155e93b74951",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "feature_matrix",
+      "type": "native_four_group_feature_matrix",
+      "priority": "P0",
+      "required_subcomponents": [
+        "four_feature_groups",
+        "dimension_counts",
+        "twelve_feature_bracket"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "rf_pipeline",
+      "type": "native_random_forest_training_pipeline",
+      "priority": "P0",
+      "required_subcomponents": [
+        "six_training_stages",
+        "stage_connectors",
+        "training_parameters"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "strategy_panel",
+      "type": "native_three_strategy_table",
+      "priority": "P0",
+      "required_subcomponents": [
+        "strategy_table",
+        "confidence_column",
+        "soft_guidance",
+        "accuracy_caveat"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_panel",
+      "type": "native_so_what_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "conclusion_icon",
+        "core_statement",
+        "explanation",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

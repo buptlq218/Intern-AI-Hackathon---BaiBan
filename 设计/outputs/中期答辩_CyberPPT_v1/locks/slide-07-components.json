@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "feature_matrix",
+      "type": "native_four_group_feature_matrix",
+      "priority": "P0",
+      "required_subcomponents": [
+        "four_feature_groups",
+        "dimension_counts",
+        "twelve_feature_bracket"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "rf_pipeline",
+      "type": "native_random_forest_training_pipeline",
+      "priority": "P0",
+      "required_subcomponents": [
+        "six_training_stages",
+        "stage_connectors",
+        "training_parameters"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "strategy_panel",
+      "type": "native_three_strategy_table",
+      "priority": "P0",
+      "required_subcomponents": [
+        "strategy_table",
+        "confidence_column",
+        "soft_guidance",
+        "accuracy_caveat"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_panel",
+      "type": "native_so_what_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "conclusion_icon",
+        "core_statement",
+        "explanation",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

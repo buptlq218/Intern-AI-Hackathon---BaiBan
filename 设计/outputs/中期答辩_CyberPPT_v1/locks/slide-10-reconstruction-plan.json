@@ -1,0 +1,923 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 10,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-10.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with a three-stage pale-blue timeline and full-width navy takeaway band",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 9,
+        "y": 8,
+        "w": 1653,
+        "h": 213
+      }
+    },
+    {
+      "id": "timeline",
+      "bbox_px": {
+        "x": 61,
+        "y": 222,
+        "w": 1545,
+        "h": 543
+      }
+    },
+    {
+      "id": "completed_tasks",
+      "bbox_px": {
+        "x": 115,
+        "y": 394,
+        "w": 367,
+        "h": 357
+      }
+    },
+    {
+      "id": "writing_tasks",
+      "bbox_px": {
+        "x": 636,
+        "y": 394,
+        "w": 372,
+        "h": 325
+      }
+    },
+    {
+      "id": "defense_tasks",
+      "bbox_px": {
+        "x": 1160,
+        "y": 394,
+        "w": 384,
+        "h": 349
+      }
+    },
+    {
+      "id": "conclusion_band",
+      "bbox_px": {
+        "x": 61,
+        "y": 772,
+        "w": 1545,
+        "h": 155
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "10",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "计划与进度安排",
+    "footer": "stage-expression caveat and source note"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 61,
+      "y": 772,
+      "w": 1545,
+      "h": 101
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "Three-stage timeline communicating completed experiments, ongoing thesis writing, and next-stage defense acceptance.",
+  "density_targets": {
+    "overall": "medium",
+    "completed_stage": "five concise task rows",
+    "writing_stage": "three concise task rows",
+    "defense_stage": "four concise task rows"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 9,
+        "y": 8,
+        "w": 83,
+        "h": 51
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 20,
+        "y": 10,
+        "w": 48,
+        "h": 46
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 448,
+        "y": 14,
+        "w": 775,
+        "h": 46
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1390,
+        "y": 14,
+        "w": 247,
+        "h": 44
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 9,
+        "y": 64,
+        "w": 1653,
+        "h": 4
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 282,
+        "y": 101,
+        "w": 1107,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 442,
+        "y": 174,
+        "w": 790,
+        "h": 47
+      }
+    },
+    {
+      "element_id": "timeline_background",
+      "bbox_px": {
+        "x": 61,
+        "y": 301,
+        "w": 1545,
+        "h": 464
+      }
+    },
+    {
+      "element_id": "timeline_flow",
+      "bbox_px": {
+        "x": 371,
+        "y": 290,
+        "w": 870,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "stage_complete_icon",
+      "bbox_px": {
+        "x": 208,
+        "y": 222,
+        "w": 168,
+        "h": 168
+      }
+    },
+    {
+      "element_id": "stage_writing_icon",
+      "bbox_px": {
+        "x": 748,
+        "y": 222,
+        "w": 166,
+        "h": 168
+      }
+    },
+    {
+      "element_id": "stage_defense_icon",
+      "bbox_px": {
+        "x": 1263,
+        "y": 222,
+        "w": 166,
+        "h": 169
+      }
+    },
+    {
+      "element_id": "stage_titles",
+      "bbox_px": {
+        "x": 209,
+        "y": 394,
+        "w": 1235,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "stage_dividers",
+      "bbox_px": {
+        "x": 125,
+        "y": 449,
+        "w": 1402,
+        "h": 10
+      }
+    },
+    {
+      "element_id": "stage_statuses",
+      "bbox_px": {
+        "x": 190,
+        "y": 463,
+        "w": 1274,
+        "h": 39
+      }
+    },
+    {
+      "element_id": "completed_task_icons",
+      "bbox_px": {
+        "x": 128,
+        "y": 506,
+        "w": 46,
+        "h": 245
+      }
+    },
+    {
+      "element_id": "completed_task_text",
+      "bbox_px": {
+        "x": 190,
+        "y": 504,
+        "w": 292,
+        "h": 247
+      }
+    },
+    {
+      "element_id": "writing_task_icons",
+      "bbox_px": {
+        "x": 650,
+        "y": 520,
+        "w": 53,
+        "h": 199
+      }
+    },
+    {
+      "element_id": "writing_task_text",
+      "bbox_px": {
+        "x": 728,
+        "y": 518,
+        "w": 280,
+        "h": 201
+      }
+    },
+    {
+      "element_id": "defense_task_icons",
+      "bbox_px": {
+        "x": 1173,
+        "y": 509,
+        "w": 55,
+        "h": 234
+      }
+    },
+    {
+      "element_id": "defense_task_text",
+      "bbox_px": {
+        "x": 1252,
+        "y": 507,
+        "w": 286,
+        "h": 236
+      }
+    },
+    {
+      "element_id": "task_separators",
+      "bbox_px": {
+        "x": 115,
+        "y": 553,
+        "w": 1429,
+        "h": 198
+      }
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "bbox_px": {
+        "x": 61,
+        "y": 772,
+        "w": 1545,
+        "h": 101
+      }
+    },
+    {
+      "element_id": "conclusion_icon",
+      "bbox_px": {
+        "x": 151,
+        "y": 781,
+        "w": 95,
+        "h": 82
+      }
+    },
+    {
+      "element_id": "conclusion_text",
+      "bbox_px": {
+        "x": 322,
+        "y": 790,
+        "w": 1185,
+        "h": 64
+      }
+    },
+    {
+      "element_id": "footer_info_icon",
+      "bbox_px": {
+        "x": 608,
+        "y": 890,
+        "w": 36,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "footer_caveat",
+      "bbox_px": {
+        "x": 650,
+        "y": 886,
+        "w": 453,
+        "h": 42
+      }
+    },
+    {
+      "element_id": "source_footer",
+      "bbox_px": {
+        "x": 1340,
+        "y": 915,
+        "w": 275,
+        "h": 12
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text",
+    "timeline background and flow arrows",
+    "stage titles, statuses and task separators",
+    "task lists and final takeaway band"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "stage-complete",
+      "icon_id": "approved-blueprint-crop/stage-complete",
+      "region": "完成状态节点",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-complete.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 208,
+        "y": 222,
+        "w": 168,
+        "h": 168
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "stage-writing",
+      "icon_id": "approved-blueprint-crop/stage-writing",
+      "region": "论文撰写状态节点",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-writing.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 748,
+        "y": 222,
+        "w": 166,
+        "h": 168
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "stage-defense",
+      "icon_id": "approved-blueprint-crop/stage-defense",
+      "region": "答辩验收状态节点",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-defense.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 1263,
+        "y": 222,
+        "w": 166,
+        "h": 169
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "done-signal",
+      "icon_id": "approved-blueprint-crop/done-signal",
+      "region": "FMCW环境任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-signal.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 129,
+        "y": 506,
+        "w": 44,
+        "h": 44
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "done-brain",
+      "icon_id": "approved-blueprint-crop/done-brain",
+      "region": "执行层任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-brain.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 129,
+        "y": 557,
+        "w": 44,
+        "h": 43
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "done-layers",
+      "icon_id": "approved-blueprint-crop/done-layers",
+      "region": "元策略任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-layers.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 128,
+        "y": 606,
+        "w": 46,
+        "h": 46
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "done-chart",
+      "icon_id": "approved-blueprint-crop/done-chart",
+      "region": "实验任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-chart.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 128,
+        "y": 657,
+        "w": 46,
+        "h": 43
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "done-document",
+      "icon_id": "approved-blueprint-crop/done-document",
+      "region": "材料任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-document.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 129,
+        "y": 706,
+        "w": 44,
+        "h": 45
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "doing-book",
+      "icon_id": "approved-blueprint-crop/doing-book",
+      "region": "论文主线任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-book.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 650,
+        "y": 520,
+        "w": 53,
+        "h": 44
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "doing-chart",
+      "icon_id": "approved-blueprint-crop/doing-chart",
+      "region": "实验图表任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-chart.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 651,
+        "y": 591,
+        "w": 53,
+        "h": 47
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "doing-clipboard",
+      "icon_id": "approved-blueprint-crop/doing-clipboard",
+      "region": "局限性任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-clipboard.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 651,
+        "y": 664,
+        "w": 51,
+        "h": 55
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "next-document",
+      "icon_id": "approved-blueprint-crop/next-document",
+      "region": "论文定稿任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-document.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 1176,
+        "y": 509,
+        "w": 47,
+        "h": 50
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "next-presentation",
+      "icon_id": "approved-blueprint-crop/next-presentation",
+      "region": "答辩演示任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-presentation.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 1174,
+        "y": 577,
+        "w": 51,
+        "h": 42
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "next-question",
+      "icon_id": "approved-blueprint-crop/next-question",
+      "region": "预演问答任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-question.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 1173,
+        "y": 633,
+        "w": 55,
+        "h": 45
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "next-shield",
+      "icon_id": "approved-blueprint-crop/next-shield",
+      "region": "答辩验收任务",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-shield.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 1175,
+        "y": 691,
+        "w": 50,
+        "h": 52
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "conclusion-clipboard",
+      "icon_id": "approved-blueprint-crop/conclusion-clipboard",
+      "region": "成果闭环结论",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/conclusion-clipboard.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 151,
+        "y": 781,
+        "w": 95,
+        "h": 82
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "footer-info",
+      "icon_id": "approved-blueprint-crop/footer-info",
+      "region": "阶段表达限定",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/footer-info.png",
+      "source": "Approved slide-10 blueprint crop",
+      "source_bbox_px": {
+        "x": 608,
+        "y": 890,
+        "w": 36,
+        "h": 36
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "icon_style_lock": {
+    "library": "approved-blueprint-crops",
+    "style_locked": true,
+    "icons": [
+      {
+        "placement_id": "stage-complete",
+        "icon_id": "approved-blueprint-crop/stage-complete",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "完成状态节点",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-complete.png",
+        "source_bbox_px": {
+          "x": 208,
+          "y": 222,
+          "w": 168,
+          "h": 168
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "stage-writing",
+        "icon_id": "approved-blueprint-crop/stage-writing",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "论文撰写状态节点",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-writing.png",
+        "source_bbox_px": {
+          "x": 748,
+          "y": 222,
+          "w": 166,
+          "h": 168
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "stage-defense",
+        "icon_id": "approved-blueprint-crop/stage-defense",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "答辩验收状态节点",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/stage-defense.png",
+        "source_bbox_px": {
+          "x": 1263,
+          "y": 222,
+          "w": 166,
+          "h": 169
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "done-signal",
+        "icon_id": "approved-blueprint-crop/done-signal",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "FMCW环境任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-signal.png",
+        "source_bbox_px": {
+          "x": 129,
+          "y": 506,
+          "w": 44,
+          "h": 44
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "done-brain",
+        "icon_id": "approved-blueprint-crop/done-brain",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "执行层任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-brain.png",
+        "source_bbox_px": {
+          "x": 129,
+          "y": 557,
+          "w": 44,
+          "h": 43
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "done-layers",
+        "icon_id": "approved-blueprint-crop/done-layers",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "元策略任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-layers.png",
+        "source_bbox_px": {
+          "x": 128,
+          "y": 606,
+          "w": 46,
+          "h": 46
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "done-chart",
+        "icon_id": "approved-blueprint-crop/done-chart",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "实验任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-chart.png",
+        "source_bbox_px": {
+          "x": 128,
+          "y": 657,
+          "w": 46,
+          "h": 43
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "done-document",
+        "icon_id": "approved-blueprint-crop/done-document",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "材料任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/done-document.png",
+        "source_bbox_px": {
+          "x": 129,
+          "y": 706,
+          "w": 44,
+          "h": 45
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "doing-book",
+        "icon_id": "approved-blueprint-crop/doing-book",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "论文主线任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-book.png",
+        "source_bbox_px": {
+          "x": 650,
+          "y": 520,
+          "w": 53,
+          "h": 44
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "doing-chart",
+        "icon_id": "approved-blueprint-crop/doing-chart",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "实验图表任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-chart.png",
+        "source_bbox_px": {
+          "x": 651,
+          "y": 591,
+          "w": 53,
+          "h": 47
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "doing-clipboard",
+        "icon_id": "approved-blueprint-crop/doing-clipboard",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "局限性任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/doing-clipboard.png",
+        "source_bbox_px": {
+          "x": 651,
+          "y": 664,
+          "w": 51,
+          "h": 55
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "next-document",
+        "icon_id": "approved-blueprint-crop/next-document",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "论文定稿任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-document.png",
+        "source_bbox_px": {
+          "x": 1176,
+          "y": 509,
+          "w": 47,
+          "h": 50
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "next-presentation",
+        "icon_id": "approved-blueprint-crop/next-presentation",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "答辩演示任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-presentation.png",
+        "source_bbox_px": {
+          "x": 1174,
+          "y": 577,
+          "w": 51,
+          "h": 42
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "next-question",
+        "icon_id": "approved-blueprint-crop/next-question",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "预演问答任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-question.png",
+        "source_bbox_px": {
+          "x": 1173,
+          "y": 633,
+          "w": 55,
+          "h": 45
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "next-shield",
+        "icon_id": "approved-blueprint-crop/next-shield",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "答辩验收任务",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/next-shield.png",
+        "source_bbox_px": {
+          "x": 1175,
+          "y": 691,
+          "w": 50,
+          "h": 52
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "conclusion-clipboard",
+        "icon_id": "approved-blueprint-crop/conclusion-clipboard",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "成果闭环结论",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/conclusion-clipboard.png",
+        "source_bbox_px": {
+          "x": 151,
+          "y": 781,
+          "w": 95,
+          "h": 82
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "footer-info",
+        "icon_id": "approved-blueprint-crop/footer-info",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "阶段表达限定",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-10-blueprint-icons/footer-info.png",
+        "source_bbox_px": {
+          "x": 608,
+          "y": 890,
+          "w": 36,
+          "h": 36
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      }
+    ]
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "timeline_semantics_gate",
+      "icon_transparency_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "All text, timeline flow, separators and conclusion remain native; seventeen transparent icon placements preserve exact blueprint fidelity."
+  }
+}

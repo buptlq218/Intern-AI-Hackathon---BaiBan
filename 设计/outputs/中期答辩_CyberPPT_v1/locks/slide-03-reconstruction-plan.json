@@ -1,0 +1,1147 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 3,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-03.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with navy response blocks, ruled objective rail and thin connectors",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 166
+      }
+    },
+    {
+      "id": "issue_tree",
+      "bbox_px": {
+        "x": 14,
+        "y": 177,
+        "w": 1305,
+        "h": 294
+      }
+    },
+    {
+      "id": "central_framework",
+      "bbox_px": {
+        "x": 327,
+        "y": 519,
+        "w": 813,
+        "h": 86
+      }
+    },
+    {
+      "id": "objective_rail",
+      "bbox_px": {
+        "x": 1345,
+        "y": 107,
+        "w": 302,
+        "h": 518
+      }
+    },
+    {
+      "id": "technical_route",
+      "bbox_px": {
+        "x": 14,
+        "y": 630,
+        "w": 1554,
+        "h": 145
+      }
+    },
+    {
+      "id": "conclusion_band",
+      "bbox_px": {
+        "x": 30,
+        "y": 796,
+        "w": 1610,
+        "h": 129
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "03",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "研究内容｜研究问题与技术路线",
+    "footer": "none"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 30,
+      "y": 796,
+      "w": 1610,
+      "h": 129
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "three issue branches converge into a hierarchical reinforcement learning framework and continue through a four-stage technical route",
+  "density_targets": {
+    "overall": "high",
+    "issue_tree": "three headers plus evidence and response blocks",
+    "objective_rail": "three objectives with icons and evidence bullets",
+    "technical_route": "four linked stages with concise descriptors"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 0,
+        "y": 3,
+        "w": 92,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 24,
+        "y": 10,
+        "w": 46,
+        "h": 40
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 507,
+        "y": 17,
+        "w": 557,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1272,
+        "y": 17,
+        "w": 368,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 0,
+        "y": 57,
+        "w": 1660,
+        "h": 3
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 148,
+        "y": 77,
+        "w": 1374,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 327,
+        "y": 128,
+        "w": 1016,
+        "h": 37
+      }
+    },
+    {
+      "element_id": "evidence_label",
+      "bbox_px": {
+        "x": 25,
+        "y": 281,
+        "w": 52,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "response_label",
+      "bbox_px": {
+        "x": 25,
+        "y": 400,
+        "w": 52,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "time_header_panel",
+      "bbox_px": {
+        "x": 89,
+        "y": 177,
+        "w": 363,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "time_header_icon",
+      "bbox_px": {
+        "x": 117,
+        "y": 184,
+        "w": 43,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "time_header_title",
+      "bbox_px": {
+        "x": 181,
+        "y": 188,
+        "w": 251,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "time_down_arrow_1",
+      "bbox_px": {
+        "x": 262.5,
+        "y": 232,
+        "w": 16,
+        "h": 23
+      }
+    },
+    {
+      "element_id": "time_evidence_panel",
+      "bbox_px": {
+        "x": 71,
+        "y": 255,
+        "w": 399,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "time_evidence_text",
+      "bbox_px": {
+        "x": 89,
+        "y": 266,
+        "w": 363,
+        "h": 70
+      }
+    },
+    {
+      "element_id": "time_down_arrow_2",
+      "bbox_px": {
+        "x": 262.5,
+        "y": 349,
+        "w": 16,
+        "h": 22
+      }
+    },
+    {
+      "element_id": "time_response_panel",
+      "bbox_px": {
+        "x": 71,
+        "y": 372,
+        "w": 399,
+        "h": 99
+      }
+    },
+    {
+      "element_id": "time_response_icon",
+      "bbox_px": {
+        "x": 89,
+        "y": 390,
+        "w": 61,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "time_response_text",
+      "bbox_px": {
+        "x": 164,
+        "y": 382,
+        "w": 305,
+        "h": 78
+      }
+    },
+    {
+      "element_id": "structure_header_panel",
+      "bbox_px": {
+        "x": 505,
+        "y": 177,
+        "w": 363,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "structure_header_icon",
+      "bbox_px": {
+        "x": 533,
+        "y": 184,
+        "w": 43,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "structure_header_title",
+      "bbox_px": {
+        "x": 597,
+        "y": 188,
+        "w": 251,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "structure_down_arrow_1",
+      "bbox_px": {
+        "x": 678.5,
+        "y": 232,
+        "w": 16,
+        "h": 23
+      }
+    },
+    {
+      "element_id": "structure_evidence_panel",
+      "bbox_px": {
+        "x": 487,
+        "y": 255,
+        "w": 399,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "structure_evidence_text",
+      "bbox_px": {
+        "x": 505,
+        "y": 266,
+        "w": 363,
+        "h": 70
+      }
+    },
+    {
+      "element_id": "structure_down_arrow_2",
+      "bbox_px": {
+        "x": 678.5,
+        "y": 349,
+        "w": 16,
+        "h": 22
+      }
+    },
+    {
+      "element_id": "structure_response_panel",
+      "bbox_px": {
+        "x": 487,
+        "y": 372,
+        "w": 399,
+        "h": 99
+      }
+    },
+    {
+      "element_id": "structure_response_icon",
+      "bbox_px": {
+        "x": 505,
+        "y": 390,
+        "w": 61,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "structure_response_text",
+      "bbox_px": {
+        "x": 580,
+        "y": 382,
+        "w": 305,
+        "h": 78
+      }
+    },
+    {
+      "element_id": "exploration_header_panel",
+      "bbox_px": {
+        "x": 928,
+        "y": 177,
+        "w": 391,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "exploration_header_icon",
+      "bbox_px": {
+        "x": 956,
+        "y": 184,
+        "w": 43,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "exploration_header_title",
+      "bbox_px": {
+        "x": 1020,
+        "y": 188,
+        "w": 279,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "exploration_down_arrow_1",
+      "bbox_px": {
+        "x": 1115.5,
+        "y": 232,
+        "w": 16,
+        "h": 23
+      }
+    },
+    {
+      "element_id": "exploration_evidence_panel",
+      "bbox_px": {
+        "x": 910,
+        "y": 255,
+        "w": 427,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "exploration_evidence_text",
+      "bbox_px": {
+        "x": 928,
+        "y": 266,
+        "w": 391,
+        "h": 70
+      }
+    },
+    {
+      "element_id": "exploration_down_arrow_2",
+      "bbox_px": {
+        "x": 1115.5,
+        "y": 349,
+        "w": 16,
+        "h": 22
+      }
+    },
+    {
+      "element_id": "exploration_response_panel",
+      "bbox_px": {
+        "x": 910,
+        "y": 372,
+        "w": 427,
+        "h": 99
+      }
+    },
+    {
+      "element_id": "exploration_response_icon",
+      "bbox_px": {
+        "x": 928,
+        "y": 390,
+        "w": 61,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "exploration_response_text",
+      "bbox_px": {
+        "x": 1003,
+        "y": 382,
+        "w": 333,
+        "h": 78
+      }
+    },
+    {
+      "element_id": "convergence_connectors",
+      "bbox_px": {
+        "x": 259,
+        "y": 470,
+        "w": 866,
+        "h": 50
+      }
+    },
+    {
+      "element_id": "framework_panel",
+      "bbox_px": {
+        "x": 327,
+        "y": 519,
+        "w": 813,
+        "h": 86
+      }
+    },
+    {
+      "element_id": "framework_icon",
+      "bbox_px": {
+        "x": 371,
+        "y": 528,
+        "w": 70,
+        "h": 67
+      }
+    },
+    {
+      "element_id": "framework_title",
+      "bbox_px": {
+        "x": 476,
+        "y": 541,
+        "w": 335,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "framework_rationale",
+      "bbox_px": {
+        "x": 858,
+        "y": 529,
+        "w": 257,
+        "h": 62
+      }
+    },
+    {
+      "element_id": "framework_to_objective",
+      "bbox_px": {
+        "x": 1345,
+        "y": 282,
+        "w": 48,
+        "h": 280
+      }
+    },
+    {
+      "element_id": "objective_rail_panel",
+      "bbox_px": {
+        "x": 1402,
+        "y": 107,
+        "w": 245,
+        "h": 518
+      }
+    },
+    {
+      "element_id": "objective_rail_title",
+      "bbox_px": {
+        "x": 1402,
+        "y": 110,
+        "w": 245,
+        "h": 39
+      }
+    },
+    {
+      "element_id": "performance_icon",
+      "bbox_px": {
+        "x": 1418,
+        "y": 169,
+        "w": 55,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "performance_title",
+      "bbox_px": {
+        "x": 1488,
+        "y": 169,
+        "w": 142,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "performance_body",
+      "bbox_px": {
+        "x": 1488,
+        "y": 204,
+        "w": 142,
+        "h": 114
+      }
+    },
+    {
+      "element_id": "recovery_icon",
+      "bbox_px": {
+        "x": 1418,
+        "y": 345,
+        "w": 55,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "recovery_title",
+      "bbox_px": {
+        "x": 1488,
+        "y": 345,
+        "w": 142,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "recovery_body",
+      "bbox_px": {
+        "x": 1488,
+        "y": 380,
+        "w": 142,
+        "h": 96
+      }
+    },
+    {
+      "element_id": "interpretability_icon",
+      "bbox_px": {
+        "x": 1418,
+        "y": 503,
+        "w": 55,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "interpretability_title",
+      "bbox_px": {
+        "x": 1488,
+        "y": 503,
+        "w": 142,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "interpretability_body",
+      "bbox_px": {
+        "x": 1488,
+        "y": 538,
+        "w": 142,
+        "h": 79
+      }
+    },
+    {
+      "element_id": "objective_separator_1",
+      "bbox_px": {
+        "x": 1407,
+        "y": 325,
+        "w": 230,
+        "h": 2
+      }
+    },
+    {
+      "element_id": "objective_separator_2",
+      "bbox_px": {
+        "x": 1407,
+        "y": 482,
+        "w": 230,
+        "h": 2
+      }
+    },
+    {
+      "element_id": "route_label",
+      "bbox_px": {
+        "x": 14,
+        "y": 659,
+        "w": 70,
+        "h": 89
+      }
+    },
+    {
+      "element_id": "modeling_panel",
+      "bbox_px": {
+        "x": 98,
+        "y": 630,
+        "w": 336,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "modeling_icon",
+      "bbox_px": {
+        "x": 113,
+        "y": 650,
+        "w": 65,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "modeling_title",
+      "bbox_px": {
+        "x": 187,
+        "y": 647,
+        "w": 232,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "modeling_body",
+      "bbox_px": {
+        "x": 187,
+        "y": 682,
+        "w": 232,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "execution_panel",
+      "bbox_px": {
+        "x": 483,
+        "y": 630,
+        "w": 371,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "execution_icon",
+      "bbox_px": {
+        "x": 498,
+        "y": 650,
+        "w": 65,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "execution_title",
+      "bbox_px": {
+        "x": 572,
+        "y": 647,
+        "w": 267,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "execution_body",
+      "bbox_px": {
+        "x": 572,
+        "y": 682,
+        "w": 267,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "cognition_panel",
+      "bbox_px": {
+        "x": 901,
+        "y": 630,
+        "w": 318,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "cognition_icon",
+      "bbox_px": {
+        "x": 916,
+        "y": 650,
+        "w": 65,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "cognition_title",
+      "bbox_px": {
+        "x": 990,
+        "y": 647,
+        "w": 214,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "cognition_body",
+      "bbox_px": {
+        "x": 990,
+        "y": 682,
+        "w": 214,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "validation_panel",
+      "bbox_px": {
+        "x": 1264,
+        "y": 630,
+        "w": 304,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "validation_icon",
+      "bbox_px": {
+        "x": 1279,
+        "y": 650,
+        "w": 65,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "validation_title",
+      "bbox_px": {
+        "x": 1353,
+        "y": 647,
+        "w": 200,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "validation_body",
+      "bbox_px": {
+        "x": 1353,
+        "y": 682,
+        "w": 200,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "route_arrow_1",
+      "bbox_px": {
+        "x": 440,
+        "y": 685,
+        "w": 37,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "route_arrow_2",
+      "bbox_px": {
+        "x": 859,
+        "y": 685,
+        "w": 37,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "route_arrow_3",
+      "bbox_px": {
+        "x": 1224,
+        "y": 685,
+        "w": 37,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "bbox_px": {
+        "x": 30,
+        "y": 796,
+        "w": 1610,
+        "h": 129
+      }
+    },
+    {
+      "element_id": "conclusion_trophy_icon",
+      "bbox_px": {
+        "x": 49,
+        "y": 814,
+        "w": 80,
+        "h": 88
+      }
+    },
+    {
+      "element_id": "conclusion_text",
+      "bbox_px": {
+        "x": 149,
+        "y": 828,
+        "w": 676,
+        "h": 53
+      }
+    },
+    {
+      "element_id": "conclusion_divider",
+      "bbox_px": {
+        "x": 852,
+        "y": 810,
+        "w": 2,
+        "h": 98
+      }
+    },
+    {
+      "element_id": "conclusion_support",
+      "bbox_px": {
+        "x": 892,
+        "y": 807,
+        "w": 695,
+        "h": 103
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text",
+    "all panels and dashed evidence boxes",
+    "all connectors and arrows",
+    "issue tree",
+    "objective rail",
+    "technical route",
+    "conclusion band"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "tabler-outline/clock",
+      "region": "时间尺度矛盾",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/clock.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/puzzle",
+      "region": "结构信息缺失",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/puzzle.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/chart-bar-popular",
+      "region": "动态探索低效",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/chart-bar-popular.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/hierarchy",
+      "region": "分层决策",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/hierarchy.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/eye",
+      "region": "结构感知",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/eye.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/target",
+      "region": "元策略引导",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/target.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/atom",
+      "region": "分层强化学习框架",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/atom.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/shield-check",
+      "region": "性能与稳定性",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/shield-check.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/clock-bolt",
+      "region": "突变恢复速度",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/clock-bolt.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/brain",
+      "region": "可解释性",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/brain.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/antenna",
+      "region": "物理机理与POMDP建模",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/antenna.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/cpu",
+      "region": "Double DQN与GRU执行",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/cpu.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/brain",
+      "region": "Meta-RF元控制",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/brain.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/flask",
+      "region": "多场景实验验证",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/flask.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "tabler-outline/trophy",
+      "region": "研究贡献",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/trophy.svg",
+      "source": "CyberPPT tabler-outline icon library",
+      "necessity": "maintain consistent line-art icon semantics without hand-drawn approximations",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "icon_style_lock": {
+    "library": "tabler-outline",
+    "style_locked": true,
+    "icons": [
+      {
+        "icon_id": "tabler-outline/clock",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "时间尺度矛盾",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/clock.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/puzzle",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "结构信息缺失",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/puzzle.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/chart-bar-popular",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "动态探索低效",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/chart-bar-popular.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/hierarchy",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "分层决策",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/hierarchy.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/eye",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "结构感知",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/eye.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/target",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "元策略引导",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/target.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/atom",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "分层强化学习框架",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/atom.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/shield-check",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "性能与稳定性",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/shield-check.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/clock-bolt",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "突变恢复速度",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/clock-bolt.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/brain",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "可解释性",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/brain.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/antenna",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "物理机理与POMDP建模",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/antenna.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/cpu",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "Double DQN与GRU执行",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/cpu.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/brain",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "Meta-RF元控制",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/brain.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/flask",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "多场景实验验证",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/flask.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      },
+      {
+        "icon_id": "tabler-outline/trophy",
+        "source_library": "tabler-outline",
+        "semantic_meaning": "研究贡献",
+        "svg_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/icons/tabler-outline/trophy.svg",
+        "viewBox": "0 0 24 24",
+        "powerpoint_render_verified": false
+      }
+    ]
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "icon_library_gate",
+      "label_collision_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "No photo or complex infographic asset is admitted; only verified non-text SVG icons are used."
+  }
+}

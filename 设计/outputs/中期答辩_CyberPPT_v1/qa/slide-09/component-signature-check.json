@@ -1,0 +1,16 @@
+{
+  "schema": "cyberppt.component_signature_check.v1",
+  "slide": 9,
+  "passed": true,
+  "signature_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-09-component-signature.json",
+  "signature_sha256": "202a4e63ae388a73f345b59e9db00d184c7085cad3bc1d5d064176c123a1ee00",
+  "required_components_present": [
+    "page_header",
+    "narrative_header",
+    "system_performance",
+    "dynamic_recovery",
+    "engineering_evidence",
+    "conclusion_band"
+  ],
+  "missing_components": []
+}

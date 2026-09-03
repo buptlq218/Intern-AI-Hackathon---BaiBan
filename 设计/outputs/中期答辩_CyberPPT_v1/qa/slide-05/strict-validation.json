@@ -1,0 +1,218 @@
+{
+  "file": "outputs/中期答辩_CyberPPT_v1/pages/slide-05.pptx",
+  "summary": {
+    "slide_count": 1,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": 1.7778,
+    "native_text_shapes": 61,
+    "native_graphic_shapes": 146,
+    "pictures": 17,
+    "charts": 0,
+    "tables": 0
+  },
+  "errors": [
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "FONT_SIZE_BELOW_FOOTER_MIN",
+      "message": "A native text run is 5.8pt; global minimum is 6.5pt.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[7] role T6 is 9.4pt; minimum is 11.0pt.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[8] role T7 is 7.8pt; minimum is 9.5pt.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[10] role T7 is 9.3pt; minimum is 9.5pt.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[11] role T7 is 9.2pt; minimum is 9.5pt.",
+      "slide": 1,
+      "strict_failure": true
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[13] role T14 is 5.8pt; minimum is 6.5pt.",
+      "slide": 1,
+      "strict_failure": true
+    }
+  ],
+  "warnings": [
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "INVALID_SHAPE_BOUNDS",
+      "message": "Element has non-positive dimensions or negative coordinates; PowerPoint may treat the PPTX as corrupted.",
+      "slide": 1
+    },
+    {
+      "code": "FONT_SIZE_BELOW_FOOTER_MIN",
+      "message": "A native text run is 5.8pt; global minimum is 6.5pt.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_PAGE_APPROVAL_MISSING",
+      "message": "A page must be approved by the user before the next page is made or final merge begins.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[7] role T6 is 9.4pt; minimum is 11.0pt.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[8] role T7 is 7.8pt; minimum is 9.5pt.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[10] role T7 is 9.3pt; minimum is 9.5pt.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[11] role T7 is 9.2pt; minimum is 9.5pt.",
+      "slide": 1
+    },
+    {
+      "code": "MANIFEST_FONT_BELOW_SCALE",
+      "message": "text_objects[13] role T14 is 5.8pt; minimum is 6.5pt.",
+      "slide": 1
+    }
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "native_text_shapes": 61,
+      "native_graphic_shapes": 146,
+      "pictures": 17,
+      "charts": 0,
+      "tables": 0,
+      "element_count": 163,
+      "coverage_ratio": 0.9777,
+      "picture_area_ratio": 0.0702,
+      "max_picture_area_ratio": 0.0075,
+      "min_font_size_pt": 5.8,
+      "max_font_size_pt": 24.5,
+      "text_characters": 728
+    }
+  ],
+  "manifest": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/slide-05-manifest-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  },
+  "visual_qa": {
+    "file": "outputs/中期答辩_CyberPPT_v1/qa/slide-05/visual_qa_gate-slide-05-single.json",
+    "loaded": true,
+    "slide_entries": 1
+  }
+}

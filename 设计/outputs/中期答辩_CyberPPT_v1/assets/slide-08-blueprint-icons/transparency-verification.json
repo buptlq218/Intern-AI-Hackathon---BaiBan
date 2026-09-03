@@ -1,0 +1,55 @@
+{
+  "icons": [
+    {
+      "name": "check",
+      "source_bbox_px": {
+        "left": 84,
+        "top": 668,
+        "width": 77,
+        "height": 72
+      },
+      "background_rgb": [
+        251,
+        250,
+        248
+      ],
+      "transparent_pixel_ratio": 0.4681,
+      "partial_alpha_pixel_ratio": 0.0184,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "warning",
+      "source_bbox_px": {
+        "left": 394,
+        "top": 767,
+        "width": 60,
+        "height": 55
+      },
+      "background_rgb": [
+        251,
+        250,
+        249
+      ],
+      "transparent_pixel_ratio": 0.5879,
+      "partial_alpha_pixel_ratio": 0.0142,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "trophy",
+      "source_bbox_px": {
+        "left": 172,
+        "top": 840,
+        "width": 84,
+        "height": 82
+      },
+      "background_rgb": [
+        4,
+        42,
+        86
+      ],
+      "transparent_pixel_ratio": 0.5839,
+      "partial_alpha_pixel_ratio": 0.1424,
+      "verified_has_transparency": true
+    }
+  ]
+}

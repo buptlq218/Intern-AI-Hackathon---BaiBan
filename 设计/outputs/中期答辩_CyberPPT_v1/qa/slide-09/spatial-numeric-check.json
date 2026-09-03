@@ -1,0 +1,2117 @@
+{
+  "schema": "cyberppt.spatial_numeric_check.v1",
+  "slide": 9,
+  "passed": true,
+  "render_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/renders/slide-09.png",
+  "anchor_points": [
+    {
+      "element_id": "background_surface",
+      "item": "background_surface",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "render_bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "page_badge",
+      "item": "page_badge",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 17,
+        "y": 5,
+        "w": 141,
+        "h": 55
+      },
+      "render_bbox_px": {
+        "x": 17,
+        "y": 5,
+        "w": 141,
+        "h": 55
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "page_number",
+      "item": "text:page_number",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 36,
+        "y": 8,
+        "w": 66,
+        "h": 48
+      },
+      "render_bbox_px": {
+        "x": 36,
+        "y": 8,
+        "w": 66,
+        "h": 48
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "header_deck_title",
+      "item": "text:header_deck_title",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 421,
+        "y": 15,
+        "w": 700,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 421,
+        "y": 15,
+        "w": 700,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "section_label",
+      "item": "text:section_label",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1272,
+        "y": 16,
+        "w": 352,
+        "h": 40
+      },
+      "render_bbox_px": {
+        "x": 1272,
+        "y": 16,
+        "w": 352,
+        "h": 40
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "top_rule",
+      "item": "top_rule",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 17,
+        "y": 63,
+        "w": 1637,
+        "h": 4
+      },
+      "render_bbox_px": {
+        "x": 17,
+        "y": 63,
+        "w": 1637,
+        "h": 4
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "main_title",
+      "item": "text:main_title",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 191,
+        "y": 83,
+        "w": 1295,
+        "h": 57
+      },
+      "render_bbox_px": {
+        "x": 191,
+        "y": 83,
+        "w": 1295,
+        "h": 57
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "subtitle",
+      "item": "text:subtitle",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 309,
+        "y": 143,
+        "w": 1050,
+        "h": 43
+      },
+      "render_bbox_px": {
+        "x": 309,
+        "y": 143,
+        "w": 1050,
+        "h": 43
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_panel_surface",
+      "item": "system_panel_surface",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 25,
+        "y": 194,
+        "w": 553,
+        "h": 606
+      },
+      "render_bbox_px": {
+        "x": 25,
+        "y": 194,
+        "w": 553,
+        "h": 606
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_panel_header",
+      "item": "system_panel_header",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 25,
+        "y": 194,
+        "w": 553,
+        "h": 47
+      },
+      "render_bbox_px": {
+        "x": 25,
+        "y": 194,
+        "w": 553,
+        "h": 47
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_panel_title",
+      "item": "text:system_panel_title",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 84,
+        "y": 198,
+        "w": 433,
+        "h": 38
+      },
+      "render_bbox_px": {
+        "x": 84,
+        "y": 198,
+        "w": 433,
+        "h": 38
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_chart_legend",
+      "item": "system_chart_legend",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 100,
+        "y": 248,
+        "w": 410,
+        "h": 33
+      },
+      "render_bbox_px": {
+        "x": 100,
+        "y": 248,
+        "w": 410,
+        "h": 33
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_chart_axes",
+      "item": "system_chart_axes",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 37,
+        "y": 294,
+        "w": 527,
+        "h": 329
+      },
+      "render_bbox_px": {
+        "x": 37,
+        "y": 294,
+        "w": 527,
+        "h": 329
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_sinr_bars",
+      "item": "system_sinr_bars",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 101,
+        "y": 407,
+        "w": 168,
+        "h": 129
+      },
+      "render_bbox_px": {
+        "x": 101,
+        "y": 407,
+        "w": 168,
+        "h": 129
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_avoid_bars",
+      "item": "system_avoid_bars",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 350,
+        "y": 349,
+        "w": 161,
+        "h": 243
+      },
+      "render_bbox_px": {
+        "x": 350,
+        "y": 349,
+        "w": 161,
+        "h": 243
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_data_labels",
+      "item": "text:system_data_labels",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 101,
+        "y": 326,
+        "w": 417,
+        "h": 210
+      },
+      "render_bbox_px": {
+        "x": 101,
+        "y": 326,
+        "w": 417,
+        "h": 210
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "system_result_table",
+      "item": "system_result_table",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 36,
+        "y": 627,
+        "w": 528,
+        "h": 154
+      },
+      "render_bbox_px": {
+        "x": 36,
+        "y": 627,
+        "w": 528,
+        "h": 154
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_panel_surface",
+      "item": "dynamic_panel_surface",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 594,
+        "y": 194,
+        "w": 640,
+        "h": 606
+      },
+      "render_bbox_px": {
+        "x": 594,
+        "y": 194,
+        "w": 640,
+        "h": 606
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_panel_header",
+      "item": "dynamic_panel_header",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 594,
+        "y": 194,
+        "w": 640,
+        "h": 47
+      },
+      "render_bbox_px": {
+        "x": 594,
+        "y": 194,
+        "w": 640,
+        "h": 47
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_panel_title",
+      "item": "text:dynamic_panel_title",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 674,
+        "y": 198,
+        "w": 480,
+        "h": 38
+      },
+      "render_bbox_px": {
+        "x": 674,
+        "y": 198,
+        "w": 480,
+        "h": 38
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_chart_axes",
+      "item": "dynamic_chart_axes",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 604,
+        "y": 294,
+        "w": 609,
+        "h": 396
+      },
+      "render_bbox_px": {
+        "x": 604,
+        "y": 294,
+        "w": 609,
+        "h": 396
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_curves",
+      "item": "dynamic_curves",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 640,
+        "y": 332,
+        "w": 573,
+        "h": 307
+      },
+      "render_bbox_px": {
+        "x": 640,
+        "y": 332,
+        "w": 573,
+        "h": 307
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "jump_marker",
+      "item": "jump_marker",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 780,
+        "y": 257,
+        "w": 208,
+        "h": 382
+      },
+      "render_bbox_px": {
+        "x": 780,
+        "y": 257,
+        "w": 208,
+        "h": 382
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "recovery_annotations",
+      "item": "recovery_annotations",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 881,
+        "y": 388,
+        "w": 278,
+        "h": 204
+      },
+      "render_bbox_px": {
+        "x": 881,
+        "y": 388,
+        "w": 278,
+        "h": 204
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "dynamic_summary_table",
+      "item": "dynamic_summary_table",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 613,
+        "y": 698,
+        "w": 606,
+        "h": 82
+      },
+      "render_bbox_px": {
+        "x": 613,
+        "y": 698,
+        "w": 606,
+        "h": 82
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "evidence_panel_surface",
+      "item": "evidence_panel_surface",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1247,
+        "y": 194,
+        "w": 396,
+        "h": 606
+      },
+      "render_bbox_px": {
+        "x": 1247,
+        "y": 194,
+        "w": 396,
+        "h": 606
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "evidence_panel_header",
+      "item": "evidence_panel_header",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1247,
+        "y": 194,
+        "w": 396,
+        "h": 47
+      },
+      "render_bbox_px": {
+        "x": 1247,
+        "y": 194,
+        "w": 396,
+        "h": 47
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "evidence_panel_title",
+      "item": "text:evidence_panel_title",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1291,
+        "y": 198,
+        "w": 309,
+        "h": 38
+      },
+      "render_bbox_px": {
+        "x": 1291,
+        "y": 198,
+        "w": 309,
+        "h": 38
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "sinr_gain_card",
+      "item": "sinr_gain_card",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1268,
+        "y": 265,
+        "w": 349,
+        "h": 143
+      },
+      "render_bbox_px": {
+        "x": 1268,
+        "y": 265,
+        "w": 349,
+        "h": 143
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "sinr_gain_value",
+      "item": "text:sinr_gain_value",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1292,
+        "y": 279,
+        "w": 300,
+        "h": 81
+      },
+      "render_bbox_px": {
+        "x": 1292,
+        "y": 279,
+        "w": 300,
+        "h": 81
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "recovery_gain_card",
+      "item": "recovery_gain_card",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1268,
+        "y": 422,
+        "w": 349,
+        "h": 142
+      },
+      "render_bbox_px": {
+        "x": 1268,
+        "y": 422,
+        "w": 349,
+        "h": 142
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "recovery_gain_value",
+      "item": "text:recovery_gain_value",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1293,
+        "y": 432,
+        "w": 300,
+        "h": 78
+      },
+      "render_bbox_px": {
+        "x": 1293,
+        "y": 432,
+        "w": 300,
+        "h": 78
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "latency_risk_card",
+      "item": "latency_risk_card",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1268,
+        "y": 581,
+        "w": 349,
+        "h": 155
+      },
+      "render_bbox_px": {
+        "x": 1268,
+        "y": 581,
+        "w": 349,
+        "h": 155
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "latency_value",
+      "item": "text:latency_value",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1280,
+        "y": 589,
+        "w": 322,
+        "h": 69
+      },
+      "render_bbox_px": {
+        "x": 1280,
+        "y": 589,
+        "w": 322,
+        "h": 69
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "latency_warning",
+      "item": "text:latency_warning",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1287,
+        "y": 679,
+        "w": 311,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 1287,
+        "y": 679,
+        "w": 311,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_card",
+      "item": "caveat_card",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1260,
+        "y": 748,
+        "w": 365,
+        "h": 42
+      },
+      "render_bbox_px": {
+        "x": 1260,
+        "y": 748,
+        "w": 365,
+        "h": 42
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_info_icon",
+      "item": "caveat_info_icon",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 1268,
+        "y": 751,
+        "w": 38,
+        "h": 38
+      },
+      "render_bbox_px": {
+        "x": 1268,
+        "y": 751,
+        "w": 38,
+        "h": 38
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "caveat_text",
+      "item": "text:caveat_text",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1310,
+        "y": 750,
+        "w": 304,
+        "h": 37
+      },
+      "render_bbox_px": {
+        "x": 1310,
+        "y": 750,
+        "w": 304,
+        "h": 37
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "item": "conclusion_band_surface",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 25,
+        "y": 818,
+        "w": 1618,
+        "h": 90
+      },
+      "render_bbox_px": {
+        "x": 25,
+        "y": 818,
+        "w": 1618,
+        "h": 90
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "conclusion_check_icon",
+      "item": "conclusion_check_icon",
+      "anchor": "bbox",
+      "blueprint_bbox_px": {
+        "x": 132,
+        "y": 831,
+        "w": 65,
+        "h": 64
+      },
+      "render_bbox_px": {
+        "x": 132,
+        "y": 831,
+        "w": 65,
+        "h": 64
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    },
+    {
+      "element_id": "conclusion_text",
+      "item": "text:conclusion_text",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 220,
+        "y": 830,
+        "w": 1300,
+        "h": 64
+      },
+      "render_bbox_px": {
+        "x": 220,
+        "y": 830,
+        "w": 1300,
+        "h": 64
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 3,
+      "status": "passed"
+    },
+    {
+      "element_id": "source_footer",
+      "item": "text:source_footer",
+      "anchor": "text_baseline",
+      "blueprint_bbox_px": {
+        "x": 1325,
+        "y": 892,
+        "w": 290,
+        "h": 14
+      },
+      "render_bbox_px": {
+        "x": 1325,
+        "y": 892,
+        "w": 290,
+        "h": 14
+      },
+      "delta_px": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "tolerance_px": 4,
+      "status": "passed"
+    }
+  ],
+  "checked_groups": [
+    {
+      "id": "slide-09-all-elements",
+      "status": "passed",
+      "anchor_points": [
+        {
+          "element_id": "background_surface",
+          "item": "background_surface",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "render_bbox_px": {
+            "x": 0,
+            "y": 0,
+            "w": 1672,
+            "h": 941
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "page_badge",
+          "item": "page_badge",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 5,
+            "w": 141,
+            "h": 55
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "page_number",
+          "item": "text:page_number",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 8,
+            "w": 66,
+            "h": 48
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "header_deck_title",
+          "item": "text:header_deck_title",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "render_bbox_px": {
+            "x": 421,
+            "y": 15,
+            "w": 700,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "section_label",
+          "item": "text:section_label",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "render_bbox_px": {
+            "x": 1272,
+            "y": 16,
+            "w": 352,
+            "h": 40
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "top_rule",
+          "item": "top_rule",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "render_bbox_px": {
+            "x": 17,
+            "y": 63,
+            "w": 1637,
+            "h": 4
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "main_title",
+          "item": "text:main_title",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "render_bbox_px": {
+            "x": 191,
+            "y": 83,
+            "w": 1295,
+            "h": 57
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "subtitle",
+          "item": "text:subtitle",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "render_bbox_px": {
+            "x": 309,
+            "y": 143,
+            "w": 1050,
+            "h": 43
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_panel_surface",
+          "item": "system_panel_surface",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_panel_header",
+          "item": "system_panel_header",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 194,
+            "w": 553,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_panel_title",
+          "item": "text:system_panel_title",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "render_bbox_px": {
+            "x": 84,
+            "y": 198,
+            "w": 433,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_chart_legend",
+          "item": "system_chart_legend",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "render_bbox_px": {
+            "x": 100,
+            "y": 248,
+            "w": 410,
+            "h": 33
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_chart_axes",
+          "item": "system_chart_axes",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "render_bbox_px": {
+            "x": 37,
+            "y": 294,
+            "w": 527,
+            "h": 329
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_sinr_bars",
+          "item": "system_sinr_bars",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 407,
+            "w": 168,
+            "h": 129
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_avoid_bars",
+          "item": "system_avoid_bars",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "render_bbox_px": {
+            "x": 350,
+            "y": 349,
+            "w": 161,
+            "h": 243
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_data_labels",
+          "item": "text:system_data_labels",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "render_bbox_px": {
+            "x": 101,
+            "y": 326,
+            "w": 417,
+            "h": 210
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "system_result_table",
+          "item": "system_result_table",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "render_bbox_px": {
+            "x": 36,
+            "y": 627,
+            "w": 528,
+            "h": 154
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_panel_surface",
+          "item": "dynamic_panel_surface",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_panel_header",
+          "item": "dynamic_panel_header",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "render_bbox_px": {
+            "x": 594,
+            "y": 194,
+            "w": 640,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_panel_title",
+          "item": "text:dynamic_panel_title",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "render_bbox_px": {
+            "x": 674,
+            "y": 198,
+            "w": 480,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_chart_axes",
+          "item": "dynamic_chart_axes",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "render_bbox_px": {
+            "x": 604,
+            "y": 294,
+            "w": 609,
+            "h": 396
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_curves",
+          "item": "dynamic_curves",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "render_bbox_px": {
+            "x": 640,
+            "y": 332,
+            "w": 573,
+            "h": 307
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "jump_marker",
+          "item": "jump_marker",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "render_bbox_px": {
+            "x": 780,
+            "y": 257,
+            "w": 208,
+            "h": 382
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "recovery_annotations",
+          "item": "recovery_annotations",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "render_bbox_px": {
+            "x": 881,
+            "y": 388,
+            "w": 278,
+            "h": 204
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "dynamic_summary_table",
+          "item": "dynamic_summary_table",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "render_bbox_px": {
+            "x": 613,
+            "y": 698,
+            "w": 606,
+            "h": 82
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "evidence_panel_surface",
+          "item": "evidence_panel_surface",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 606
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "evidence_panel_header",
+          "item": "evidence_panel_header",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "render_bbox_px": {
+            "x": 1247,
+            "y": 194,
+            "w": 396,
+            "h": 47
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "evidence_panel_title",
+          "item": "text:evidence_panel_title",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "render_bbox_px": {
+            "x": 1291,
+            "y": 198,
+            "w": 309,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "sinr_gain_card",
+          "item": "sinr_gain_card",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 265,
+            "w": 349,
+            "h": 143
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "sinr_gain_value",
+          "item": "text:sinr_gain_value",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "render_bbox_px": {
+            "x": 1292,
+            "y": 279,
+            "w": 300,
+            "h": 81
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "recovery_gain_card",
+          "item": "recovery_gain_card",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 422,
+            "w": 349,
+            "h": 142
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "recovery_gain_value",
+          "item": "text:recovery_gain_value",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "render_bbox_px": {
+            "x": 1293,
+            "y": 432,
+            "w": 300,
+            "h": 78
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "latency_risk_card",
+          "item": "latency_risk_card",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 581,
+            "w": 349,
+            "h": 155
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "latency_value",
+          "item": "text:latency_value",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "render_bbox_px": {
+            "x": 1280,
+            "y": 589,
+            "w": 322,
+            "h": 69
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "latency_warning",
+          "item": "text:latency_warning",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "render_bbox_px": {
+            "x": 1287,
+            "y": 679,
+            "w": 311,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "caveat_card",
+          "item": "caveat_card",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "render_bbox_px": {
+            "x": 1260,
+            "y": 748,
+            "w": 365,
+            "h": 42
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "caveat_info_icon",
+          "item": "caveat_info_icon",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "render_bbox_px": {
+            "x": 1268,
+            "y": 751,
+            "w": 38,
+            "h": 38
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "caveat_text",
+          "item": "text:caveat_text",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "render_bbox_px": {
+            "x": 1310,
+            "y": 750,
+            "w": 304,
+            "h": 37
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "conclusion_band_surface",
+          "item": "conclusion_band_surface",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "render_bbox_px": {
+            "x": 25,
+            "y": 818,
+            "w": 1618,
+            "h": 90
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "conclusion_check_icon",
+          "item": "conclusion_check_icon",
+          "anchor": "bbox",
+          "blueprint_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "render_bbox_px": {
+            "x": 132,
+            "y": 831,
+            "w": 65,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        },
+        {
+          "element_id": "conclusion_text",
+          "item": "text:conclusion_text",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "render_bbox_px": {
+            "x": 220,
+            "y": 830,
+            "w": 1300,
+            "h": 64
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 3,
+          "status": "passed"
+        },
+        {
+          "element_id": "source_footer",
+          "item": "text:source_footer",
+          "anchor": "text_baseline",
+          "blueprint_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "render_bbox_px": {
+            "x": 1325,
+            "y": 892,
+            "w": 290,
+            "h": 14
+          },
+          "delta_px": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tolerance_px": 4,
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

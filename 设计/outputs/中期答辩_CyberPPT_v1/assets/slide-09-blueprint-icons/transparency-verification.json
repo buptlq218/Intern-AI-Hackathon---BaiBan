@@ -1,0 +1,38 @@
+{
+  "icons": [
+    {
+      "name": "check",
+      "source_bbox_px": {
+        "left": 132,
+        "top": 831,
+        "width": 65,
+        "height": 64
+      },
+      "background_rgb": [
+        1,
+        47,
+        100
+      ],
+      "transparent_pixel_ratio": 0.5188,
+      "partial_alpha_pixel_ratio": 0.1938,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "info",
+      "source_bbox_px": {
+        "left": 1268,
+        "top": 751,
+        "width": 38,
+        "height": 38
+      },
+      "background_rgb": [
+        241,
+        241,
+        240
+      ],
+      "transparent_pixel_ratio": 0.2895,
+      "partial_alpha_pixel_ratio": 0.5118,
+      "verified_has_transparency": true
+    }
+  ]
+}

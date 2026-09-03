@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "three_stage_timeline",
+      "type": "native_timeline_with_transparent_stage_icons",
+      "priority": "P0",
+      "required_subcomponents": [
+        "stage_icons",
+        "flow_arrows",
+        "stage_titles",
+        "status_dividers"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "progress_task_lists",
+      "type": "native_task_lists_with_transparent_icons",
+      "priority": "P0",
+      "required_subcomponents": [
+        "completed_tasks",
+        "writing_tasks",
+        "defense_tasks"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "transparent_clipboard_icon",
+        "conclusion_text",
+        "caveat_footer",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

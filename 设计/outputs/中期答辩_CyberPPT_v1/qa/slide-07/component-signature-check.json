@@ -1,0 +1,16 @@
+{
+  "schema": "cyberppt.component_signature_check.v1",
+  "slide": 7,
+  "passed": true,
+  "signature_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/locks/slide-07-component-signature.json",
+  "signature_sha256": "5b435955b7f607a3e99ff60b40b88b9f10fae0bc4d33fed94b8df048ae67f29e",
+  "required_components_present": [
+    "page_header",
+    "narrative_header",
+    "feature_matrix",
+    "rf_pipeline",
+    "strategy_panel",
+    "conclusion_panel"
+  ],
+  "missing_components": []
+}

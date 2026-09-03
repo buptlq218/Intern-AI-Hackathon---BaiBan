@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": ["page_badge", "deck_title", "section_label", "top_rule"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_conclusion_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": ["main_title", "subtitle"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "road_scene",
+      "type": "clean_non_text_complex_visual_asset_with_native_annotations",
+      "priority": "P0",
+      "required_subcomponents": ["clean_road_scene_asset", "interferer_labels", "target_label", "ego_label"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "scene_legend",
+      "type": "native_legend_panel",
+      "priority": "P1",
+      "required_subcomponents": ["legend_panel", "ego_beam_legend", "interference_legend", "los_legend"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "spectrum_inset",
+      "type": "native_multi_peak_spectrum_inset",
+      "priority": "P1",
+      "required_subcomponents": ["inset_panel", "axes", "spectrum_curve", "target_marker", "interference_markers", "inset_note"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "challenge_rail",
+      "type": "three_group_native_evidence_rail",
+      "priority": "P0",
+      "required_subcomponents": ["recognition_group", "adaptation_group", "realtime_group", "kpi_50us"],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": ["band_surface", "double_chevron", "conclusion_text"],
+      "must_preserve_type": true
+    }
+  ]
+}

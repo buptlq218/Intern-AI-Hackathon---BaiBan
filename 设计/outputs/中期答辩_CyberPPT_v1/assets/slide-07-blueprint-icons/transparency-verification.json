@@ -1,0 +1,225 @@
+{
+  "icons": [
+    {
+      "name": "feature-signal",
+      "source_bbox_px": {
+        "left": 48,
+        "top": 253,
+        "width": 90,
+        "height": 90
+      },
+      "background_rgb": [
+        248,
+        247,
+        243
+      ],
+      "transparent_pixel_ratio": 0.6078,
+      "partial_alpha_pixel_ratio": 0.1351,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "feature-action",
+      "source_bbox_px": {
+        "left": 47,
+        "top": 382,
+        "width": 89,
+        "height": 94
+      },
+      "background_rgb": [
+        248,
+        248,
+        243
+      ],
+      "transparent_pixel_ratio": 0.6076,
+      "partial_alpha_pixel_ratio": 0.1295,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "feature-shield",
+      "source_bbox_px": {
+        "left": 52,
+        "top": 518,
+        "width": 76,
+        "height": 85
+      },
+      "background_rgb": [
+        249,
+        247,
+        243
+      ],
+      "transparent_pixel_ratio": 0.7553,
+      "partial_alpha_pixel_ratio": 0.0766,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "feature-target",
+      "source_bbox_px": {
+        "left": 47,
+        "top": 625,
+        "width": 83,
+        "height": 85
+      },
+      "background_rgb": [
+        249,
+        247,
+        243
+      ],
+      "transparent_pixel_ratio": 0.6767,
+      "partial_alpha_pixel_ratio": 0.1107,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-database",
+      "source_bbox_px": {
+        "left": 668,
+        "top": 289,
+        "width": 62,
+        "height": 62
+      },
+      "background_rgb": [
+        249,
+        247,
+        242
+      ],
+      "transparent_pixel_ratio": 0.2911,
+      "partial_alpha_pixel_ratio": 0.4024,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-pie",
+      "source_bbox_px": {
+        "left": 669,
+        "top": 366,
+        "width": 61,
+        "height": 62
+      },
+      "background_rgb": [
+        237,
+        240,
+        240
+      ],
+      "transparent_pixel_ratio": 0.5175,
+      "partial_alpha_pixel_ratio": 0.207,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-clipboard",
+      "source_bbox_px": {
+        "left": 669,
+        "top": 441,
+        "width": 61,
+        "height": 64
+      },
+      "background_rgb": [
+        248,
+        247,
+        244
+      ],
+      "transparent_pixel_ratio": 0.3215,
+      "partial_alpha_pixel_ratio": 0.4127,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-trees",
+      "source_bbox_px": {
+        "left": 666,
+        "top": 519,
+        "width": 67,
+        "height": 60
+      },
+      "background_rgb": [
+        231,
+        236,
+        237
+      ],
+      "transparent_pixel_ratio": 0.3955,
+      "partial_alpha_pixel_ratio": 0.2935,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-gear",
+      "source_bbox_px": {
+        "left": 668,
+        "top": 593,
+        "width": 63,
+        "height": 63
+      },
+      "background_rgb": [
+        244,
+        245,
+        243
+      ],
+      "transparent_pixel_ratio": 0.5412,
+      "partial_alpha_pixel_ratio": 0.2406,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "rf-target",
+      "source_bbox_px": {
+        "left": 669,
+        "top": 666,
+        "width": 62,
+        "height": 62
+      },
+      "background_rgb": [
+        245,
+        246,
+        245
+      ],
+      "transparent_pixel_ratio": 0.4181,
+      "partial_alpha_pixel_ratio": 0.2976,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "guidance-bulb",
+      "source_bbox_px": {
+        "left": 1063,
+        "top": 546,
+        "width": 98,
+        "height": 98
+      },
+      "background_rgb": [
+        235,
+        239,
+        242
+      ],
+      "transparent_pixel_ratio": 0.7208,
+      "partial_alpha_pixel_ratio": 0.1305,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "warning",
+      "source_bbox_px": {
+        "left": 1051,
+        "top": 691,
+        "width": 56,
+        "height": 52
+      },
+      "background_rgb": [
+        252,
+        251,
+        246
+      ],
+      "transparent_pixel_ratio": 0.7236,
+      "partial_alpha_pixel_ratio": 0.0992,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "conclusion-check",
+      "source_bbox_px": {
+        "left": 61,
+        "top": 792,
+        "width": 76,
+        "height": 76
+      },
+      "background_rgb": [
+        245,
+        243,
+        236
+      ],
+      "transparent_pixel_ratio": 0.7346,
+      "partial_alpha_pixel_ratio": 0.0869,
+      "verified_has_transparency": true
+    }
+  ]
+}

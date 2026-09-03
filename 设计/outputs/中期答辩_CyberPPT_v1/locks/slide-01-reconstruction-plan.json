@@ -1,0 +1,94 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 1,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-01.png",
+  "canvas_size": {
+    "blueprint_px": {"w": 1672, "h": 941},
+    "ppt_in": {"w": 13.333, "h": 7.5},
+    "aspect_ratio": "16:9"
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "连续象牙白纸面；无白卡片；深蓝文字、细灰蓝分隔线和低对比技术线稿构成层级",
+  "layout_regions": [
+    {"id": "title_zone", "bbox_px": {"x": 95, "y": 211, "w": 1007, "h": 340}},
+    {"id": "presenter_zone", "bbox_px": {"x": 98, "y": 628, "w": 256, "h": 42}},
+    {"id": "technical_visual_zone", "bbox_px": {"x": 380, "y": 38, "w": 1292, "h": 864}},
+    {"id": "bottom_rule_zone", "bbox_px": {"x": 63, "y": 886, "w": 1551, "h": 10}}
+  ],
+  "header_footer_system": "封面无页眉页码；底部使用一条细灰蓝横线与两端深蓝方形端点",
+  "so_what_region": "不适用（封面）",
+  "main_chart_semantics": "封面非图表；右上雷达波束、底部LFM锯齿波与接收信号、右下雷达设备共同形成技术主题视觉",
+  "density_targets": "低密度封面；两行主标题为主视觉重心，技术线稿在右侧与底部承托，不增加数据卡片",
+  "anchor_targets": [
+    "两行主标题左边缘x≈95px",
+    "标题分隔线y≈457px",
+    "副标题基线y≈532px",
+    "汇报人标记与文字中心线y≈647px",
+    "雷达设备右下锚点x≈1600px,y≈880px",
+    "底部规则线y≈891px"
+  ],
+  "native_rebuild_targets": [
+    "主标题两行",
+    "答辩类型",
+    "汇报人标记与姓名",
+    "标题下方短深蓝线",
+    "标题下方细灰线",
+    "底部规则线与端点"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "slide-01-technical-visual",
+      "region": "右侧与底部技术氛围视觉",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-01-technical-visual.png",
+      "source": "已批准蓝图中的无文字复杂线稿区域，经背景透明化并合成为单一资产",
+      "necessity": "雷达波束、设备线稿与双波形包含大量曲线和细节；原生重画会显著降低蓝图视觉语义",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "page_coverage_bbox_ratio": 0.709,
+      "trace_required": false
+    }
+  ],
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [
+      "多层同心雷达波束与虚实线弧",
+      "LFM锯齿波与辅助网格",
+      "高频接收信号波形",
+      "右下雷达设备复杂线稿"
+    ],
+    "triggered_gates": [
+      "complex_visual_asset_admission",
+      "spatial_registration",
+      "container_overflow",
+      "continuous_text_flow"
+    ],
+    "native_only_rationale": null,
+    "pictures_zero_is_not_goal": true
+  },
+  "dual_gate_execution": {
+    "editable_information_layer": "所有主要文字与规则线均为PptxGenJS原生文本/形状",
+    "visual_semantics": "复杂无文字技术线稿作为单一透明资产按蓝图坐标放置",
+    "conflict_resolution": "不把蓝图整页入稿；只提取无文字技术线稿，文字完全原生"
+  },
+  "visual_system_record": {
+    "page_background": "#FCFAF5",
+    "panel_logic": "无卡片，连续纸面",
+    "chart_background": "不适用",
+    "partition_method": "细线与留白",
+    "main_visual_semantics": "雷达波束与FMCW波形线稿",
+    "trace_trigger": false,
+    "label_avoidance": "技术资产位于原生标题之后，保护标题区域以避免重影",
+    "spatial_anchors": "所有可见元素按visual_element_registry逐项测量",
+    "container_boundaries": "主标题、副标题和汇报人均有独立文本框，不越过技术资产的主要实线区域",
+    "continuous_text_flow": "主标题锁定为两行独立文本框，避免自动换行和基线漂移",
+    "table_typography": "不适用",
+    "table_density": "不适用"
+  },
+  "language_metadata": {
+    "target_language": "Chinese",
+    "language_source": "source_material",
+    "effective_language": "Chinese",
+    "language_overrides": [],
+    "allowed_foreign_terms": ["FMCW"]
+  }
+}

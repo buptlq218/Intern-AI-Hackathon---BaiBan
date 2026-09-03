@@ -1,0 +1,1450 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 5,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-05.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with two pale-blue architecture layers, one guidance band, a right comparison rail, and a navy conclusion band",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 8,
+        "y": 5,
+        "w": 1639,
+        "h": 173
+      }
+    },
+    {
+      "id": "meta_layer",
+      "bbox_px": {
+        "x": 15,
+        "y": 182,
+        "w": 1308,
+        "h": 223
+      }
+    },
+    {
+      "id": "dam_band",
+      "bbox_px": {
+        "x": 218,
+        "y": 430,
+        "w": 997,
+        "h": 57
+      }
+    },
+    {
+      "id": "execution_layer",
+      "bbox_px": {
+        "x": 15,
+        "y": 510,
+        "w": 1308,
+        "h": 188
+      }
+    },
+    {
+      "id": "environment_feedback",
+      "bbox_px": {
+        "x": 91,
+        "y": 697,
+        "w": 1156,
+        "h": 125
+      }
+    },
+    {
+      "id": "right_rail",
+      "bbox_px": {
+        "x": 1375,
+        "y": 131,
+        "w": 272,
+        "h": 680
+      }
+    },
+    {
+      "id": "conclusion_band",
+      "bbox_px": {
+        "x": 24,
+        "y": 847,
+        "w": 1625,
+        "h": 78
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "05",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "研究内容｜分层系统架构",
+    "footer": "source IDs in conclusion band"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 24,
+      "y": 847,
+      "w": 1625,
+      "h": 78
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "Closed-loop hierarchical architecture: Meta-RF provides confidence-weighted dimension guidance to a Double DQN+GRU execution policy through DAM Q-value biasing.",
+  "density_targets": {
+    "overall": "high",
+    "meta_layer": "five sequential strategic decision nodes plus three outputs",
+    "execution_layer": "five sequential tactical decision nodes",
+    "environment_feedback": "two feedback ledgers and a closed loop",
+    "right_rail": "two time scales plus one explicit engineering caveat"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 8,
+        "y": 5,
+        "w": 92,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 26,
+        "y": 12,
+        "w": 56,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 357,
+        "y": 14,
+        "w": 916,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1340,
+        "y": 20,
+        "w": 305,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 0,
+        "y": 66,
+        "w": 1672,
+        "h": 4
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 255,
+        "y": 91,
+        "w": 1080,
+        "h": 45
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 312,
+        "y": 147,
+        "w": 1022,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "meta_layer_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 182,
+        "w": 1308,
+        "h": 223
+      }
+    },
+    {
+      "element_id": "meta_layer_label",
+      "bbox_px": {
+        "x": 28,
+        "y": 238,
+        "w": 145,
+        "h": 82
+      }
+    },
+    {
+      "element_id": "meta_history",
+      "bbox_px": {
+        "x": 217,
+        "y": 198,
+        "w": 179,
+        "h": 192
+      }
+    },
+    {
+      "element_id": "meta_history_title",
+      "bbox_px": {
+        "x": 225,
+        "y": 206,
+        "w": 163,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_features",
+      "bbox_px": {
+        "x": 454,
+        "y": 199,
+        "w": 160,
+        "h": 190
+      }
+    },
+    {
+      "element_id": "meta_features_title",
+      "bbox_px": {
+        "x": 462,
+        "y": 207,
+        "w": 144,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_rf",
+      "bbox_px": {
+        "x": 673,
+        "y": 201,
+        "w": 157,
+        "h": 188
+      }
+    },
+    {
+      "element_id": "meta_rf_title",
+      "bbox_px": {
+        "x": 681,
+        "y": 209,
+        "w": 141,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_confidence",
+      "bbox_px": {
+        "x": 892,
+        "y": 201,
+        "w": 175,
+        "h": 188
+      }
+    },
+    {
+      "element_id": "meta_confidence_title",
+      "bbox_px": {
+        "x": 900,
+        "y": 209,
+        "w": 159,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_strategy",
+      "bbox_px": {
+        "x": 1152,
+        "y": 199,
+        "w": 155,
+        "h": 190
+      }
+    },
+    {
+      "element_id": "meta_strategy_title",
+      "bbox_px": {
+        "x": 1160,
+        "y": 207,
+        "w": 139,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_connectors",
+      "bbox_px": {
+        "x": 396,
+        "y": 269,
+        "w": 756,
+        "h": 39
+      }
+    },
+    {
+      "element_id": "history_chart",
+      "bbox_px": {
+        "x": 233,
+        "y": 241,
+        "w": 75,
+        "h": 52
+      }
+    },
+    {
+      "element_id": "history_database",
+      "bbox_px": {
+        "x": 326,
+        "y": 244,
+        "w": 48,
+        "h": 48
+      }
+    },
+    {
+      "element_id": "history_bullets",
+      "bbox_px": {
+        "x": 231,
+        "y": 305,
+        "w": 150,
+        "h": 74
+      }
+    },
+    {
+      "element_id": "feature_grid",
+      "bbox_px": {
+        "x": 482,
+        "y": 255,
+        "w": 105,
+        "h": 84
+      }
+    },
+    {
+      "element_id": "feature_labels",
+      "bbox_px": {
+        "x": 480,
+        "y": 347,
+        "w": 109,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "meta_rf_tree",
+      "bbox_px": {
+        "x": 700,
+        "y": 248,
+        "w": 105,
+        "h": 86
+      }
+    },
+    {
+      "element_id": "meta_rf_caption",
+      "bbox_px": {
+        "x": 690,
+        "y": 349,
+        "w": 124,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "confidence_chart",
+      "bbox_px": {
+        "x": 919,
+        "y": 250,
+        "w": 115,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "confidence_formula",
+      "bbox_px": {
+        "x": 918,
+        "y": 350,
+        "w": 121,
+        "h": 27
+      }
+    },
+    {
+      "element_id": "strategy_outputs",
+      "bbox_px": {
+        "x": 1152,
+        "y": 199,
+        "w": 155,
+        "h": 190
+      }
+    },
+    {
+      "element_id": "dam_band_surface",
+      "bbox_px": {
+        "x": 218,
+        "y": 430,
+        "w": 997,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "dam_icon",
+      "bbox_px": {
+        "x": 379,
+        "y": 436,
+        "w": 53,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "dam_label",
+      "bbox_px": {
+        "x": 473,
+        "y": 440,
+        "w": 146,
+        "h": 33
+      }
+    },
+    {
+      "element_id": "dam_bonus",
+      "bbox_px": {
+        "x": 670,
+        "y": 440,
+        "w": 201,
+        "h": 33
+      }
+    },
+    {
+      "element_id": "dam_hold_rule",
+      "bbox_px": {
+        "x": 908,
+        "y": 440,
+        "w": 231,
+        "h": 33
+      }
+    },
+    {
+      "element_id": "dam_dividers",
+      "bbox_px": {
+        "x": 630,
+        "y": 439,
+        "w": 254,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "dam_vertical_connectors",
+      "bbox_px": {
+        "x": 360,
+        "y": 389,
+        "w": 632,
+        "h": 135
+      }
+    },
+    {
+      "element_id": "execution_layer_surface",
+      "bbox_px": {
+        "x": 15,
+        "y": 510,
+        "w": 1308,
+        "h": 188
+      }
+    },
+    {
+      "element_id": "execution_layer_label",
+      "bbox_px": {
+        "x": 29,
+        "y": 553,
+        "w": 142,
+        "h": 80
+      }
+    },
+    {
+      "element_id": "exec_state",
+      "bbox_px": {
+        "x": 197,
+        "y": 524,
+        "w": 187,
+        "h": 163
+      }
+    },
+    {
+      "element_id": "exec_state_title",
+      "bbox_px": {
+        "x": 205,
+        "y": 531,
+        "w": 171,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "exec_dqn",
+      "bbox_px": {
+        "x": 428,
+        "y": 524,
+        "w": 215,
+        "h": 163
+      }
+    },
+    {
+      "element_id": "exec_dqn_title",
+      "bbox_px": {
+        "x": 436,
+        "y": 531,
+        "w": 199,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "exec_q_bonus",
+      "bbox_px": {
+        "x": 687,
+        "y": 524,
+        "w": 174,
+        "h": 163
+      }
+    },
+    {
+      "element_id": "exec_q_bonus_title",
+      "bbox_px": {
+        "x": 695,
+        "y": 531,
+        "w": 158,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "exec_epsilon",
+      "bbox_px": {
+        "x": 906,
+        "y": 524,
+        "w": 165,
+        "h": 163
+      }
+    },
+    {
+      "element_id": "exec_epsilon_title",
+      "bbox_px": {
+        "x": 914,
+        "y": 531,
+        "w": 149,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "exec_output",
+      "bbox_px": {
+        "x": 1117,
+        "y": 524,
+        "w": 195,
+        "h": 163
+      }
+    },
+    {
+      "element_id": "exec_output_title",
+      "bbox_px": {
+        "x": 1125,
+        "y": 531,
+        "w": 179,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "exec_connectors",
+      "bbox_px": {
+        "x": 384,
+        "y": 581,
+        "w": 733,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "state_sequence_plot",
+      "bbox_px": {
+        "x": 215,
+        "y": 566,
+        "w": 150,
+        "h": 42
+      }
+    },
+    {
+      "element_id": "state_sequence_bullets",
+      "bbox_px": {
+        "x": 211,
+        "y": 616,
+        "w": 159,
+        "h": 60
+      }
+    },
+    {
+      "element_id": "dqn_network",
+      "bbox_px": {
+        "x": 449,
+        "y": 561,
+        "w": 109,
+        "h": 70
+      }
+    },
+    {
+      "element_id": "gru_cell",
+      "bbox_px": {
+        "x": 564,
+        "y": 576,
+        "w": 63,
+        "h": 53
+      }
+    },
+    {
+      "element_id": "dqn_caption",
+      "bbox_px": {
+        "x": 452,
+        "y": 643,
+        "w": 170,
+        "h": 27
+      }
+    },
+    {
+      "element_id": "q_bar_chart",
+      "bbox_px": {
+        "x": 705,
+        "y": 569,
+        "w": 136,
+        "h": 77
+      }
+    },
+    {
+      "element_id": "q_bonus_caption",
+      "bbox_px": {
+        "x": 711,
+        "y": 650,
+        "w": 126,
+        "h": 23
+      }
+    },
+    {
+      "element_id": "epsilon_scale",
+      "bbox_px": {
+        "x": 938,
+        "y": 563,
+        "w": 100,
+        "h": 66
+      }
+    },
+    {
+      "element_id": "epsilon_caption",
+      "bbox_px": {
+        "x": 920,
+        "y": 642,
+        "w": 138,
+        "h": 28
+      }
+    },
+    {
+      "element_id": "action_grid",
+      "bbox_px": {
+        "x": 1183,
+        "y": 569,
+        "w": 63,
+        "h": 62
+      }
+    },
+    {
+      "element_id": "action_caption",
+      "bbox_px": {
+        "x": 1139,
+        "y": 640,
+        "w": 154,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "environment_panel",
+      "bbox_px": {
+        "x": 304,
+        "y": 725,
+        "w": 678,
+        "h": 97
+      }
+    },
+    {
+      "element_id": "environment_title",
+      "bbox_px": {
+        "x": 519,
+        "y": 737,
+        "w": 251,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "environment_icons",
+      "bbox_px": {
+        "x": 368,
+        "y": 754,
+        "w": 534,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "feedback_sinr",
+      "bbox_px": {
+        "x": 157,
+        "y": 728,
+        "w": 141,
+        "h": 88
+      }
+    },
+    {
+      "element_id": "feedback_action",
+      "bbox_px": {
+        "x": 1003,
+        "y": 727,
+        "w": 133,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "feedback_left_arrow",
+      "bbox_px": {
+        "x": 91,
+        "y": 401,
+        "w": 54,
+        "h": 372
+      }
+    },
+    {
+      "element_id": "feedback_right_arrow",
+      "bbox_px": {
+        "x": 1131,
+        "y": 697,
+        "w": 116,
+        "h": 77
+      }
+    },
+    {
+      "element_id": "time_scale_surface",
+      "bbox_px": {
+        "x": 1381,
+        "y": 131,
+        "w": 266,
+        "h": 452
+      }
+    },
+    {
+      "element_id": "time_scale_header",
+      "bbox_px": {
+        "x": 1381,
+        "y": 131,
+        "w": 266,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "time_scale_title",
+      "bbox_px": {
+        "x": 1421,
+        "y": 150,
+        "w": 188,
+        "h": 33
+      }
+    },
+    {
+      "element_id": "meta_clock_icon",
+      "bbox_px": {
+        "x": 1396,
+        "y": 237,
+        "w": 91,
+        "h": 91
+      }
+    },
+    {
+      "element_id": "meta_scale_text",
+      "bbox_px": {
+        "x": 1500,
+        "y": 236,
+        "w": 132,
+        "h": 132
+      }
+    },
+    {
+      "element_id": "time_scale_divider",
+      "bbox_px": {
+        "x": 1394,
+        "y": 400,
+        "w": 239,
+        "h": 2
+      }
+    },
+    {
+      "element_id": "exec_gauge_icon",
+      "bbox_px": {
+        "x": 1402,
+        "y": 446,
+        "w": 85,
+        "h": 76
+      }
+    },
+    {
+      "element_id": "exec_scale_text",
+      "bbox_px": {
+        "x": 1500,
+        "y": 444,
+        "w": 132,
+        "h": 99
+      }
+    },
+    {
+      "element_id": "warning_surface",
+      "bbox_px": {
+        "x": 1375,
+        "y": 637,
+        "w": 272,
+        "h": 174
+      }
+    },
+    {
+      "element_id": "warning_icon",
+      "bbox_px": {
+        "x": 1395,
+        "y": 685,
+        "w": 64,
+        "h": 64
+      }
+    },
+    {
+      "element_id": "warning_title",
+      "bbox_px": {
+        "x": 1478,
+        "y": 661,
+        "w": 131,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "warning_text",
+      "bbox_px": {
+        "x": 1476,
+        "y": 695,
+        "w": 146,
+        "h": 59
+      }
+    },
+    {
+      "element_id": "warning_latency",
+      "bbox_px": {
+        "x": 1476,
+        "y": 759,
+        "w": 151,
+        "h": 27
+      }
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "bbox_px": {
+        "x": 24,
+        "y": 847,
+        "w": 1625,
+        "h": 78
+      }
+    },
+    {
+      "element_id": "school_icon",
+      "bbox_px": {
+        "x": 56,
+        "y": 856,
+        "w": 61,
+        "h": 61
+      }
+    },
+    {
+      "element_id": "conclusion_text",
+      "bbox_px": {
+        "x": 320,
+        "y": 867,
+        "w": 1120,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "source_footer",
+      "bbox_px": {
+        "x": 1328,
+        "y": 906,
+        "w": 283,
+        "h": 11
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text and formulas",
+    "architecture panels and connectors",
+    "feature grid and confidence bars",
+    "Meta-RF tree and Q-value bars",
+    "action grid and feedback loops",
+    "time-scale comparison",
+    "warning panel and conclusion band"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "history-visual",
+      "icon_id": "approved-blueprint-crop/history-visual",
+      "region": "SINR折线与动作历史存储",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/history-visual.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 233,
+        "y": 241,
+        "w": 147,
+        "h": 56
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "meta-rf-tree",
+      "icon_id": "approved-blueprint-crop/meta-rf-tree",
+      "region": "Meta-RF分类树",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/meta-rf-tree.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 697,
+        "y": 247,
+        "w": 110,
+        "h": 91
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "confidence-chart",
+      "icon_id": "approved-blueprint-crop/confidence-chart",
+      "region": "策略置信度柱形图",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/confidence-chart.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 918,
+        "y": 249,
+        "w": 122,
+        "h": 97
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "dam-gears",
+      "icon_id": "approved-blueprint-crop/dam-gears",
+      "region": "DAM软引导",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/dam-gears.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 378,
+        "y": 434,
+        "w": 66,
+        "h": 47
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "state-sequence",
+      "icon_id": "approved-blueprint-crop/state-sequence",
+      "region": "状态序列",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/state-sequence.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 212,
+        "y": 564,
+        "w": 160,
+        "h": 50
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "dqn-network",
+      "icon_id": "approved-blueprint-crop/dqn-network",
+      "region": "Double DQN网络",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/dqn-network.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 444,
+        "y": 560,
+        "w": 117,
+        "h": 76
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "epsilon-scale",
+      "icon_id": "approved-blueprint-crop/epsilon-scale",
+      "region": "探索与利用平衡",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/epsilon-scale.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 944,
+        "y": 562,
+        "w": 98,
+        "h": 70
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "action-grid",
+      "icon_id": "approved-blueprint-crop/action-grid",
+      "region": "时频联合动作网格",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/action-grid.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 1179,
+        "y": 565,
+        "w": 71,
+        "h": 69
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "environment-satellite",
+      "icon_id": "approved-blueprint-crop/environment-satellite",
+      "region": "雷达卫星图标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-satellite.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 366,
+        "y": 750,
+        "w": 59,
+        "h": 62
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "environment-wave",
+      "icon_id": "approved-blueprint-crop/environment-wave",
+      "region": "FMCW波形图标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-wave.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 466,
+        "y": 752,
+        "w": 84,
+        "h": 61
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "environment-small-cars",
+      "icon_id": "approved-blueprint-crop/environment-small-cars",
+      "region": "小型车辆目标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-small-cars.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 608,
+        "y": 766,
+        "w": 89,
+        "h": 48
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "environment-large-cars",
+      "icon_id": "approved-blueprint-crop/environment-large-cars",
+      "region": "车辆目标",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-large-cars.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 733,
+        "y": 758,
+        "w": 84,
+        "h": 57
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "environment-antenna",
+      "icon_id": "approved-blueprint-crop/environment-antenna",
+      "region": "环境反馈天线",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-antenna.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 853,
+        "y": 750,
+        "w": 62,
+        "h": 63
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "meta-clock",
+      "icon_id": "approved-blueprint-crop/meta-clock",
+      "region": "元策略时间尺度",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/meta-clock.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 1393,
+        "y": 234,
+        "w": 99,
+        "h": 99
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "execution-gauge",
+      "icon_id": "approved-blueprint-crop/execution-gauge",
+      "region": "执行层逐chirp节奏",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/execution-gauge.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 1397,
+        "y": 442,
+        "w": 96,
+        "h": 78
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "warning",
+      "icon_id": "approved-blueprint-crop/warning",
+      "region": "工程时延提示",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/warning.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 1392,
+        "y": 682,
+        "w": 70,
+        "h": 70
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "school",
+      "icon_id": "approved-blueprint-crop/school",
+      "region": "SO WHAT结论锚点",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/school.png",
+      "source": "Approved slide-05 blueprint crop",
+      "source_bbox_px": {
+        "x": 53,
+        "y": 853,
+        "w": 68,
+        "h": 68
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "icon_style_lock": {
+    "library": "approved-blueprint-crops",
+    "style_locked": true,
+    "icons": [
+      {
+        "placement_id": "history-visual",
+        "icon_id": "approved-blueprint-crop/history-visual",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "SINR折线与动作历史存储",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/history-visual.png",
+        "source_bbox_px": {
+          "x": 233,
+          "y": 241,
+          "w": 147,
+          "h": 56
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "meta-rf-tree",
+        "icon_id": "approved-blueprint-crop/meta-rf-tree",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "Meta-RF分类树",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/meta-rf-tree.png",
+        "source_bbox_px": {
+          "x": 697,
+          "y": 247,
+          "w": 110,
+          "h": 91
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "confidence-chart",
+        "icon_id": "approved-blueprint-crop/confidence-chart",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "策略置信度柱形图",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/confidence-chart.png",
+        "source_bbox_px": {
+          "x": 918,
+          "y": 249,
+          "w": 122,
+          "h": 97
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "dam-gears",
+        "icon_id": "approved-blueprint-crop/dam-gears",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "DAM软引导",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/dam-gears.png",
+        "source_bbox_px": {
+          "x": 378,
+          "y": 434,
+          "w": 66,
+          "h": 47
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "state-sequence",
+        "icon_id": "approved-blueprint-crop/state-sequence",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "状态序列",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/state-sequence.png",
+        "source_bbox_px": {
+          "x": 212,
+          "y": 564,
+          "w": 160,
+          "h": 50
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "dqn-network",
+        "icon_id": "approved-blueprint-crop/dqn-network",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "Double DQN网络",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/dqn-network.png",
+        "source_bbox_px": {
+          "x": 444,
+          "y": 560,
+          "w": 117,
+          "h": 76
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "epsilon-scale",
+        "icon_id": "approved-blueprint-crop/epsilon-scale",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "探索与利用平衡",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/epsilon-scale.png",
+        "source_bbox_px": {
+          "x": 944,
+          "y": 562,
+          "w": 98,
+          "h": 70
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "action-grid",
+        "icon_id": "approved-blueprint-crop/action-grid",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "时频联合动作网格",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/action-grid.png",
+        "source_bbox_px": {
+          "x": 1179,
+          "y": 565,
+          "w": 71,
+          "h": 69
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "environment-satellite",
+        "icon_id": "approved-blueprint-crop/environment-satellite",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "雷达卫星图标",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-satellite.png",
+        "source_bbox_px": {
+          "x": 366,
+          "y": 750,
+          "w": 59,
+          "h": 62
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "environment-wave",
+        "icon_id": "approved-blueprint-crop/environment-wave",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "FMCW波形图标",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-wave.png",
+        "source_bbox_px": {
+          "x": 466,
+          "y": 752,
+          "w": 84,
+          "h": 61
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "environment-small-cars",
+        "icon_id": "approved-blueprint-crop/environment-small-cars",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "小型车辆目标",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-small-cars.png",
+        "source_bbox_px": {
+          "x": 608,
+          "y": 766,
+          "w": 89,
+          "h": 48
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "environment-large-cars",
+        "icon_id": "approved-blueprint-crop/environment-large-cars",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "车辆目标",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-large-cars.png",
+        "source_bbox_px": {
+          "x": 733,
+          "y": 758,
+          "w": 84,
+          "h": 57
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "environment-antenna",
+        "icon_id": "approved-blueprint-crop/environment-antenna",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "环境反馈天线",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/environment-antenna.png",
+        "source_bbox_px": {
+          "x": 853,
+          "y": 750,
+          "w": 62,
+          "h": 63
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "meta-clock",
+        "icon_id": "approved-blueprint-crop/meta-clock",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "元策略时间尺度",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/meta-clock.png",
+        "source_bbox_px": {
+          "x": 1393,
+          "y": 234,
+          "w": 99,
+          "h": 99
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "execution-gauge",
+        "icon_id": "approved-blueprint-crop/execution-gauge",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "执行层逐chirp节奏",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/execution-gauge.png",
+        "source_bbox_px": {
+          "x": 1397,
+          "y": 442,
+          "w": 96,
+          "h": 78
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "warning",
+        "icon_id": "approved-blueprint-crop/warning",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "工程时延提示",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/warning.png",
+        "source_bbox_px": {
+          "x": 1392,
+          "y": 682,
+          "w": 70,
+          "h": 70
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "school",
+        "icon_id": "approved-blueprint-crop/school",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "SO WHAT结论锚点",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-05-blueprint-icons/school.png",
+        "source_bbox_px": {
+          "x": 53,
+          "y": 853,
+          "w": 68,
+          "h": 68
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      }
+    ]
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "architecture_gate",
+      "icon_library_gate",
+      "label_collision_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "All architecture logic, labels, formulas and plots remain native; seventeen non-text visual crops from the approved blueprint are admitted for exact icon fidelity."
+  }
+}

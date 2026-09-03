@@ -1,0 +1,84 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 9,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-09.png",
+  "blueprint_sha256": "72c6d41474b732be42cc2ebba6121adb585617b6fbeecd5943bbc8f92522810d",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-09-components.json",
+  "component_annotation_sha256": "7cc268e6e9eca187e930785c10b66fbb50a6c4e535d848f05d9d6979aba87148",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "system_performance",
+      "type": "native_dual_axis_bar_chart_and_result_table",
+      "priority": "P0",
+      "required_subcomponents": [
+        "three_sinr_bars",
+        "three_avoidance_bars",
+        "dual_axes",
+        "result_table"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "dynamic_recovery",
+      "type": "native_two_series_recovery_curve",
+      "priority": "P0",
+      "required_subcomponents": [
+        "meta_rf_curve",
+        "pure_drl_curve",
+        "jump_marker",
+        "recovery_annotations",
+        "summary_table"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "engineering_evidence",
+      "type": "native_metric_and_risk_cards",
+      "priority": "P0",
+      "required_subcomponents": [
+        "sinr_gain",
+        "recovery_reduction",
+        "latency_risk",
+        "conservative_scope_note"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "transparent_check_icon",
+        "conclusion_text",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

@@ -1,0 +1,1149 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 7,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-07.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with a left feature ledger, central RF pipeline, right strategy ledger, and bordered conclusion panel",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1643,
+        "h": 201
+      }
+    },
+    {
+      "id": "feature_matrix",
+      "bbox_px": {
+        "x": 31,
+        "y": 233,
+        "w": 599,
+        "h": 490
+      }
+    },
+    {
+      "id": "rf_pipeline",
+      "bbox_px": {
+        "x": 631,
+        "y": 223,
+        "w": 347,
+        "h": 510
+      }
+    },
+    {
+      "id": "strategy_panel",
+      "bbox_px": {
+        "x": 1014,
+        "y": 219,
+        "w": 617,
+        "h": 535
+      }
+    },
+    {
+      "id": "conclusion_panel",
+      "bbox_px": {
+        "x": 35,
+        "y": 775,
+        "w": 1596,
+        "h": 113
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "07",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "研究内容｜元策略控制器",
+    "footer": "source IDs in conclusion panel"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 35,
+      "y": 775,
+      "w": 1596,
+      "h": 113
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "Twelve semantic features feed a random-forest meta-policy classifier, which outputs three confidence-weighted exploration strategies and soft guidance.",
+  "density_targets": {
+    "overall": "high",
+    "feature_matrix": "four semantic feature groups and exact 4+3+2+3 dimension counts",
+    "rf_pipeline": "six classifier training stages",
+    "strategy_panel": "three-row strategy table, guidance formula, persistence and accuracy caveat"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 23,
+        "y": 11,
+        "w": 58,
+        "h": 45
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 437,
+        "y": 18,
+        "w": 781,
+        "h": 38
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1338,
+        "y": 21,
+        "w": 305,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 0,
+        "y": 72,
+        "w": 1672,
+        "h": 4
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 182,
+        "y": 99,
+        "w": 1327,
+        "h": 51
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 391,
+        "y": 163,
+        "w": 923,
+        "h": 38
+      }
+    },
+    {
+      "element_id": "feature_signal_row",
+      "bbox_px": {
+        "x": 31,
+        "y": 233,
+        "w": 469,
+        "h": 126
+      }
+    },
+    {
+      "element_id": "feature_signal_icon",
+      "bbox_px": {
+        "x": 47,
+        "y": 251,
+        "w": 90,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "feature_signal_title",
+      "bbox_px": {
+        "x": 176,
+        "y": 258,
+        "w": 280,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "feature_signal_formula",
+      "bbox_px": {
+        "x": 176,
+        "y": 299,
+        "w": 285,
+        "h": 54
+      }
+    },
+    {
+      "element_id": "feature_action_row",
+      "bbox_px": {
+        "x": 31,
+        "y": 360,
+        "w": 469,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "feature_action_icon",
+      "bbox_px": {
+        "x": 47,
+        "y": 378,
+        "w": 90,
+        "h": 94
+      }
+    },
+    {
+      "element_id": "feature_action_title",
+      "bbox_px": {
+        "x": 176,
+        "y": 385,
+        "w": 280,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "feature_action_formula",
+      "bbox_px": {
+        "x": 176,
+        "y": 426,
+        "w": 285,
+        "h": 73
+      }
+    },
+    {
+      "element_id": "feature_avoid_row",
+      "bbox_px": {
+        "x": 31,
+        "y": 506,
+        "w": 469,
+        "h": 108
+      }
+    },
+    {
+      "element_id": "feature_avoid_icon",
+      "bbox_px": {
+        "x": 47,
+        "y": 524,
+        "w": 90,
+        "h": 83
+      }
+    },
+    {
+      "element_id": "feature_avoid_title",
+      "bbox_px": {
+        "x": 176,
+        "y": 531,
+        "w": 280,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "feature_avoid_formula",
+      "bbox_px": {
+        "x": 176,
+        "y": 572,
+        "w": 285,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "feature_sensitivity_row",
+      "bbox_px": {
+        "x": 31,
+        "y": 615,
+        "w": 469,
+        "h": 107
+      }
+    },
+    {
+      "element_id": "feature_sensitivity_icon",
+      "bbox_px": {
+        "x": 47,
+        "y": 633,
+        "w": 90,
+        "h": 82
+      }
+    },
+    {
+      "element_id": "feature_sensitivity_title",
+      "bbox_px": {
+        "x": 176,
+        "y": 640,
+        "w": 280,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "feature_sensitivity_formula",
+      "bbox_px": {
+        "x": 176,
+        "y": 681,
+        "w": 285,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "feature_dimension_counts",
+      "bbox_px": {
+        "x": 455,
+        "y": 260,
+        "w": 44,
+        "h": 429
+      }
+    },
+    {
+      "element_id": "feature_bracket",
+      "bbox_px": {
+        "x": 500,
+        "y": 233,
+        "w": 130,
+        "h": 490
+      }
+    },
+    {
+      "element_id": "feature_total_label",
+      "bbox_px": {
+        "x": 540,
+        "y": 448,
+        "w": 80,
+        "h": 72
+      }
+    },
+    {
+      "element_id": "rf_panel_surface",
+      "bbox_px": {
+        "x": 631,
+        "y": 223,
+        "w": 347,
+        "h": 510
+      }
+    },
+    {
+      "element_id": "rf_panel_header",
+      "bbox_px": {
+        "x": 631,
+        "y": 223,
+        "w": 347,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "rf_panel_title",
+      "bbox_px": {
+        "x": 671,
+        "y": 238,
+        "w": 270,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "rf_scenes_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 292,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_scenes_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 289,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_scenes_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 300,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_split_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 367,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_split_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 364,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_split_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 375,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_cv_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 442,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_cv_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 439,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_cv_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 450,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_trees_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 518,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_trees_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 515,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_trees_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 526,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_depth_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 590,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_depth_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 587,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_depth_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 598,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_accuracy_stage",
+      "bbox_px": {
+        "x": 656,
+        "y": 665,
+        "w": 296,
+        "h": 57
+      }
+    },
+    {
+      "element_id": "rf_accuracy_icon",
+      "bbox_px": {
+        "x": 666,
+        "y": 662,
+        "w": 68,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "rf_accuracy_text",
+      "bbox_px": {
+        "x": 748,
+        "y": 673,
+        "w": 185,
+        "h": 41
+      }
+    },
+    {
+      "element_id": "rf_connectors",
+      "bbox_px": {
+        "x": 690,
+        "y": 349,
+        "w": 126,
+        "h": 316
+      }
+    },
+    {
+      "element_id": "strategy_table_header",
+      "bbox_px": {
+        "x": 1053,
+        "y": 223,
+        "w": 570,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "strategy_table_title",
+      "bbox_px": {
+        "x": 1120,
+        "y": 238,
+        "w": 437,
+        "h": 31
+      }
+    },
+    {
+      "element_id": "strategy_table",
+      "bbox_px": {
+        "x": 1053,
+        "y": 292,
+        "w": 570,
+        "h": 217
+      }
+    },
+    {
+      "element_id": "strategy_row_1",
+      "bbox_px": {
+        "x": 1053,
+        "y": 341,
+        "w": 570,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "strategy_row_2",
+      "bbox_px": {
+        "x": 1053,
+        "y": 397,
+        "w": 570,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "strategy_row_3",
+      "bbox_px": {
+        "x": 1053,
+        "y": 453,
+        "w": 570,
+        "h": 56
+      }
+    },
+    {
+      "element_id": "soft_guidance_surface",
+      "bbox_px": {
+        "x": 1053,
+        "y": 530,
+        "w": 570,
+        "h": 145
+      }
+    },
+    {
+      "element_id": "soft_guidance_icon",
+      "bbox_px": {
+        "x": 1063,
+        "y": 546,
+        "w": 98,
+        "h": 98
+      }
+    },
+    {
+      "element_id": "soft_guidance_text",
+      "bbox_px": {
+        "x": 1175,
+        "y": 545,
+        "w": 420,
+        "h": 117
+      }
+    },
+    {
+      "element_id": "accuracy_caveat_surface",
+      "bbox_px": {
+        "x": 1044,
+        "y": 684,
+        "w": 587,
+        "h": 64
+      }
+    },
+    {
+      "element_id": "accuracy_caveat_icon",
+      "bbox_px": {
+        "x": 1051,
+        "y": 691,
+        "w": 56,
+        "h": 52
+      }
+    },
+    {
+      "element_id": "accuracy_caveat_text",
+      "bbox_px": {
+        "x": 1114,
+        "y": 694,
+        "w": 500,
+        "h": 43
+      }
+    },
+    {
+      "element_id": "rf_to_strategy_arrow",
+      "bbox_px": {
+        "x": 978,
+        "y": 449,
+        "w": 74,
+        "h": 44
+      }
+    },
+    {
+      "element_id": "strategy_vertical_separator",
+      "bbox_px": {
+        "x": 1014,
+        "y": 219,
+        "w": 2,
+        "h": 535
+      }
+    },
+    {
+      "element_id": "conclusion_panel_surface",
+      "bbox_px": {
+        "x": 35,
+        "y": 775,
+        "w": 1596,
+        "h": 113
+      }
+    },
+    {
+      "element_id": "conclusion_icon",
+      "bbox_px": {
+        "x": 61,
+        "y": 792,
+        "w": 76,
+        "h": 76
+      }
+    },
+    {
+      "element_id": "conclusion_statement",
+      "bbox_px": {
+        "x": 169,
+        "y": 805,
+        "w": 742,
+        "h": 53
+      }
+    },
+    {
+      "element_id": "conclusion_divider",
+      "bbox_px": {
+        "x": 931,
+        "y": 790,
+        "w": 2,
+        "h": 84
+      }
+    },
+    {
+      "element_id": "conclusion_explanation",
+      "bbox_px": {
+        "x": 965,
+        "y": 799,
+        "w": 607,
+        "h": 65
+      }
+    },
+    {
+      "element_id": "source_footer",
+      "bbox_px": {
+        "x": 1325,
+        "y": 869,
+        "w": 280,
+        "h": 12
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text and formulas",
+    "four feature groups and bracket",
+    "six-stage RF training pipeline",
+    "three-row strategy table",
+    "soft guidance and accuracy caveat",
+    "bottom conclusion panel"
+  ],
+  "allowed_visual_assets": [
+    {
+      "id": "feature-signal",
+      "icon_id": "approved-blueprint-crop/feature-signal",
+      "region": "信号质量统计",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-signal.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 48,
+        "y": 253,
+        "w": 90,
+        "h": 90
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "feature-action",
+      "icon_id": "approved-blueprint-crop/feature-action",
+      "region": "动作行为",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-action.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 47,
+        "y": 382,
+        "w": 89,
+        "h": 94
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "feature-shield",
+      "icon_id": "approved-blueprint-crop/feature-shield",
+      "region": "避干扰效能",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-shield.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 52,
+        "y": 518,
+        "w": 76,
+        "h": 85
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "feature-target",
+      "icon_id": "approved-blueprint-crop/feature-target",
+      "region": "维度敏感性",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-target.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 47,
+        "y": 625,
+        "w": 83,
+        "h": 85
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-database",
+      "icon_id": "approved-blueprint-crop/rf-database",
+      "region": "4000场景",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-database.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 668,
+        "y": 289,
+        "w": 62,
+        "h": 62
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-pie",
+      "icon_id": "approved-blueprint-crop/rf-pie",
+      "region": "训练测试划分",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-pie.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 669,
+        "y": 366,
+        "w": 61,
+        "h": 62
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-clipboard",
+      "icon_id": "approved-blueprint-crop/rf-clipboard",
+      "region": "交叉验证",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-clipboard.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 669,
+        "y": 441,
+        "w": 61,
+        "h": 64
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-trees",
+      "icon_id": "approved-blueprint-crop/rf-trees",
+      "region": "随机森林树",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-trees.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 666,
+        "y": 519,
+        "w": 67,
+        "h": 60
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-gear",
+      "icon_id": "approved-blueprint-crop/rf-gear",
+      "region": "树深参数",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-gear.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 668,
+        "y": 593,
+        "w": 63,
+        "h": 63
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "rf-target",
+      "icon_id": "approved-blueprint-crop/rf-target",
+      "region": "分类准确率",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-target.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 669,
+        "y": 666,
+        "w": 62,
+        "h": 62
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "guidance-bulb",
+      "icon_id": "approved-blueprint-crop/guidance-bulb",
+      "region": "软引导",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/guidance-bulb.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 1063,
+        "y": 546,
+        "w": 98,
+        "h": 98
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "warning",
+      "icon_id": "approved-blueprint-crop/warning",
+      "region": "准确率限定",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/warning.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 1051,
+        "y": 691,
+        "w": 56,
+        "h": 52
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    },
+    {
+      "id": "conclusion-check",
+      "icon_id": "approved-blueprint-crop/conclusion-check",
+      "region": "SO WHAT",
+      "asset_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/conclusion-check.png",
+      "source": "Approved slide-07 blueprint crop",
+      "source_bbox_px": {
+        "x": 61,
+        "y": 792,
+        "w": 76,
+        "h": 76
+      },
+      "necessity": "exact restoration of the approved non-text visual symbol",
+      "contains_key_text": false,
+      "editable_information_sacrifice": false,
+      "trace_required": false
+    }
+  ],
+  "icon_style_lock": {
+    "library": "approved-blueprint-crops",
+    "style_locked": true,
+    "icons": [
+      {
+        "placement_id": "feature-signal",
+        "icon_id": "approved-blueprint-crop/feature-signal",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "信号质量统计",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-signal.png",
+        "source_bbox_px": {
+          "x": 48,
+          "y": 253,
+          "w": 90,
+          "h": 90
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "feature-action",
+        "icon_id": "approved-blueprint-crop/feature-action",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "动作行为",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-action.png",
+        "source_bbox_px": {
+          "x": 47,
+          "y": 382,
+          "w": 89,
+          "h": 94
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "feature-shield",
+        "icon_id": "approved-blueprint-crop/feature-shield",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "避干扰效能",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-shield.png",
+        "source_bbox_px": {
+          "x": 52,
+          "y": 518,
+          "w": 76,
+          "h": 85
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "feature-target",
+        "icon_id": "approved-blueprint-crop/feature-target",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "维度敏感性",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/feature-target.png",
+        "source_bbox_px": {
+          "x": 47,
+          "y": 625,
+          "w": 83,
+          "h": 85
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-database",
+        "icon_id": "approved-blueprint-crop/rf-database",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "4000场景",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-database.png",
+        "source_bbox_px": {
+          "x": 668,
+          "y": 289,
+          "w": 62,
+          "h": 62
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-pie",
+        "icon_id": "approved-blueprint-crop/rf-pie",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "训练测试划分",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-pie.png",
+        "source_bbox_px": {
+          "x": 669,
+          "y": 366,
+          "w": 61,
+          "h": 62
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-clipboard",
+        "icon_id": "approved-blueprint-crop/rf-clipboard",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "交叉验证",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-clipboard.png",
+        "source_bbox_px": {
+          "x": 669,
+          "y": 441,
+          "w": 61,
+          "h": 64
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-trees",
+        "icon_id": "approved-blueprint-crop/rf-trees",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "随机森林树",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-trees.png",
+        "source_bbox_px": {
+          "x": 666,
+          "y": 519,
+          "w": 67,
+          "h": 60
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-gear",
+        "icon_id": "approved-blueprint-crop/rf-gear",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "树深参数",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-gear.png",
+        "source_bbox_px": {
+          "x": 668,
+          "y": 593,
+          "w": 63,
+          "h": 63
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "rf-target",
+        "icon_id": "approved-blueprint-crop/rf-target",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "分类准确率",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/rf-target.png",
+        "source_bbox_px": {
+          "x": 669,
+          "y": 666,
+          "w": 62,
+          "h": 62
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "guidance-bulb",
+        "icon_id": "approved-blueprint-crop/guidance-bulb",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "软引导",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/guidance-bulb.png",
+        "source_bbox_px": {
+          "x": 1063,
+          "y": 546,
+          "w": 98,
+          "h": 98
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "warning",
+        "icon_id": "approved-blueprint-crop/warning",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "准确率限定",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/warning.png",
+        "source_bbox_px": {
+          "x": 1051,
+          "y": 691,
+          "w": 56,
+          "h": 52
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      },
+      {
+        "placement_id": "conclusion-check",
+        "icon_id": "approved-blueprint-crop/conclusion-check",
+        "source_library": "approved-blueprint-crops",
+        "semantic_meaning": "SO WHAT",
+        "png_path": "/Users/linqu/Desktop/毕业设计/outputs/中期答辩_CyberPPT_v1/assets/slide-07-blueprint-icons/conclusion-check.png",
+        "source_bbox_px": {
+          "x": 61,
+          "y": 792,
+          "w": 76,
+          "h": 76
+        },
+        "contains_key_text": false,
+        "powerpoint_render_verified": false
+      }
+    ]
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "table_density_gate",
+      "icon_transparency_gate",
+      "label_collision_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "All labels, formulas, tables and connectors remain native; thirteen transparent non-text crops from the approved blueprint preserve exact icon fidelity."
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "icons": [
+    {
+      "name": "history-visual",
+      "source_bbox_px": {
+        "left": 233,
+        "top": 241,
+        "width": 147,
+        "height": 56
+      },
+      "background_rgb": [
+        251,
+        251,
+        251
+      ],
+      "transparent_pixel_ratio": 0.7321,
+      "partial_alpha_pixel_ratio": 0.0436,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "meta-rf-tree",
+      "source_bbox_px": {
+        "left": 697,
+        "top": 247,
+        "width": 110,
+        "height": 91
+      },
+      "background_rgb": [
+        251,
+        251,
+        251
+      ],
+      "transparent_pixel_ratio": 0.7953,
+      "partial_alpha_pixel_ratio": 0.0196,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "confidence-chart",
+      "source_bbox_px": {
+        "left": 918,
+        "top": 249,
+        "width": 122,
+        "height": 97
+      },
+      "background_rgb": [
+        251,
+        251,
+        251
+      ],
+      "transparent_pixel_ratio": 0.7129,
+      "partial_alpha_pixel_ratio": 0.0221,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "dam-gears",
+      "source_bbox_px": {
+        "left": 378,
+        "top": 434,
+        "width": 66,
+        "height": 47
+      },
+      "background_rgb": [
+        228,
+        233,
+        241
+      ],
+      "transparent_pixel_ratio": 0.5106,
+      "partial_alpha_pixel_ratio": 0.1267,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "state-sequence",
+      "source_bbox_px": {
+        "left": 212,
+        "top": 564,
+        "width": 160,
+        "height": 50
+      },
+      "background_rgb": [
+        251,
+        251,
+        250
+      ],
+      "transparent_pixel_ratio": 0.8572,
+      "partial_alpha_pixel_ratio": 0.0201,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "dqn-network",
+      "source_bbox_px": {
+        "left": 444,
+        "top": 560,
+        "width": 117,
+        "height": 76
+      },
+      "background_rgb": [
+        251,
+        251,
+        251
+      ],
+      "transparent_pixel_ratio": 0.6992,
+      "partial_alpha_pixel_ratio": 0.0642,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "epsilon-scale",
+      "source_bbox_px": {
+        "left": 944,
+        "top": 562,
+        "width": 98,
+        "height": 70
+      },
+      "background_rgb": [
+        251,
+        251,
+        251
+      ],
+      "transparent_pixel_ratio": 0.7484,
+      "partial_alpha_pixel_ratio": 0.0509,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "action-grid",
+      "source_bbox_px": {
+        "left": 1179,
+        "top": 565,
+        "width": 71,
+        "height": 69
+      },
+      "background_rgb": [
+        250,
+        250,
+        250
+      ],
+      "transparent_pixel_ratio": 0.6946,
+      "partial_alpha_pixel_ratio": 0.0512,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "environment-satellite",
+      "source_bbox_px": {
+        "left": 366,
+        "top": 750,
+        "width": 59,
+        "height": 62
+      },
+      "background_rgb": [
+        249,
+        245,
+        236
+      ],
+      "transparent_pixel_ratio": 0.6968,
+      "partial_alpha_pixel_ratio": 0.1091,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "environment-wave",
+      "source_bbox_px": {
+        "left": 466,
+        "top": 752,
+        "width": 84,
+        "height": 61
+      },
+      "background_rgb": [
+        249,
+        245,
+        236
+      ],
+      "transparent_pixel_ratio": 0.8257,
+      "partial_alpha_pixel_ratio": 0.0705,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "environment-small-cars",
+      "source_bbox_px": {
+        "left": 608,
+        "top": 766,
+        "width": 89,
+        "height": 48
+      },
+      "background_rgb": [
+        249,
+        245,
+        236
+      ],
+      "transparent_pixel_ratio": 0.7924,
+      "partial_alpha_pixel_ratio": 0.0838,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "environment-large-cars",
+      "source_bbox_px": {
+        "left": 733,
+        "top": 758,
+        "width": 84,
+        "height": 57
+      },
+      "background_rgb": [
+        250,
+        245,
+        236
+      ],
+      "transparent_pixel_ratio": 0.6685,
+      "partial_alpha_pixel_ratio": 0.1124,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "environment-antenna",
+      "source_bbox_px": {
+        "left": 853,
+        "top": 750,
+        "width": 62,
+        "height": 63
+      },
+      "background_rgb": [
+        249,
+        245,
+        236
+      ],
+      "transparent_pixel_ratio": 0.7069,
+      "partial_alpha_pixel_ratio": 0.1167,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "meta-clock",
+      "source_bbox_px": {
+        "left": 1393,
+        "top": 234,
+        "width": 99,
+        "height": 99
+      },
+      "background_rgb": [
+        252,
+        251,
+        247
+      ],
+      "transparent_pixel_ratio": 0.8057,
+      "partial_alpha_pixel_ratio": 0.0296,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "execution-gauge",
+      "source_bbox_px": {
+        "left": 1397,
+        "top": 442,
+        "width": 96,
+        "height": 78
+      },
+      "background_rgb": [
+        251,
+        250,
+        247
+      ],
+      "transparent_pixel_ratio": 0.7939,
+      "partial_alpha_pixel_ratio": 0.0267,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "warning",
+      "source_bbox_px": {
+        "left": 1392,
+        "top": 682,
+        "width": 70,
+        "height": 70
+      },
+      "background_rgb": [
+        254,
+        249,
+        239
+      ],
+      "transparent_pixel_ratio": 0.6835,
+      "partial_alpha_pixel_ratio": 0.0918,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "school",
+      "source_bbox_px": {
+        "left": 53,
+        "top": 853,
+        "width": 68,
+        "height": 68
+      },
+      "background_rgb": [
+        1,
+        42,
+        87
+      ],
+      "transparent_pixel_ratio": 0.434,
+      "partial_alpha_pixel_ratio": 0.1109,
+      "verified_has_transparency": true
+    }
+  ]
+}

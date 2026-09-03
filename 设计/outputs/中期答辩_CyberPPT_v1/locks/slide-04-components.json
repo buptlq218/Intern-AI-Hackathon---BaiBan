@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "mechanism_panel",
+      "type": "native_dechirp_lpf_mechanism",
+      "priority": "P0",
+      "required_subcomponents": [
+        "process_labels",
+        "chirp_plot",
+        "received_plot",
+        "mix_formula",
+        "beat_spectrum",
+        "lpf_band",
+        "principle_band"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "action_matrix",
+      "type": "native_3x3_action_matrix",
+      "priority": "P0",
+      "required_subcomponents": [
+        "carrier_headers",
+        "delay_headers",
+        "nine_cells",
+        "mapping_note",
+        "caveat"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "parameter_panel",
+      "type": "native_key_parameter_table",
+      "priority": "P1",
+      "required_subcomponents": [
+        "panel_header",
+        "five_parameter_rows"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "mdp_panel",
+      "type": "native_mdp_definition_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "state",
+        "action_mapping",
+        "reward_and_depth"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "so_what_anchor",
+        "conclusion_text",
+        "three_implications",
+        "source"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

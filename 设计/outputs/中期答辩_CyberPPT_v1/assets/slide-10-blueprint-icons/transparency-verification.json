@@ -1,0 +1,293 @@
+{
+  "icons": [
+    {
+      "name": "stage-complete",
+      "source_bbox_px": {
+        "left": 208,
+        "top": 222,
+        "width": 168,
+        "height": 168
+      },
+      "background_rgb": [
+        240,
+        243,
+        246
+      ],
+      "transparent_pixel_ratio": 0.166,
+      "partial_alpha_pixel_ratio": 0.3751,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "stage-writing",
+      "source_bbox_px": {
+        "left": 748,
+        "top": 222,
+        "width": 166,
+        "height": 168
+      },
+      "background_rgb": [
+        243,
+        245,
+        246
+      ],
+      "transparent_pixel_ratio": 0.6232,
+      "partial_alpha_pixel_ratio": 0.107,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "stage-defense",
+      "source_bbox_px": {
+        "left": 1263,
+        "top": 222,
+        "width": 166,
+        "height": 169
+      },
+      "background_rgb": [
+        245,
+        246,
+        247
+      ],
+      "transparent_pixel_ratio": 0.7513,
+      "partial_alpha_pixel_ratio": 0.0782,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "done-signal",
+      "source_bbox_px": {
+        "left": 129,
+        "top": 506,
+        "width": 44,
+        "height": 44
+      },
+      "background_rgb": [
+        232,
+        237,
+        246
+      ],
+      "transparent_pixel_ratio": 0.4731,
+      "partial_alpha_pixel_ratio": 0.2071,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "done-brain",
+      "source_bbox_px": {
+        "left": 129,
+        "top": 557,
+        "width": 44,
+        "height": 43
+      },
+      "background_rgb": [
+        229,
+        236,
+        244
+      ],
+      "transparent_pixel_ratio": 0.5507,
+      "partial_alpha_pixel_ratio": 0.1929,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "done-layers",
+      "source_bbox_px": {
+        "left": 128,
+        "top": 606,
+        "width": 46,
+        "height": 46
+      },
+      "background_rgb": [
+        230,
+        236,
+        243
+      ],
+      "transparent_pixel_ratio": 0.5165,
+      "partial_alpha_pixel_ratio": 0.1914,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "done-chart",
+      "source_bbox_px": {
+        "left": 128,
+        "top": 657,
+        "width": 46,
+        "height": 43
+      },
+      "background_rgb": [
+        231,
+        237,
+        245
+      ],
+      "transparent_pixel_ratio": 0.5147,
+      "partial_alpha_pixel_ratio": 0.133,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "done-document",
+      "source_bbox_px": {
+        "left": 129,
+        "top": 706,
+        "width": 44,
+        "height": 45
+      },
+      "background_rgb": [
+        230,
+        237,
+        245
+      ],
+      "transparent_pixel_ratio": 0.4838,
+      "partial_alpha_pixel_ratio": 0.197,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "doing-book",
+      "source_bbox_px": {
+        "left": 650,
+        "top": 520,
+        "width": 53,
+        "height": 44
+      },
+      "background_rgb": [
+        236,
+        241,
+        247
+      ],
+      "transparent_pixel_ratio": 0.4391,
+      "partial_alpha_pixel_ratio": 0.1994,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "doing-chart",
+      "source_bbox_px": {
+        "left": 651,
+        "top": 591,
+        "width": 53,
+        "height": 47
+      },
+      "background_rgb": [
+        235,
+        240,
+        246
+      ],
+      "transparent_pixel_ratio": 0.3914,
+      "partial_alpha_pixel_ratio": 0.2047,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "doing-clipboard",
+      "source_bbox_px": {
+        "left": 651,
+        "top": 664,
+        "width": 51,
+        "height": 55
+      },
+      "background_rgb": [
+        236,
+        241,
+        247
+      ],
+      "transparent_pixel_ratio": 0.4759,
+      "partial_alpha_pixel_ratio": 0.2178,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "next-document",
+      "source_bbox_px": {
+        "left": 1176,
+        "top": 509,
+        "width": 47,
+        "height": 50
+      },
+      "background_rgb": [
+        243,
+        245,
+        249
+      ],
+      "transparent_pixel_ratio": 0.5328,
+      "partial_alpha_pixel_ratio": 0.1694,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "next-presentation",
+      "source_bbox_px": {
+        "left": 1174,
+        "top": 577,
+        "width": 51,
+        "height": 42
+      },
+      "background_rgb": [
+        240,
+        242,
+        247
+      ],
+      "transparent_pixel_ratio": 0.4921,
+      "partial_alpha_pixel_ratio": 0.1615,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "next-question",
+      "source_bbox_px": {
+        "left": 1173,
+        "top": 633,
+        "width": 55,
+        "height": 45
+      },
+      "background_rgb": [
+        243,
+        245,
+        249
+      ],
+      "transparent_pixel_ratio": 0.5604,
+      "partial_alpha_pixel_ratio": 0.1705,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "next-shield",
+      "source_bbox_px": {
+        "left": 1175,
+        "top": 691,
+        "width": 50,
+        "height": 52
+      },
+      "background_rgb": [
+        241,
+        244,
+        248
+      ],
+      "transparent_pixel_ratio": 0.6631,
+      "partial_alpha_pixel_ratio": 0.1158,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "conclusion-clipboard",
+      "source_bbox_px": {
+        "left": 151,
+        "top": 781,
+        "width": 95,
+        "height": 82
+      },
+      "background_rgb": [
+        1,
+        35,
+        82
+      ],
+      "transparent_pixel_ratio": 0.5321,
+      "partial_alpha_pixel_ratio": 0.1567,
+      "verified_has_transparency": true
+    },
+    {
+      "name": "footer-info",
+      "source_bbox_px": {
+        "left": 608,
+        "top": 890,
+        "width": 36,
+        "height": 36
+      },
+      "background_rgb": [
+        251,
+        250,
+        247
+      ],
+      "transparent_pixel_ratio": 0.7083,
+      "partial_alpha_pixel_ratio": 0.0417,
+      "verified_has_transparency": true
+    }
+  ]
+}

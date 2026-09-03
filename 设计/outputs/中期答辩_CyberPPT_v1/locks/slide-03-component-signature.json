@@ -1,0 +1,94 @@
+{
+  "schema": "cyberppt.blueprint_component_signature.v1",
+  "slide": 3,
+  "locked": true,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-03.png",
+  "blueprint_sha256": "5090f4d71ab7af7c732b611036fdbbc18fcaa894764857f3b794ca1b2961087c",
+  "content_lock_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/slide-content-lock.json",
+  "content_lock_sha256": "8f968e8c38139482fa0c4c5670b24338b14b544b1875a92eafe256654ce0905e",
+  "component_annotation_path": "outputs/中期答辩_CyberPPT_v1/locks/slide-03-components.json",
+  "component_annotation_sha256": "7a655c82d7d93af8644edf080c9f50298efd271c3d1c35670c9fa9d8b652cc76",
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_conclusion_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "issue_tree",
+      "type": "three_branch_native_issue_tree",
+      "priority": "P0",
+      "required_subcomponents": [
+        "time_scale_branch",
+        "structure_branch",
+        "exploration_branch",
+        "evidence_and_response_labels",
+        "convergence_connectors"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "central_framework",
+      "type": "native_framework_convergence_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "framework_title",
+        "framework_icon",
+        "framework_rationale"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "objective_rail",
+      "type": "three_group_native_objective_rail",
+      "priority": "P0",
+      "required_subcomponents": [
+        "performance",
+        "recovery",
+        "interpretability"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "technical_route",
+      "type": "four_stage_native_route",
+      "priority": "P0",
+      "required_subcomponents": [
+        "modeling",
+        "execution",
+        "cognition",
+        "validation"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "trophy_icon",
+        "conclusion_text",
+        "supporting_checks"
+      ],
+      "must_preserve_type": true
+    }
+  ],
+  "validation_failures": []
+}

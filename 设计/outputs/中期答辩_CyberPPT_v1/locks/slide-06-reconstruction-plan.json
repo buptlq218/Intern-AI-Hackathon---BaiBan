@@ -1,0 +1,677 @@
+{
+  "schema": "cyberppt.blueprint_reconstruction_plan.v1",
+  "slide": 6,
+  "blueprint_path": "/private/tmp/codex-presentations/manual-midterm-20260723/graduate-midterm/tmp/blueprints/slide-06.png",
+  "canvas_size": {
+    "width_px": 1672,
+    "height_px": 941,
+    "width_in": 13.333,
+    "height_in": 7.5
+  },
+  "background_color_sample": "#FCFAF5",
+  "surface_system": "continuous ivory paper with three ruled analysis panels and one navy conclusion band",
+  "layout_regions": [
+    {
+      "id": "header",
+      "bbox_px": {
+        "x": 14,
+        "y": 7,
+        "w": 1639,
+        "h": 203
+      }
+    },
+    {
+      "id": "network_panel",
+      "bbox_px": {
+        "x": 20,
+        "y": 231,
+        "w": 540,
+        "h": 588
+      }
+    },
+    {
+      "id": "training_panel",
+      "bbox_px": {
+        "x": 580,
+        "y": 231,
+        "w": 424,
+        "h": 588
+      }
+    },
+    {
+      "id": "reward_panel",
+      "bbox_px": {
+        "x": 1029,
+        "y": 231,
+        "w": 622,
+        "h": 588
+      }
+    },
+    {
+      "id": "conclusion_band",
+      "bbox_px": {
+        "x": 20,
+        "y": 843,
+        "w": 1633,
+        "h": 84
+      }
+    }
+  ],
+  "header_footer_system": {
+    "page_badge": "06",
+    "deck_title": "基于分层强化学习的FMCW雷达抗干扰策略优化",
+    "section_label": "研究内容｜DRL执行层",
+    "footer": "source IDs in conclusion band"
+  },
+  "so_what_region": {
+    "bbox_px": {
+      "x": 20,
+      "y": 843,
+      "w": 1633,
+      "h": 84
+    },
+    "native_text_required": true
+  },
+  "main_chart_semantics": "Double DQN+GRU network, training mechanism ledger, piecewise reward curves, switch penalty, and final joint-policy SINR.",
+  "density_targets": {
+    "overall": "high",
+    "network_panel": "five network blocks and one recurrent hidden-state loop",
+    "training_panel": "eight complete parameter rows plus a training evidence caveat",
+    "reward_panel": "two reward curves, switch penalty, and a high-emphasis metric"
+  },
+  "anchor_targets": [
+    {
+      "element_id": "background_surface",
+      "bbox_px": {
+        "x": 0,
+        "y": 0,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "element_id": "page_badge",
+      "bbox_px": {
+        "x": 14,
+        "y": 7,
+        "w": 107,
+        "h": 63
+      }
+    },
+    {
+      "element_id": "page_number",
+      "bbox_px": {
+        "x": 32,
+        "y": 16,
+        "w": 61,
+        "h": 44
+      }
+    },
+    {
+      "element_id": "header_deck_title",
+      "bbox_px": {
+        "x": 449,
+        "y": 16,
+        "w": 782,
+        "h": 40
+      }
+    },
+    {
+      "element_id": "section_label",
+      "bbox_px": {
+        "x": 1368,
+        "y": 20,
+        "w": 281,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "top_rule",
+      "bbox_px": {
+        "x": 107,
+        "y": 67,
+        "w": 1547,
+        "h": 3
+      }
+    },
+    {
+      "element_id": "main_title",
+      "bbox_px": {
+        "x": 231,
+        "y": 107,
+        "w": 1203,
+        "h": 48
+      }
+    },
+    {
+      "element_id": "subtitle",
+      "bbox_px": {
+        "x": 383,
+        "y": 176,
+        "w": 907,
+        "h": 34
+      }
+    },
+    {
+      "element_id": "network_panel_surface",
+      "bbox_px": {
+        "x": 20,
+        "y": 231,
+        "w": 540,
+        "h": 588
+      }
+    },
+    {
+      "element_id": "network_panel_header",
+      "bbox_px": {
+        "x": 20,
+        "y": 231,
+        "w": 540,
+        "h": 49
+      }
+    },
+    {
+      "element_id": "network_panel_title",
+      "bbox_px": {
+        "x": 150,
+        "y": 242,
+        "w": 280,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "network_input",
+      "bbox_px": {
+        "x": 61,
+        "y": 299,
+        "w": 398,
+        "h": 51
+      }
+    },
+    {
+      "element_id": "network_input_text",
+      "bbox_px": {
+        "x": 69,
+        "y": 307,
+        "w": 382,
+        "h": 35
+      }
+    },
+    {
+      "element_id": "network_dense16",
+      "bbox_px": {
+        "x": 61,
+        "y": 381,
+        "w": 345,
+        "h": 52
+      }
+    },
+    {
+      "element_id": "network_dense16_text",
+      "bbox_px": {
+        "x": 69,
+        "y": 389,
+        "w": 329,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "network_gru",
+      "bbox_px": {
+        "x": 61,
+        "y": 464,
+        "w": 345,
+        "h": 52
+      }
+    },
+    {
+      "element_id": "network_gru_text",
+      "bbox_px": {
+        "x": 69,
+        "y": 472,
+        "w": 329,
+        "h": 36
+      }
+    },
+    {
+      "element_id": "network_dense64",
+      "bbox_px": {
+        "x": 61,
+        "y": 570,
+        "w": 345,
+        "h": 54
+      }
+    },
+    {
+      "element_id": "network_dense64_text",
+      "bbox_px": {
+        "x": 69,
+        "y": 578,
+        "w": 329,
+        "h": 38
+      }
+    },
+    {
+      "element_id": "network_output",
+      "bbox_px": {
+        "x": 61,
+        "y": 662,
+        "w": 345,
+        "h": 54
+      }
+    },
+    {
+      "element_id": "network_output_text",
+      "bbox_px": {
+        "x": 69,
+        "y": 670,
+        "w": 329,
+        "h": 38
+      }
+    },
+    {
+      "element_id": "network_vertical_connectors",
+      "bbox_px": {
+        "x": 247,
+        "y": 350,
+        "w": 13,
+        "h": 312
+      }
+    },
+    {
+      "element_id": "hidden_state_loop",
+      "bbox_px": {
+        "x": 405,
+        "y": 488,
+        "w": 84,
+        "h": 203
+      }
+    },
+    {
+      "element_id": "hidden_state_text",
+      "bbox_px": {
+        "x": 428,
+        "y": 554,
+        "w": 117,
+        "h": 55
+      }
+    },
+    {
+      "element_id": "network_note",
+      "bbox_px": {
+        "x": 46,
+        "y": 760,
+        "w": 489,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "training_panel_surface",
+      "bbox_px": {
+        "x": 580,
+        "y": 231,
+        "w": 424,
+        "h": 588
+      }
+    },
+    {
+      "element_id": "training_panel_header",
+      "bbox_px": {
+        "x": 580,
+        "y": 231,
+        "w": 424,
+        "h": 49
+      }
+    },
+    {
+      "element_id": "training_panel_title",
+      "bbox_px": {
+        "x": 664,
+        "y": 242,
+        "w": 256,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "training_table",
+      "bbox_px": {
+        "x": 596,
+        "y": 299,
+        "w": 391,
+        "h": 429
+      }
+    },
+    {
+      "element_id": "training_scale_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 299,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_scale_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 299,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_length_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 352.6,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_length_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 352.6,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_replay_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 406.2,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_replay_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 406.2,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_batch_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 459.8,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_batch_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 459.8,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_gamma_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 513.4,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_gamma_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 513.4,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_tau_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 567,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_tau_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 567,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_epsilon_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 620.6,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_epsilon_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 620.6,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_lr_label",
+      "bbox_px": {
+        "x": 596,
+        "y": 674.2,
+        "w": 157,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_lr_value",
+      "bbox_px": {
+        "x": 753,
+        "y": 674.2,
+        "w": 234,
+        "h": 53.6
+      }
+    },
+    {
+      "element_id": "training_note",
+      "bbox_px": {
+        "x": 598,
+        "y": 750,
+        "w": 379,
+        "h": 53
+      }
+    },
+    {
+      "element_id": "reward_panel_surface",
+      "bbox_px": {
+        "x": 1029,
+        "y": 231,
+        "w": 622,
+        "h": 588
+      }
+    },
+    {
+      "element_id": "reward_panel_header",
+      "bbox_px": {
+        "x": 1029,
+        "y": 231,
+        "w": 622,
+        "h": 49
+      }
+    },
+    {
+      "element_id": "reward_panel_title",
+      "bbox_px": {
+        "x": 1190,
+        "y": 242,
+        "w": 300,
+        "h": 30
+      }
+    },
+    {
+      "element_id": "positive_reward_heading",
+      "bbox_px": {
+        "x": 1066,
+        "y": 301,
+        "w": 267,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "negative_reward_heading",
+      "bbox_px": {
+        "x": 1370,
+        "y": 301,
+        "w": 259,
+        "h": 29
+      }
+    },
+    {
+      "element_id": "positive_reward_chart",
+      "bbox_px": {
+        "x": 1050,
+        "y": 333,
+        "w": 290,
+        "h": 253
+      }
+    },
+    {
+      "element_id": "negative_reward_chart",
+      "bbox_px": {
+        "x": 1353,
+        "y": 333,
+        "w": 290,
+        "h": 253
+      }
+    },
+    {
+      "element_id": "switch_penalty_panel",
+      "bbox_px": {
+        "x": 1049,
+        "y": 603,
+        "w": 580,
+        "h": 99
+      }
+    },
+    {
+      "element_id": "switch_penalty_title",
+      "bbox_px": {
+        "x": 1130,
+        "y": 611,
+        "w": 416,
+        "h": 33
+      }
+    },
+    {
+      "element_id": "switch_penalty_formula",
+      "bbox_px": {
+        "x": 1133,
+        "y": 653,
+        "w": 383,
+        "h": 42
+      }
+    },
+    {
+      "element_id": "metric_separator",
+      "bbox_px": {
+        "x": 1040,
+        "y": 719,
+        "w": 598,
+        "h": 2
+      }
+    },
+    {
+      "element_id": "metric_label",
+      "bbox_px": {
+        "x": 1050,
+        "y": 746,
+        "w": 257,
+        "h": 46
+      }
+    },
+    {
+      "element_id": "metric_value",
+      "bbox_px": {
+        "x": 1309,
+        "y": 735,
+        "w": 277,
+        "h": 66
+      }
+    },
+    {
+      "element_id": "metric_unit",
+      "bbox_px": {
+        "x": 1584,
+        "y": 762,
+        "w": 45,
+        "h": 32
+      }
+    },
+    {
+      "element_id": "conclusion_band_surface",
+      "bbox_px": {
+        "x": 20,
+        "y": 843,
+        "w": 1633,
+        "h": 84
+      }
+    },
+    {
+      "element_id": "conclusion_text",
+      "bbox_px": {
+        "x": 390,
+        "y": 859,
+        "w": 900,
+        "h": 51
+      }
+    },
+    {
+      "element_id": "source_footer",
+      "bbox_px": {
+        "x": 1330,
+        "y": 910,
+        "w": 278,
+        "h": 12
+      }
+    }
+  ],
+  "native_rebuild_targets": [
+    "all visible text and formulas",
+    "five-block network architecture",
+    "eight-row training table",
+    "positive and negative reward curves",
+    "switch penalty formula",
+    "key metric and conclusion band"
+  ],
+  "allowed_visual_assets": [],
+  "icon_style_lock": {
+    "library": "none",
+    "style_locked": true,
+    "icons": []
+  },
+  "complex_visual_scan": {
+    "completed": true,
+    "complex_visual_candidates": [],
+    "triggered_gates": [
+      "curve_geometry_gate",
+      "table_density_gate",
+      "label_collision_gate",
+      "spatial_registration_gate"
+    ],
+    "pictures_zero_is_not_goal": true,
+    "result": "All visible content is rebuilt as native editable PowerPoint text, shapes, connectors and curves; no picture objects are needed."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "id": "cover_typography",
+      "type": "native_cover_typography",
+      "priority": "P0",
+      "required_subcomponents": [
+        "title_line_1",
+        "title_line_2",
+        "subtitle",
+        "presenter_bullet",
+        "presenter_name"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "technical_atmosphere_visual",
+      "type": "single_transparent_non_text_complex_visual_asset",
+      "priority": "P0",
+      "required_subcomponents": [
+        "radar_arcs",
+        "chirp_waveform",
+        "received_signal_waveform",
+        "radar_device_line_art"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "cover_rule_system",
+      "type": "native_line_and_endpoint_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "title_accent_rule",
+        "title_hairline",
+        "bottom_rule",
+        "bottom_left_endpoint",
+        "bottom_right_endpoint"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

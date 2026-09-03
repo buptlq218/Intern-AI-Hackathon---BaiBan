@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "network_panel",
+      "type": "native_vertical_network_architecture",
+      "priority": "P0",
+      "required_subcomponents": [
+        "five_network_blocks",
+        "vertical_connectors",
+        "hidden_state_loop",
+        "selection_note"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "training_panel",
+      "type": "native_training_parameter_table",
+      "priority": "P0",
+      "required_subcomponents": [
+        "eight_parameter_rows",
+        "training_caveat"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "reward_panel",
+      "type": "native_reward_curve_and_metric_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "positive_reward_curve",
+        "negative_reward_curve",
+        "switch_penalty",
+        "key_metric"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "conclusion_text",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}

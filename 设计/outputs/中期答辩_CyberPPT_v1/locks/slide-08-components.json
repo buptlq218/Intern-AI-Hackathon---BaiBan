@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "id": "page_header",
+      "type": "native_page_header_system",
+      "priority": "P1",
+      "required_subcomponents": [
+        "page_badge",
+        "deck_title",
+        "section_label",
+        "top_rule"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "narrative_header",
+      "type": "native_title_and_subtitle",
+      "priority": "P0",
+      "required_subcomponents": [
+        "main_title",
+        "subtitle"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "strategy_chart",
+      "type": "native_bar_chart_with_error_bars",
+      "priority": "P0",
+      "required_subcomponents": [
+        "four_bars",
+        "four_error_bars",
+        "data_labels",
+        "axes"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "importance_chart",
+      "type": "native_horizontal_feature_importance_chart",
+      "priority": "P0",
+      "required_subcomponents": [
+        "five_feature_bars",
+        "value_labels"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "key_metrics",
+      "type": "native_two_metric_panel",
+      "priority": "P0",
+      "required_subcomponents": [
+        "baseline_gain",
+        "gru_contribution"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "interpretation_strip",
+      "type": "native_three_finding_strip",
+      "priority": "P0",
+      "required_subcomponents": [
+        "three_check_icons",
+        "three_findings"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "caveat_strip",
+      "type": "native_experiment_level_caveat",
+      "priority": "P0",
+      "required_subcomponents": [
+        "warning_icon",
+        "caveat_text"
+      ],
+      "must_preserve_type": true
+    },
+    {
+      "id": "conclusion_band",
+      "type": "native_so_what_band",
+      "priority": "P0",
+      "required_subcomponents": [
+        "trophy_icon",
+        "conclusion_text",
+        "source_footer"
+      ],
+      "must_preserve_type": true
+    }
+  ]
+}
